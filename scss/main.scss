@@ -3,7 +3,7 @@
         $couleur3:#222222;
         $couleur4: #ffffff;
         #myCarousel {
-            padding-top: 70px;
+            padding-top: 80px;
         }
         
         .espace-bloc {
@@ -93,8 +93,14 @@
         }
         
         #apprenants {
-            margin-top: 150px;
+            margin-top: 80px;
+            background-color: $couleur3;
             h3 {
                 text-align: center;
+                color: $couleur1;
+            }
+            p {
+                color: $couleur4;
+                text-align: justify;
             }
         }
