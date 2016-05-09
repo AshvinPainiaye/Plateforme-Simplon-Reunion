@@ -13,28 +13,41 @@
       background-color: transparent; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: white; }
-  .navbar-default .navbar-brand {
-    color: #efdf31; }
-    .navbar-default .navbar-brand:hover {
-      color: #efdf31; }
-  .navbar-default .navbar-collapse {
-    text-align: center;
-    max-height: none; }
-    .navbar-default .navbar-collapse .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top; }
-      .navbar-default .navbar-collapse .navbar-nav li a {
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 30px; }
-        .navbar-default .navbar-collapse .navbar-nav li a:hover {
-          background-color: #efdf31;
-          color: #222222; }
+  .navbar-default .brand {
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .navbar-default .navbar-collapse .navbar-nav li a {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .navbar-default .navbar-collapse .navbar-nav li a:hover {
+      background-color: #efdf31;
+      color: #222222; }
+  .navbar-default .navbar-collapse .navbar-nav .dropdown-menu {
+    background-color: #2a4789;
+    border: none; }
+    .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a {
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a:hover {
+        background-color: #efdf31;
+        color: #222222; }
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #efdf31;
+  color: #222222; }
 
 footer {
   color: white;
   background-color: #2a4789; }
+
+a {
+  color: white; }
+  a:hover {
+    color: white; }
 
 #Apropos {
   background-color: #2a4789;
