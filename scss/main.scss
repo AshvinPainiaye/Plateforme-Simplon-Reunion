@@ -1,0 +1,29 @@
+$couleur1: #efdf31;
+$couleur2:#2a4789;
+$couleur3:#222222;
+
+.navbar-default {
+    border: none;
+    background-color: $couleur3;
+    .navbar-brand {
+        color: $couleur1;
+        &:hover {
+            color: $couleur1;
+        }
+    }
+    .navbar-collapse {
+        text-align: center;
+        max-height: none;
+        .navbar-nav {
+            display: inline-block;
+            float: none;
+            vertical-align: top;
+            li a {
+                color: white;
+                &:hover {
+                    color: $couleur1;
+                }
+            }
+        }
+    }
+}
