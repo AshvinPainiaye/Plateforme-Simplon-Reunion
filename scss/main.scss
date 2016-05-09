@@ -1,10 +1,17 @@
 $couleur1: #efdf31;
 $couleur2:#2a4789;
 $couleur3:#222222;
+#myCarousel {
+    margin-top: 150px;
+}
+
+.espace-bloc {
+    padding: 80px 0;
+}
 
 .navbar-default {
     border: none;
-    background-color: $couleur3;
+    background-color: $couleur2;
     .navbar-brand {
         color: $couleur1;
         &:hover {
@@ -20,10 +27,18 @@ $couleur3:#222222;
             vertical-align: top;
             li a {
                 color: white;
+                padding-top: 30px;
+                padding-bottom: 30px;
                 &:hover {
-                    color: $couleur1;
+                    background-color: $couleur1;
+                    color: $couleur3;
                 }
             }
         }
     }
+}
+
+footer {
+    color: white;
+    background-color: $couleur2;
 }
