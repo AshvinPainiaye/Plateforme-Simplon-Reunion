@@ -1,4 +1,4 @@
-// Scroll pour les liens du menu de navigation 
+// Scroll pour les liens du menu de navigation
 $('a[href^="#apropos"]').click(function () {
     var the_id = $(this).attr("href");
 
