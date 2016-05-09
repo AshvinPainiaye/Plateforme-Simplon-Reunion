@@ -7,4 +7,13 @@ $('a[href^="#apropos"]').click(function () {
     }, 'slow');
     return false;
 });
+
+function myFunction() {
+    location.replace("../index.html")
+    descendre();
+};
+
+function descendre(){
+  
+};
 // Fin
