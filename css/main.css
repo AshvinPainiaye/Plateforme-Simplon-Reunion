@@ -12,12 +12,12 @@
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
       background-color: transparent; }
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: white; }
+      background-color: #ffffff; }
   .navbar-default .brand {
     padding-top: 15px;
     padding-bottom: 10px; }
   .navbar-default .navbar-collapse .navbar-nav li a {
-    color: white;
+    color: #ffffff;
     padding-top: 30px;
     padding-bottom: 30px; }
     .navbar-default .navbar-collapse .navbar-nav li a:hover {
@@ -27,7 +27,7 @@
     background-color: #2a4789;
     border: none; }
     .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a {
-      color: white;
+      color: #ffffff;
       padding-top: 20px;
       padding-bottom: 20px; }
       .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a:hover {
@@ -41,27 +41,29 @@
   color: #222222; }
 
 footer {
-  color: white;
+  color: #ffffff;
   background-color: #2a4789; }
   footer a {
-    color: white; }
+    color: #ffffff; }
     footer a:hover {
-      color: white; }
+      color: #ffffff; }
 
-#Apropos {
-  background-color: #2a4789;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0px; }
-  #Apropos article .deco {
+#apropos {
+  background-color: #222222;
+  color: #ffffff;
+  text-align: justify; }
+  #apropos article .fa {
+    color: #efdf31; }
+  #apropos article .deco {
     margin-top: 30px;
     display: flex; }
-    #Apropos article .deco hr {
-      border-top: 2px solid #fff;
+    #apropos article .deco hr {
+      border-top: 2px solid #ffffff;
       width: 38%; }
-  #Apropos article h2 {
-    text-align: center; }
-  #Apropos article h4 {
+  #apropos article h2 {
+    text-align: center;
+    color: #efdf31; }
+  #apropos article h4 {
     text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
