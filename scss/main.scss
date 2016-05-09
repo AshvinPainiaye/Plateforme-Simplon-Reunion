@@ -1,3 +1,4 @@
+
 $couleur1: #efdf31;
 $couleur2:#2a4789;
 $couleur3:#222222;
@@ -51,4 +52,21 @@ $couleur3:#222222;
 footer {
     color: white;
     background-color: $couleur2;
+}
+
+#Apropos{
+  background-color: #2a4789;
+  color: #fff;
+  padding: 30px 0px;
+  article{
+
+    h2{
+      text-align: center;
+    }
+    h4{
+      text-align: center;
+    }
+
+  }
+
 }
