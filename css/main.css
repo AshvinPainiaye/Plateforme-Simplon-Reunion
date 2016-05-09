@@ -1,3 +1,6 @@
+body {
+  position: relative; }
+
 #myCarousel {
   margin-top: 150px; }
 
@@ -34,11 +37,10 @@
         background-color: #efdf31;
         color: #222222; }
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover {
-  background-color: #efdf31;
-  color: #222222; }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #efdf31; }
 
 footer {
   color: #ffffff;

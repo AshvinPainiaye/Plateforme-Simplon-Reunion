@@ -2,6 +2,10 @@
         $couleur2:#2a4789;
         $couleur3:#222222;
         $couleur4: #ffffff;
+        body {
+            position: relative;
+        }
+        
         #myCarousel {
             margin-top: 150px;
         }
@@ -55,11 +59,10 @@
             }
         }
         
-        .navbar-default .navbar-nav > .open > a,
-        .navbar-default .navbar-nav > .open > a:focus,
-        .navbar-default .navbar-nav > .open > a:hover {
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:focus,
+        .navbar-default .navbar-nav > .active > a:hover {
             background-color: $couleur1;
-            color: $couleur3;
         }
         
         footer {
