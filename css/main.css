@@ -7,6 +7,12 @@
 .navbar-default {
   border: none;
   background-color: #2a4789; }
+  .navbar-default .navbar-toggle {
+    border: none; }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: transparent; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: white; }
   .navbar-default .navbar-brand {
     color: #efdf31; }
     .navbar-default .navbar-brand:hover {

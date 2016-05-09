@@ -12,6 +12,16 @@ $couleur3:#222222;
 .navbar-default {
     border: none;
     background-color: $couleur2;
+    .navbar-toggle {
+        border: none;
+        &:focus,
+        &:hover {
+            background-color: transparent;
+        }
+        .icon-bar {
+            background-color: white;
+        }
+    }
     .navbar-brand {
         color: $couleur1;
         &:hover {
