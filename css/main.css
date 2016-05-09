@@ -1,8 +1,5 @@
-body {
-  position: relative; }
-
 #myCarousel {
-  margin-top: 150px; }
+  padding-top: 70px; }
 
 .espace-bloc {
   padding: 80px 0; }
@@ -37,11 +34,6 @@ body {
         background-color: #efdf31;
         color: #222222; }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: #efdf31; }
-
 footer {
   color: #ffffff;
   background-color: #2a4789; }
@@ -66,6 +58,11 @@ footer {
     text-align: center;
     color: #efdf31; }
   #apropos article h4 {
+    text-align: center; }
+
+#apprenants {
+  margin-top: 150px; }
+  #apprenants h3 {
     text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
