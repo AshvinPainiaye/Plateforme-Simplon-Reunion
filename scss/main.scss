@@ -1,82 +1,96 @@
-
-$couleur1: #efdf31;
-$couleur2:#2a4789;
-$couleur3:#222222;
-#myCarousel {
-    margin-top: 150px;
-}
-
-.espace-bloc {
-    padding: 80px 0;
-}
-
-.navbar-default {
-    border: none;
-    background-color: $couleur2;
-    .navbar-toggle {
-        border: none;
-        &:focus,
-        &:hover {
-            background-color: transparent;
+        $couleur1: #efdf31;
+        $couleur2:#2a4789;
+        $couleur3:#222222;
+        #myCarousel {
+            margin-top: 150px;
         }
-        .icon-bar {
-            background-color: white;
+        
+        .espace-bloc {
+            padding: 80px 0;
         }
-    }
-    .navbar-brand {
-        color: $couleur1;
-        &:hover {
-            color: $couleur1;
-        }
-    }
-    .navbar-collapse {
-        text-align: center;
-        max-height: none;
-        .navbar-nav {
-            display: inline-block;
-            float: none;
-            vertical-align: top;
-            li a {
-                color: white;
-                padding-top: 30px;
-                padding-bottom: 30px;
+        
+        .navbar-default {
+            border: none;
+            background-color: $couleur2;
+            .navbar-toggle {
+                border: none;
+                &:focus,
                 &:hover {
-                    background-color: $couleur1;
-                    color: $couleur3;
+                    background-color: transparent;
+                }
+                .icon-bar {
+                    background-color: white;
+                }
+            }
+            .brand {
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+            .navbar-collapse {
+                .navbar-nav {
+                    li a {
+                        color: white;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        &:hover {
+                            background-color: $couleur1;
+                            color: $couleur3;
+                        }
+                    }
+                    .dropdown-menu {
+                        background-color: $couleur2;
+                        border: none;
+                        li a {
+                            color: white;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                            &:hover {
+                                background-color: $couleur1;
+                                color: $couleur3;
+                            }
+                        }
+                    }
                 }
             }
         }
-    }
-}
-
-footer {
-    color: white;
-    background-color: $couleur2;
-}
-
-#Apropos{
-  background-color: $couleur2;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0px;
-  article{
-
-    .deco{
-      margin-top: 30px;
-      display: flex;
-      hr{
-        border-top: 2px solid #fff;
-        width: 38%;
-      }
-    }
-
-    h2{
-      text-align: center;
-    }
-    h4{
-      text-align: center;
-    }
-
-  }
-
-}
+        
+        .navbar-default .navbar-nav > .open > a,
+        .navbar-default .navbar-nav > .open > a:focus,
+        .navbar-default .navbar-nav > .open > a:hover {
+            background-color: $couleur1;
+            color: $couleur3;
+        }
+        
+        footer {
+            color: white;
+            background-color: $couleur2;
+            a {
+                color: white;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+        
+        #Apropos {
+            background-color: $couleur2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0px;
+            article {
+                .deco {
+                    margin-top: 30px;
+                    display: flex;
+                    hr {
+                        border-top: 2px solid #fff;
+                        width: 38%;
+                    }
+                }
+                h2 {
+                    text-align: center;
+                }
+                h4 {
+                    text-align: center;
+                }
+            }
+        }
