@@ -1,5 +1,9 @@
+body {
+  background-color: #222222; }
+
 #myCarousel {
-  padding-top: 80px; }
+  padding-top: 80px;
+  background-color: #ffffff; }
 
 .espace-bloc {
   padding: 80px 0; }
@@ -43,7 +47,6 @@
 /*fin nav*/
 /*debut a propos*/
 #apropos {
-  background-color: #222222;
   color: #ffffff;
   text-align: justify; }
   #apropos article .fa {
@@ -79,11 +82,12 @@
 #contact {
   margin-top: 80px;
   padding: 40px;
-  color: #efdf31;
-  background-color: #222222; }
+  color: #efdf31; }
+
+.descriptionFormulaire p {
+  color: #ffffff; }
 
 .formulaire {
-  background-color: #222222;
   padding: 50px; }
   .formulaire .control-label {
     color: #efdf31; }

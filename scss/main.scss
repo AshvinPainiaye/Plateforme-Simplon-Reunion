@@ -2,8 +2,13 @@
         $couleur2:#2a4789;
         $couleur3:#222222;
         $couleur4: #ffffff;
+        body {
+            background-color: $couleur3;
+        }
+        
         #myCarousel {
             padding-top: 80px;
+            background-color: $couleur4;
         }
         
         .espace-bloc {
@@ -62,11 +67,9 @@
             background-color: $couleur1;
         }
         /*fin nav*/
-
         /*debut a propos*/
         
         #apropos {
-            background-color: $couleur3;
             color: $couleur4;
             text-align: justify;
             article {
@@ -91,7 +94,6 @@
             }
         }
         /*fin a propos*/
-
         /*debut apprenant*/
         
         #apprenants {
@@ -110,25 +112,27 @@
             }
         }
         /*fin apprenant*/
-
         /*debut contact*/
         
         #contact {
             margin-top: 80px;
             padding: 40px;
             color: $couleur1;
-            background-color: $couleur3;
+        }
+        
+        .descriptionFormulaire {
+            p {
+                color: $couleur4;
+            }
         }
         
         .formulaire {
-            background-color: $couleur3;
             padding: 50px;
             .control-label {
                 color: $couleur1;
             }
         }
         /*fin contact*/
-
         /*debut footer*/
         
         footer {
