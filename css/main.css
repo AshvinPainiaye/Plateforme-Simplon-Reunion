@@ -1,5 +1,5 @@
 #myCarousel {
-  padding-top: 70px; }
+  padding-top: 80px; }
 
 .espace-bloc {
   padding: 80px 0; }
@@ -61,8 +61,13 @@ footer {
     text-align: center; }
 
 #apprenants {
-  margin-top: 150px; }
+  margin-top: 80px;
+  background-color: #222222; }
   #apprenants h3 {
-    text-align: center; }
+    text-align: center;
+    color: #efdf31; }
+  #apprenants p {
+    color: #ffffff;
+    text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */
