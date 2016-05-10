@@ -1,5 +1,5 @@
 body {
-  background-color: #222222; }
+  background-color: #ffffff; }
 
 #myCarousel {
   padding-top: 80px;
@@ -51,22 +51,23 @@ body {
 
 /*debut a propos*/
 #apropos {
-  color: #ffffff;
+  color: #222222;
+  background-color: #efdf31;
   text-align: justify;
   padding: 0 0 80px 0; }
   #apropos article .fa {
-    color: #efdf31;
-    border-left: 20px solid #222222;
-    border-right: 20px solid #222222; }
+    color: #222222;
+    border-left: 20px solid #efdf31;
+    border-right: 20px solid #efdf31; }
   #apropos article .deco {
     margin-top: 30px;
     display: flex; }
     #apropos article .deco hr {
-      border-top: 2px solid #ffffff;
+      border-top: 2px solid #222222;
       width: 38%; }
   #apropos article h2 {
     text-align: center;
-    color: #efdf31; }
+    color: #222222; }
   #apropos article h4 {
     text-align: center; }
 
@@ -110,15 +111,5 @@ footer {
       color: #ffffff; }
 
 /*fin footer*/
-.bandeJaune {
-  background-color: #efdf31;
-  height: 150px;
-  width: 110%;
-  position: relative;
-  -ms-transform: rotate(150deg);
-  -webkit-transform: rotate(150deg);
-  transform: rotate(150deg);
-  top: 0px;
-  right: 55%; }
 
 /*# sourceMappingURL=main.css.map */
