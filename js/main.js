@@ -8,12 +8,16 @@ $('a[href^="#apropos"]').click(function () {
     return false;
 });
 
-function myFunction() {
-    location.replace("../index.html")
-    descendre();
-};
+myFunction(){
+  $('a[href^="../index.html"]').click(function () {
+      var the_id = #apropos;
 
-function descendre(){
-  
-};
+      $('html, body').animate({
+          scrollTop: $(the_id).offset().top
+      }, 'slow');
+      return false;
+  });
+}
+
+
 // Fin
