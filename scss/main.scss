@@ -2,13 +2,20 @@
         $couleur2:#2a4789;
         $couleur3:#222222;
         $couleur4: #ffffff;
+        body {
+            background-color: $couleur3;
+        }
+        
         #myCarousel {
             padding-top: 80px;
+            background-color: $couleur4;
+            z-index: 3;
         }
         
         .espace-bloc {
             padding: 80px 0;
         }
+        /*debut nav*/
         
         .navbar-default {
             border: none;
@@ -55,24 +62,27 @@
             }
         }
         
-        footer {
-            color: $couleur4;
-            background-color: $couleur2;
-            a {
-                color: $couleur4;
-                &:hover {
-                    color: $couleur4;
-                }
-            }
+        .navbar-default .navbar-nav > .open > a,
+        .navbar-default .navbar-nav > .open > a:focus,
+        .navbar-default .navbar-nav > .open > a:hover {
+            background-color: $couleur1;
         }
+        /*fin nav*/
+        
+        .carousel-indicators {
+            text-align: right;
+        }
+        /*debut a propos*/
         
         #apropos {
-            background-color: $couleur3;
             color: $couleur4;
             text-align: justify;
+            padding: 0 0 80px 0;
             article {
                 .fa {
                     color: $couleur1;
+                    border-left: 20px solid $couleur3;
+                    border-right: 20px solid $couleur3;
                 }
                 .deco {
                     margin-top: 30px;
@@ -91,16 +101,68 @@
                 }
             }
         }
+        /*fin a propos*/
+        /*debut apprenant*/
         
         #apprenants {
             margin-top: 80px;
             background-color: $couleur3;
-            h3 {
-                text-align: center;
-                color: $couleur1;
+            article {
+                margin: 30px auto;
+                h3 {
+                    text-align: center;
+                    color: $couleur1;
+                }
+                p {
+                    color: $couleur4;
+                    text-align: justify;
+                }
             }
+        }
+        /*fin apprenant*/
+        /*debut contact*/
+        
+        #contact {
+            margin-top: 80px;
+            padding: 40px;
+            color: $couleur1;
+        }
+        
+        .descriptionFormulaire {
             p {
                 color: $couleur4;
-                text-align: justify;
             }
+        }
+        
+        .formulaire {
+            padding: 50px;
+            .control-label {
+                color: $couleur1;
+            }
+        }
+        /*fin contact*/
+        /*debut footer*/
+        
+        footer {
+            color: $couleur4;
+            background-color: $couleur2;
+            a {
+                color: $couleur4;
+                &:hover {
+                    color: $couleur4;
+                }
+            }
+        }
+        /*fin footer*/
+        
+        .bandeJaune {
+            background-color: #efdf31;
+            height: 150px;
+            width: 110%;
+            position: relative;
+            -ms-transform: rotate(150deg);
+            -webkit-transform: rotate(150deg);
+            transform: rotate(150deg);
+            top: 0px;
+            right: 55%;
         }
