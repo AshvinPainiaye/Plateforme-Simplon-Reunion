@@ -5,18 +5,18 @@
         body {
             background-color: $couleur3;
         }
-        
+
         #myCarousel {
             padding-top: 80px;
             background-color: $couleur4;
             z-index: 3;
         }
-        
+
         .espace-bloc {
             padding: 80px 0;
         }
         /*debut nav*/
-        
+
         .navbar-default {
             border: none;
             background-color: $couleur2;
@@ -61,19 +61,19 @@
                 }
             }
         }
-        
+
         .navbar-default .navbar-nav > .open > a,
         .navbar-default .navbar-nav > .open > a:focus,
         .navbar-default .navbar-nav > .open > a:hover {
             background-color: $couleur1;
         }
         /*fin nav*/
-        
+
         .carousel-indicators {
             text-align: right;
         }
         /*debut a propos*/
-        
+
         #apropos {
             color: $couleur4;
             text-align: justify;
@@ -102,8 +102,23 @@
             }
         }
         /*fin a propos*/
+
+        /*debut formation*/
+        #formation{
+          h2{
+            text-align: center;
+            color: $couleur2;
+          }
+          article{
+            h3{
+              text-align: center;
+            }
+          }
+        }
+        /*fin formation*/
+
         /*debut apprenant*/
-        
+
         #apprenants {
             margin-top: 80px;
             background-color: $couleur3;
@@ -121,19 +136,19 @@
         }
         /*fin apprenant*/
         /*debut contact*/
-        
+
         #contact {
             margin-top: 80px;
             padding: 40px;
             color: $couleur1;
         }
-        
+
         .descriptionFormulaire {
             p {
                 color: $couleur4;
             }
         }
-        
+
         .formulaire {
             padding: 50px;
             .control-label {
@@ -142,7 +157,7 @@
         }
         /*fin contact*/
         /*debut footer*/
-        
+
         footer {
             color: $couleur4;
             background-color: $couleur2;
@@ -154,7 +169,7 @@
             }
         }
         /*fin footer*/
-        
+
         .bandeJaune {
             background-color: #efdf31;
             height: 150px;

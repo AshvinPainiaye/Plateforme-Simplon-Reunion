@@ -71,6 +71,14 @@ body {
     text-align: center; }
 
 /*fin a propos*/
+/*debut formation*/
+#formation h2 {
+  text-align: center;
+  color: #2a4789; }
+#formation article h3 {
+  text-align: center; }
+
+/*fin formation*/
 /*debut apprenant*/
 #apprenants {
   margin-top: 80px;
