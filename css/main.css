@@ -1,3 +1,6 @@
+.fondJaune {
+  background-color: #efdf31; }
+
 body {
   background-color: #ffffff; }
 
@@ -64,7 +67,7 @@ body {
   #apropos article {
     padding: 10px 30px; }
     #apropos article .fa {
-      color: #222222;
+      color: #2a4789;
       border-left: 20px solid #efdf31;
       border-right: 20px solid #efdf31; }
     #apropos article .deco {
@@ -77,7 +80,8 @@ body {
       text-align: center;
       color: #222222; }
     #apropos article h4 {
-      text-align: center; }
+      text-align: center;
+      color: #2a4789; }
 
 /*fin a propos*/
 /*debut formation*/
@@ -106,7 +110,10 @@ body {
 #contact {
   margin-top: 80px;
   padding: 40px;
-  color: #efdf31; }
+  color: white; }
+
+.contact {
+  background-color: #efdf31; }
 
 .descriptionFormulaire p {
   color: #ffffff; }
@@ -114,7 +121,7 @@ body {
 .formulaire {
   padding: 50px; }
   .formulaire .control-label {
-    color: #efdf31; }
+    color: #2a4789; }
 
 /*fin contact*/
 /*debut footer*/
@@ -127,15 +134,32 @@ footer {
       color: #ffffff; }
 
 /*fin footer*/
-.test {
+h2 {
   position: relative;
-  text-align: center;
-  width: 99%;
-  top: 180px;
+  text-align: left;
+  width: 80%;
+  top: 200px;
   transform: rotate(5deg);
-  -ms-transform: rotate(8deg);
-  -webkit-transform: rotate(8deg);
-  font-size: 80px; }
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  font-size: 80px;
+  color: #2a4789;
+  left: 12px; }
+
+.h2 {
+  position: relative;
+  text-align: right;
+  width: 98%;
+  top: 80px;
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  font-size: 80px;
+  color: #2a4789;
+  right: 12px; }
+
+.img-top2 {
+  margin-top: 0px; }
 
 #formulaire .has-error .form-control {
   border-color: #EFDF31;
@@ -152,5 +176,9 @@ footer {
 #formulaire h5 {
   color: #efdf31;
   font-weight: bolder; }
+
+.navbar-brand {
+  width: 50%;
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
