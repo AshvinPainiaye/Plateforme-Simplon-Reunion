@@ -50,6 +50,9 @@ body {
   text-align: right; }
 
 /*debut a propos*/
+.img-top {
+  margin-top: 120px; }
+
 #apropos {
   color: #222222;
   background-color: #efdf31;
