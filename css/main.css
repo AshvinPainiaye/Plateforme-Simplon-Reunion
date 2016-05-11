@@ -72,6 +72,32 @@ body {
 
 /*fin a propos*/
 /*debut apprenant*/
+.img-circle {
+  height: 150px;
+  width: 150px; }
+
+#apprenants article p {
+  margin-top: 20px;
+  margin-right: 50px; }
+
+article {
+  margin-right: 10px; }
+
+.presentation {
+  color: white;
+  margin: 20px;
+  /*  border: 1px solid white; */ }
+
+.NP {
+  font-size: 15px; }
+
+.social {
+  text-align: center; }
+
+.cv {
+  margin-top: 25px;
+  text-align: center; }
+
 #apprenants {
   margin-top: 80px;
   background-color: #222222; }
