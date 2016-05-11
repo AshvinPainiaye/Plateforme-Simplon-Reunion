@@ -13,11 +13,19 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
 
-    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../../css/main.css" type="text/css" />
+    <style id="__web-inspector-hide-shortcut-style__" type="text/css">
+        .__web-inspector-hide-shortcut__,
+        .__web-inspector-hide-shortcut__ *,
+        .__web-inspector-hidebefore-shortcut__::before,
+        .__web-inspector-hideafter-shortcut__::after {
+            visibility: hidden !important;
+        }
+    </style>
 </head>
 
 
@@ -30,25 +38,30 @@
     <!-- debut nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header navbar-fix">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="../images/logo.png" alt="" class="img-responsive brand" height="10%" width="20%">
+                <a href="#" class="navbar-brand">
+                    <img src="../../images/logo.png" alt="" class="img-responsive" height="10%" width="20%">
+                </a>
+
+
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../index.html">ACCUEIL</a></li>
-                    <li><a href="#" onclick="myFunction()">A PROPOS</a></li>
-                    <li><a href="apprenant.html">LES APPRENANTS</a></li>
+                    <li><a href="../../index.html">ACCUEIL</a></li>
+                    <li><a href="../../pages/apropos.html">A PROPOS</a></li>
+                    <li><a href="../../pages/formation.html">FORMATION</a></li>
+                    <li><a href="../../pages/apprenant.html">LES APPRENANTS</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="contact-PP.html">SOUMETTRE UN PROJET</a></li>
-                            <li><a href="#">RECRUTER UN TALENT</a></li>
+                            <li><a href="contact-PP.html">PROPOSER UN PROJET</a></li>
+                            <li><a href="contact-AA.html">ADOPTER UN APPRENANT</a></li>
                             <li><a href="contact-FI.html">ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="contact.html">CANDIDATER</a></li>
@@ -61,37 +74,17 @@
     <!-- fin nav -->
 
 
-    <!-- debut header -->
-    <header id="contact">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h1>RECRUTER UN TALENT</h1>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <h2>CANDIDATER</h2>
+                <img src="../../images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
-    </header>
-    <!-- fin header -->
-
-
-    <!-- debut description formulaire -->
-    <section class="descriptionFormulaire">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Vous recherchez des talents en développement web ou charge de projets numériques?
-Optimisez vos recrutements et valorisez votre marque employeur.
-Nos apprenants sont disponibles dès septembre 2016 en contrat de professionnalisation ou
-pour l'embauche.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- fin description formulaire -->
-
+    </div>
 
     <!-- debut Contact -->
-    <section class="formulaire">
+    <section class="formulaire fond">
         <div class="container">
             <div class="row">
                 <form method="post" action="php/action.php" role="form" name="formulaire" data-toggle="validator" id="myform">
@@ -100,7 +93,7 @@ pour l'embauche.</p>
 
                         <div class="form-group has-feedback">
                             <label for="nom" class="control-label">Nom</label>
-                            <input type="text" class="form-control " id="nom" placeholder="Entrer votre nom" required>
+                            <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
@@ -124,7 +117,7 @@ pour l'embauche.</p>
 
                         <div class="form-group has-feedback">
                             <label for="telephone" class="control-label">Numéro de téléphone</label>
-                            <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^(0262|0692|0693)\d{6}$" placeholder="0262 XX XX XX" required>
+                            <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^(0262|0692|0693)\d{6}$" placeholder="XXXX XX XX XX" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
                     </div>
@@ -145,66 +138,48 @@ pour l'embauche.</p>
 
                     </div>
 
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="form-group container">
-                                <button type="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
-                            </div>
-                        </div>
-                    </div>
                 </form>
             </div>
+            <div class="row">
+                <div class="col-xs-offset-8 col-xs-4 text-right">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row contact">
+                <div class="col-md-4">
+                    <div>
+                        <h3>SIMPLON-REUNION</h3>
+
+                        <ul class="list-unstyled text-left">
+                            <li>
+                                <h4>Adresse :</h4>
+                                <p>Espace culturel et éducatif Pierre Roselli,
+                                    <br>Rue des Longains,97440 St André</p>
+                            </li>
+                            <li>
+                                <h4>Email :</h4>
+                                <p>
+                                    nludovic@simplon.co
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Numéro de Téléphone :</h4>
+                                <p></p>+ 262 XXX XXX | + 692 XXX XXX</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.414955590089!2d55.65536505012309!3d-20.975997177031196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21787d582ee3f92b%3A0x97e959a661b3f3de!2sEspace+culturel+et+%C3%A9ducatif+Pierre+Roselli!5e0!3m2!1sfr!2sfr!4v1462862396657" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- fin Contact -->
-    
-        <!-- contact SIMPLON-->
-    <hr>
-<section class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center" style="padding-bottom: 30px;">
-                    <h1 style="padding-bottom: 10px;">Nous contacter</h1>
-                </div>
-            </div>
-        </div>
-        
-        <div class="container" style="padding-bottom: 50px;">
-            <div class="col-md-5 col-md-offset-1" style="
-    padding-top: 80px;
-">
-            <div class="row">
-                <div class="text-center">
-                    <h3 style="padding-bottom: 20px;">SIMPLON-REUNION</h3>
-                </div>      
-            </div>
-            <div class="text-center">
-                <div class="">
-                    <h4>Adresse :</h4>
-  <h5>Espace culturel et éducatif Pierre Roselli, <br>Rue des Longains,97440 St André</h5>
-                    <h4>EMail :</h4>
-<h5>nludovic@simplon.co<!--5-->
-</h5>
-                    <h4>Numéro de Tél :</h4>
-<h5>+ 262 XXX XXX  | + 692 XXX XXX </h5>
-                </div>      
-            </div>
-                </div>
-                        <div class="col-md-6">
-            
-            <div class="row">
-                <div class="maps col-md-12 text-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.414955590089!2d55.65536505012309!3d-20.975997177031196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21787d582ee3f92b%3A0x97e959a661b3f3de!2sEspace+culturel+et+%C3%A9ducatif+Pierre+Roselli!5e0!3m2!1sfr!2sfr!4v1462862396657" width="500" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                </div>      
-            </div>
-                </div>
-        </div>
-
-    </section>
-    
-    
-        <!-- fin contact SIMPLON-->
-    
 
 
     <!-- debut footer -->
@@ -222,11 +197,11 @@ pour l'embauche.</p>
 
 
 
+    <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../app/public/libs/jquery/dist/validator.js"></script>
+    <script src="../../js/main.js"></script>
 
-    <script src="../app/public/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../app/public/libs/jquery/dist/validator.js"></script>
-    <script src="../js/main.js"></script>
 
 </body>
 
