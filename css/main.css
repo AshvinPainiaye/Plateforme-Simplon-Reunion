@@ -1,8 +1,11 @@
-.fondJaune {
-  background-color: #efdf31; }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+.fond {
+  background-color: #f7f7f7; }
 
 body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif; }
 
 #myCarousel {
   padding-top: 80px;
@@ -61,15 +64,15 @@ body {
 
 #apropos {
   color: #222222;
-  background-color: #efdf31;
+  background-color: #f7f7f7;
   text-align: justify;
   padding: 0 0 80px 0; }
   #apropos article {
     padding: 10px 30px; }
     #apropos article .fa {
       color: #2a4789;
-      border-left: 20px solid #efdf31;
-      border-right: 20px solid #efdf31; }
+      border-left: 20px solid #f7f7f7;
+      border-right: 20px solid #f7f7f7; }
     #apropos article .deco {
       margin-top: 30px;
       display: flex; }
@@ -94,16 +97,28 @@ body {
 /*fin formation*/
 /*debut apprenant*/
 #apprenants {
-  margin-top: 80px;
-  background-color: #222222; }
-  #apprenants article {
-    margin: 30px auto; }
-    #apprenants article h3 {
-      text-align: center;
-      color: #efdf31; }
-    #apprenants article p {
-      color: #ffffff;
-      text-align: justify; }
+  background-color: #f7f7f7; }
+  #apprenants .img-circle {
+    height: 150px;
+    width: 150px; }
+  #apprenants article p {
+    margin-top: 20px;
+    margin-right: 50px;
+    color: #222222;
+    text-align: left; }
+  #apprenants article h3 {
+    text-align: center;
+    color: #222222;
+    font-size: 15px; }
+  #apprenants article .presentation {
+    margin: 20px; }
+  #apprenants article .social {
+    text-align: center; }
+  #apprenants article .cv {
+    margin: 25px 0;
+    text-align: center; }
+  #apprenants article .label {
+    line-height: 2.2; }
 
 /*fin apprenant*/
 /*debut contact*/
@@ -113,7 +128,7 @@ body {
   color: white; }
 
 .contact {
-  background-color: #efdf31; }
+  background-color: #f7f7f7; }
 
 .descriptionFormulaire p {
   color: #ffffff; }
@@ -139,24 +154,26 @@ h2 {
   text-align: left;
   width: 80%;
   top: 200px;
-  transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  -webkit-transform: rotate(5deg);
-  font-size: 80px;
+  transform: rotate(5.8deg);
+  -ms-transform: rotate(5.8deg);
+  -webkit-transform: rotate(5.8deg);
+  font-size: 63px;
   color: #2a4789;
-  left: 12px; }
+  left: 12px;
+  font-family: 'Oswald', sans-serif; }
 
 .h2 {
   position: relative;
   text-align: right;
   width: 98%;
   top: 80px;
-  transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5.8deg);
+  -ms-transform: rotate(-5.8deg);
+  -webkit-transform: rotate(-5.8deg);
   font-size: 80px;
   color: #2a4789;
-  right: 12px; }
+  right: 12px;
+  font-family: 'Oswald', sans-serif; }
 
 .img-top2 {
   margin-top: 0px; }

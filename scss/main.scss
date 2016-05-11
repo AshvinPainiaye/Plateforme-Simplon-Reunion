@@ -2,12 +2,16 @@ $couleur1: #efdf31;
 $couleur2:#2a4789;
 $couleur3:#222222;
 $couleur4: #ffffff;
-.fondJaune {
-    background-color: $couleur1;
+$couleur5: #f7f7f7;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+.fond {
+    background-color: $couleur5;
 }
 
 body {
     background-color: $couleur4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #myCarousel {
@@ -94,15 +98,15 @@ body {
 
 #apropos {
     color: $couleur3;
-    background-color: $couleur1;
+    background-color: $couleur5;
     text-align: justify;
     padding: 0 0 80px 0;
     article {
         padding: 10px 30px;
         .fa {
             color: $couleur2;
-            border-left: 20px solid $couleur1;
-            border-right: 20px solid $couleur1;
+            border-left: 20px solid $couleur5;
+            border-right: 20px solid $couleur5;
         }
         .deco {
             margin-top: 30px;
@@ -149,17 +153,35 @@ body {
 /*debut apprenant*/
 
 #apprenants {
-    margin-top: 80px;
-    background-color: $couleur3;
+    background-color: $couleur5;
+    .img-circle {
+        height: 150px;
+        width: 150px;
+    }
     article {
-        margin: 30px auto;
+        p {
+            margin-top: 20px;
+            margin-right: 50px;
+            color: $couleur3;
+            text-align: left;
+        }
         h3 {
             text-align: center;
-            color: $couleur1;
+            color: $couleur3;
+            font-size: 15px;
         }
-        p {
-            color: $couleur4;
-            text-align: justify;
+        .presentation {
+            margin: 20px;
+        }
+        .social {
+            text-align: center;
+        }
+        .cv {
+            margin: 25px 0;
+            text-align: center;
+        }
+        .label {
+            line-height: 2.2;
         }
     }
 }
@@ -177,7 +199,7 @@ body {
 }
 
 .contact {
-    background-color: $couleur1;
+    background-color: $couleur5;
 }
 
 .descriptionFormulaire {
@@ -218,12 +240,13 @@ h2 {
     text-align: left;
     width: 80%;
     top: 200px;
-    transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
-    font-size: 80px;
+    transform: rotate(5.8deg);
+    -ms-transform: rotate(5.8deg);
+    -webkit-transform: rotate(5.8deg);
+    font-size: 63px;
     color: $couleur2;
     left: 12px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .h2 {
@@ -231,12 +254,13 @@ h2 {
     text-align: right;
     width: 98%;
     top: 80px;
-    transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5.8deg);
+    -ms-transform: rotate(-5.8deg);
+    -webkit-transform: rotate(-5.8deg);
     font-size: 80px;
     color: $couleur2;
     right: 12px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .img-top2 {
