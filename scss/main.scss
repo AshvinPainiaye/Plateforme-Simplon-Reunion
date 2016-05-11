@@ -116,69 +116,6 @@ body {
                 width: 38%;
             }
         }
-<<<<<<< HEAD
-        /*fin a propos*/
-        /*debut apprenant*/
-        
-.img-circle {
-    height: 150px;
-    width: 150px;
-}
-#apprenants article p{
-    margin-top:20px;
-     margin-right: 50px;
-}
-
-
-article {
-    margin-right: 10px;
-}
-.presentation{
-    color:white;
-    margin: 20px;
-  /*  border: 1px solid white; */
-  
-    
-}    
-
-
-
-.NP {
-    font-size:15px;
-}
-
-.social {
-    text-align: center;
-}
-
-.cv {
-    margin-top: 25px;
-    text-align: center;
-}
-
-        #apprenants {
-            margin-top: 80px;
-            background-color: $couleur3;
-            article {
-             margin: 30px auto; 
-                h3 {
-                    text-align: center;
-                    color: $couleur1;
-                }
-                p {
-                    color: $couleur4;
-                    text-align: justify;
-                }
-            }
-        } 
-        /*fin apprenant*/
-        /*debut contact*/
-        
-        #contact {
-            margin-top: 80px;
-            padding: 40px;
-            color: $couleur1;
-=======
         h2 {
             text-align: center;
             color: $couleur3;
@@ -186,7 +123,6 @@ article {
         h4 {
             text-align: center;
             color: $couleur2;
->>>>>>> master
         }
     }
 }
