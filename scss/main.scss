@@ -1,106 +1,122 @@
-        $couleur1: #efdf31;
-        $couleur2:#2a4789;
-        $couleur3:#222222;
-        $couleur4: #ffffff;
-        body {
-            background-color: $couleur3;
+$couleur1: #efdf31;
+$couleur2:#2a4789;
+$couleur3:#222222;
+$couleur4: #ffffff;
+$couleur5: #f7f7f7;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+.fond {
+    background-color: $couleur5;
+}
+
+body {
+    background-color: $couleur4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#myCarousel {
+    padding-top: 80px;
+    background-color: $couleur4;
+    z-index: 3;
+}
+
+.espace-bloc {
+    padding: 80px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+/*debut nav*/
+
+.navbar-default {
+    border: none;
+    background-color: $couleur2;
+    .navbar-toggle {
+        border: none;
+        &:focus,
+        &:hover {
+            background-color: transparent;
         }
-        
-        #myCarousel {
-            padding-top: 80px;
+        .icon-bar {
             background-color: $couleur4;
-            z-index: 3;
         }
-        
-        .espace-bloc {
-            padding: 80px 0;
-        }
-        /*debut nav*/
-        
-        .navbar-default {
-            border: none;
-            background-color: $couleur2;
-            .navbar-toggle {
-                border: none;
-                &:focus,
+    }
+    .brand {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .navbar-collapse {
+        .navbar-nav {
+            li a {
+                color: $couleur4;
+                padding-top: 30px;
+                padding-bottom: 30px;
                 &:hover {
-                    background-color: transparent;
-                }
-                .icon-bar {
-                    background-color: $couleur4;
+                    background-color: $couleur1;
+                    color: $couleur3;
                 }
             }
-            .brand {
-                padding-top: 15px;
-                padding-bottom: 10px;
-            }
-            .navbar-collapse {
-                .navbar-nav {
-                    li a {
-                        color: $couleur4;
-                        padding-top: 30px;
-                        padding-bottom: 30px;
-                        &:hover {
-                            background-color: $couleur1;
-                            color: $couleur3;
-                        }
-                    }
-                    .dropdown-menu {
-                        background-color: $couleur2;
-                        border: none;
-                        li a {
-                            color: $couleur4;
-                            padding-top: 20px;
-                            padding-bottom: 20px;
-                            &:hover {
-                                background-color: $couleur1;
-                                color: $couleur3;
-                            }
-                        }
+            .dropdown-menu {
+                background-color: $couleur2;
+                border: none;
+                li a {
+                    color: $couleur4;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    &:hover {
+                        background-color: $couleur1;
+                        color: $couleur3;
                     }
                 }
             }
         }
-        
-        .navbar-default .navbar-nav > .open > a,
-        .navbar-default .navbar-nav > .open > a:focus,
-        .navbar-default .navbar-nav > .open > a:hover {
-            background-color: $couleur1;
+    }
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color: $couleur1;
+}
+
+
+/*fin nav*/
+
+.carousel-indicators {
+    text-align: right;
+}
+
+
+/*debut a propos*/
+
+.img-top {
+    margin-top: 150px;
+}
+
+#apropos {
+    color: $couleur3;
+    background-color: $couleur5;
+    text-align: justify;
+    padding: 0 0 80px 0;
+    article {
+        padding: 10px 30px;
+        .fa {
+            color: $couleur2;
+            border-left: 20px solid $couleur5;
+            border-right: 20px solid $couleur5;
         }
-        /*fin nav*/
-        
-        .carousel-indicators {
-            text-align: right;
-        }
-        /*debut a propos*/
-        
-        #apropos {
-            color: $couleur4;
-            text-align: justify;
-            padding: 0 0 80px 0;
-            article {
-                .fa {
-                    color: $couleur1;
-                    border-left: 20px solid $couleur3;
-                    border-right: 20px solid $couleur3;
-                }
-                .deco {
-                    margin-top: 30px;
-                    display: flex;
-                    hr {
-                        border-top: 2px solid $couleur4;
-                        width: 38%;
-                    }
-                }
-                h2 {
-                    text-align: center;
-                    color: $couleur1;
-                }
-                h4 {
-                    text-align: center;
-                }
+        .deco {
+            margin-top: 30px;
+            display: flex;
+            hr {
+                border-top: 2px solid $couleur3;
+                width: 38%;
             }
         }
+<<<<<<< HEAD
         /*fin a propos*/
         /*debut apprenant*/
         
@@ -162,43 +178,232 @@ article {
             margin-top: 80px;
             padding: 40px;
             color: $couleur1;
+=======
+        h2 {
+            text-align: center;
+            color: $couleur3;
         }
-        
-        .descriptionFormulaire {
-            p {
-                color: $couleur4;
-            }
+        h4 {
+            text-align: center;
+            color: $couleur2;
+>>>>>>> master
         }
-        
-        .formulaire {
-            padding: 50px;
-            .control-label {
-                color: $couleur1;
-            }
+    }
+}
+
+
+/*fin a propos*/
+
+
+/*debut formation*/
+
+#formation {
+    h2 {
+        text-align: center;
+        color: $couleur2;
+    }
+    article {
+        h3 {
+            text-align: center;
         }
-        /*fin contact*/
-        /*debut footer*/
-        
-        footer {
+    }
+}
+
+
+/*fin formation*/
+
+
+/*debut apprenant*/
+
+#apprenants {
+    background-color: $couleur5;
+    .img-circle {
+        height: 150px;
+        width: 150px;
+    }
+    article {
+        p {
+            margin-top: 20px;
+            margin-right: 50px;
+            color: $couleur3;
+            text-align: left;
+        }
+        h3 {
+            text-align: center;
+            color: $couleur3;
+            font-size: 15px;
+        }
+        .presentation {
+            margin: 20px;
+        }
+        .social {
+            text-align: center;
+        }
+        .cv {
+            margin: 25px 0;
+            text-align: center;
+        }
+        .label {
+            line-height: 2.2;
+        }
+    }
+}
+
+
+/*fin apprenant*/
+
+
+/*debut contact*/
+
+#contact {
+    margin-top: 80px;
+    padding: 40px;
+    color: white;
+}
+
+.contact {
+    background-color: $couleur5;
+}
+
+.descriptionFormulaire {
+    p {
+        color: $couleur4;
+    }
+}
+
+.formulaire {
+    padding: 50px;
+    .control-label {
+        color: $couleur2;
+    }
+}
+
+
+/*fin contact*/
+
+
+/*debut footer*/
+
+footer {
+    color: $couleur4;
+    background-color: $couleur2;
+    a {
+        color: $couleur4;
+        &:hover {
             color: $couleur4;
-            background-color: $couleur2;
-            a {
-                color: $couleur4;
-                &:hover {
-                    color: $couleur4;
-                }
-            }
         }
-        /*fin footer*/
-        
-        .bandeJaune {
-            background-color: #efdf31;
-            height: 150px;
-            width: 110%;
-            position: relative;
-            -ms-transform: rotate(150deg);
-            -webkit-transform: rotate(150deg);
-            transform: rotate(150deg);
-            top: 0px;
-            right: 55%;
-        }
+    }
+}
+
+
+/*fin footer*/
+
+h2 {
+    position: relative;
+    text-align: left;
+    width: 80%;
+    top: 200px;
+    transform: rotate(5.8deg);
+    -ms-transform: rotate(5.8deg);
+    -webkit-transform: rotate(5.8deg);
+    font-size: 63px;
+    color: $couleur2;
+    left: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.h2 {
+    position: relative;
+    text-align: right;
+    width: 98%;
+    top: 80px;
+    transform: rotate(-5.8deg);
+    -ms-transform: rotate(-5.8deg);
+    -webkit-transform: rotate(-5.8deg);
+    font-size: 80px;
+    color: $couleur2;
+    right: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.img-top2 {
+    margin-top: 0px;
+}
+
+#formulaire {
+    .has-error .form-control {
+        border-color: #EFDF31;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    }
+    h1 {
+        color: $couleur1;
+    }
+    hr {
+        border-top: 3px solid #2A4789;
+    }
+    h4 {
+        color: white;
+    }
+    h3 {
+        color: white;
+    }
+    h5 {
+        color: $couleur1;
+        font-weight: bolder;
+    }
+}
+
+.navbar-brand {
+    width: 50%;
+    position: absolute;
+}
+
+
+/**logos**/
+
+.logo {
+    height: 200px;
+    margin-top: 20px;
+}
+
+#logo1 {
+    width: 150px;
+    margin-top: 15px;
+}
+
+#logo2 {
+    width: 180px;
+    margin-top: 40px;
+}
+
+#logo3 {
+    width: 150px;
+    margin-top: 50px;
+}
+
+#logo4 {
+    width: 110px;
+    height: 140px;
+    margin-top: 30px;
+}
+
+.petitlogo {
+    height: 200px;
+    padding-top: 15px;
+}
+
+#logo5 {
+    width: 280px;
+}
+
+#logo6 {
+    background-color: $couleur2;
+    margin: 0 auto;
+    width: 350px;
+}
+
+#logo7 {
+    width: 240px;
+    margin-left: 20px;
+}

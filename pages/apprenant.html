@@ -15,9 +15,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
-
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -28,28 +26,31 @@
     <!-- debut nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header navbar-fix">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="../images/logo.png" alt="" class="img-responsive brand" height="10%" width="20%">
+                <a href="#" class="navbar-brand">
+                    <img src="../images/logo.png" alt="" class="img-responsive" height="10%" width="20%">
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../index.html">ACCUEIL</a></li>
-                    <li><a href="#" onclick="myFunction()">A PROPOS</a></li>
-                    <li><a href="#">LES APPRENANTS</a></li>
+                    <li><a href="apropos.html">A PROPOS</a></li>
+                    <li><a href="formation.html">FORMATION</a></li>
+                    <li><a href="apprenant.html">LES APPRENANTS</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="contact-PP.html">PROPOSER UN PROJET</a></li>
-                            <li><a href="contact-AA.html">ADOPTER UN APPRENANT</a></li>
-                            <li><a href="contact-FI.html">FAIRE UNE INTERVENTION</a></li>
+                            <li><a href="contact/contact-PP.html">PROPOSER UN PROJET</a></li>
+                            <li><a href="contact/contact-AA.html">ADOPTER UN APPRENANT</a></li>
+                            <li><a href="contact/contact-FI.html">ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="contact.html">CONTACTER SIMPLON REUNION</a></li>
+                            <li><a href="contact/contact.html">CANDIDATER</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -60,6 +61,7 @@
    
    <!-- Première Section -->
 
+<<<<<<< HEAD
     <section id="apprenants" class="espace-bloc"> 
         <div class="container">
             <div class="row">
@@ -201,8 +203,295 @@
  </article>
            
               
+=======
+    <!-- debut apprenants -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <h2>LES APPRENANTS</h2>
+                <img src="../images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
+    </div>
+    <section id="apprenants" class="espace-bloc">
+        <div class="container">
+            <div class="row">
+                <div class="bordure">
+                    <article class="col-md-3">
+                        <img src="../images/apprenants/mathieu.jpg" alt="" class="img-circle center-block">
+                        <h3 class="NP">Mathieu Julie</h3>
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                                <li>
+                                    <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <p class="presentation">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                            <br> Exemple , exemple , exemple , exemple.
+                        </p>
+
+                        <div class="tag">
+                            <span class="label label-default">CSS</span>
+                            <span class="label label-default">HTML</span>
+                            <span class="label label-default">Bootstrap</span>
+                            <span class="label label-default">JQuery</span>
+                            <span class="label label-default">PHP</span>
+                            <span class="label label-default">Javascript</span>
+                        </div>
+
+                        <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+                    </article>
+
+                </div>
+
+                <article class="col-md-3"><img src="../images/apprenants/elliot.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Elliot Bouvier</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+
+                </article>
+
+                <article class="col-md-3"><img src="../images/apprenants/philippe.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Philippe Devezeau</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+                </article>
+
+                <article class="col-md-3"><img src="../images/apprenants/anais.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Frederic Jouan</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+
+                </article>
+
+            </div>
+
+            <div class="row">
+
+                <article class="col-md-3 "><img src="../images/apprenants/lorenza.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Lorenza Damour</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+
+
+
+                </article>
+
+
+
+                <article class="col-md-3"><img src="../images/apprenants/guillaume.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Guillaume Vacarme</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+
+
+
+                </article>
+                <article class="col-md-3"><img src="../images/apprenants/philippe.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Philippe Devezeau</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+
+
+                </article>
+
+
+                <article class="col-md-3"><img src="../images/apprenants/anais.jpg" alt="" class="img-circle center-block">
+                    <h3 class="NP">Frederic Jouan</h3>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn btn-info btn-xs"> <i class="fa fa-twitter fa-fw"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-github fa-fw"></i> </a> </li>
+                            <li>
+                                <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <p class="presentation">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                        <br> Exemple , exemple , exemple , exemple.</p>
+
+                    <div class="tag">
+                        <span class="label label-default">CSS</span>
+                        <span class="label label-default">HTML</span>
+                        <span class="label label-default">Bootstrap</span>
+                        <span class="label label-default">JQuery</span>
+                        <span class="label label-default">PHP</span>
+                        <span class="label label-default">Javascript</span>
+                    </div>
+
+                    <div class="cv"> <a href="#" class="btn btn-default btn-md"> Cv</a></div>
+
+
+                </article>
+
+
+>>>>>>> master
+            </div>
+
+        </div>
+<<<<<<< HEAD
     </section> 
 
 
@@ -294,6 +583,10 @@
                                    <a href="#" class="btn btn-danger btn-xs" ><i class="fa fa-linkedin fa-fw"></i></a></li>
                            </ul>
                      </div>
+=======
+    </section>
+    <!-- fin apprenants -->
+>>>>>>> master
 
                     <p class="presentation">
                    

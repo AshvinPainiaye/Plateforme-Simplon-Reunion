@@ -13,11 +13,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/main.css">
-
-    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="../../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+    <style id="__web-inspector-hide-shortcut-style__" type="text/css">
+        .__web-inspector-hide-shortcut__,
+        .__web-inspector-hide-shortcut__ *,
+        .__web-inspector-hidebefore-shortcut__::before,
+        .__web-inspector-hideafter-shortcut__::after {
+            visibility: hidden !important;
+        }
+    </style>
 </head>
 
 
@@ -30,28 +36,31 @@
     <!-- debut nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header navbar-fix">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="../images/logo.png" alt="" class="img-responsive brand" height="10%" width="20%">
+                <a href="#" class="navbar-brand">
+                    <img src="../../images/logo.png" alt="" class="img-responsive" height="10%" width="20%">
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../index.html">ACCUEIL</a></li>
-                    <li><a href="#" onclick="myFunction()">A PROPOS</a></li>
-                    <li><a href="apprenant.html">LES APPRENANTS</a></li>
+                    <li><a href="../../index.html">ACCUEIL</a></li>
+                    <li><a href="../../pages/apropos.html">A PROPOS</a></li>
+                    <li><a href="../../pages/formation.html">FORMATION</a></li>
+                    <li><a href="../../pages/apprenant.html">LES APPRENANTS</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="contact-PP.html">PROPOSER UN PROJET</a></li>
                             <li><a href="contact-AA.html">ADOPTER UN APPRENANT</a></li>
-                            <li><a href="#">FAIRE UNE INTERVENTION</a></li>
+                            <li><a href="contact-FI.html">ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="contact.html">CONTACTER SIMPLON REUNION</a></li>
+                            <li><a href="contact.html">CANDIDATER</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -61,34 +70,29 @@
     <!-- fin nav -->
 
 
-    <!-- debut header -->
-    <header id="contact">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h1>FAIRE UNE INTERVENTION</h1>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <h2>ANIMER UNE MASTER-CLASS</h2>
+                <img src="../../images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
-    </header>
-    <!-- fin header -->
-
+    </div>
 
     <!-- debut description formulaire -->
-    <section class="descriptionFormulaire">
+    <section class="descriptionFormulaire fond">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fugiat placeat, suscipit, quas dolorem autem aliquam assumenda optio sequi, nulla quos tenetur. Rerum laudantium odio nobis fugiat saepe non excepturi.</p>
+                    <p style="color:black;">Vous recherchez des talents en développement web ou charge de projets numériques? Optimisez vos recrutements et valorisez votre marque employeur. Nos apprenants sont disponibles dès septembre 2016 en contrat de professionnalisation ou pour l'embauche.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- fin description formulaire -->
 
-
     <!-- debut Contact -->
-    <section class="formulaire">
+    <section class="formulaire fond">
         <div class="container">
             <div class="row">
                 <form method="post" action="php/action.php" role="form" name="formulaire" data-toggle="validator" id="myform">
@@ -144,7 +148,7 @@
 
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="form-group">
+                            <div class="form-group container">
                                 <button type="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
                             </div>
                         </div>
@@ -153,7 +157,57 @@
             </div>
         </div>
     </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <img src="../../images/Sans%20titre%20-%202.png" alt="" class="img-responsive center-block">
+            </div>
+        </div>
+    </div>
     <!-- fin Contact -->
+    <!-- contact SIMPLON-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <h2 class="h2">NOUS CONTACTER</h2>
+                <img src="../../images/Sans%20titre%20-%203.png" alt="" class="img-responsive img-top2 center-block">
+            </div>
+        </div>
+    </div>
+    <section class="contact">
+        <div class="container" style="padding-bottom: 50px;">
+            <div class="col-md-5 col-md-offset-1" style="
+    padding-top: 80px;
+">
+                <div class="row">
+                    <div class="text-center">
+                        <h3 style="padding-bottom: 20px;">SIMPLON-REUNION</h3>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="">
+                        <h4>Adresse :</h4>
+                        <h5>Espace culturel et éducatif Pierre Roselli, <br>Rue des Longains,97440 St André</h5>
+                        <h4>EMail :</h4>
+                        <h5>nludovic@simplon.co<!--5-->
+</h5>
+                        <h4>Numéro de Tél :</h4>
+                        <h5>+ 262 XXX XXX  | + 692 XXX XXX </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="row">
+                    <div class="maps col-md-12 text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.414955590089!2d55.65536505012309!3d-20.975997177031196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21787d582ee3f92b%3A0x97e959a661b3f3de!2sEspace+culturel+et+%C3%A9ducatif+Pierre+Roselli!5e0!3m2!1sfr!2sfr!4v1462862396657" width="500" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- fin contact SIMPLON-->
 
 
     <!-- debut footer -->
@@ -171,11 +225,11 @@
 
 
 
+    <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../app/public/libs/jquery/dist/validator.js"></script>
+    <script src="../../js/main.js"></script>
 
-    <script src="../app/public/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../app/public/libs/jquery/dist/validator.js"></script>
-    <script src="../js/main.js"></script>
 
 </body>
 
