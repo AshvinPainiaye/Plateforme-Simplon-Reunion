@@ -199,7 +199,7 @@ h2 {
     article {
         h3 {
             text-align: center;
-            color:$couleur2;
+            color: $couleur2;
         }
     }
 }
@@ -234,16 +234,24 @@ h2 {
         }
         .social {
             text-align: center;
+            .btn {
+                border-radius: 100px;
+                padding: 8px 8px;
+                border: none;
+            }
         }
         .portfolio {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 15px;
             .btn {
-                background-color: #f7f7f7;
-                padding: 12px;
+                background-color: $couleur1;
+                /*  padding: 12px; */
+                border-radius: 100px;
+                border: none;
                 &:hover {
-                    background-color: #777;
+                  background-color: #777; 
+                 /*    background-color: $couleur1; */
                     color: white
                 }
             }
@@ -255,6 +263,13 @@ h2 {
             background-color: white;
             padding: 10px;
         }
+        .contacter {
+            background-color: #777;
+            color: white;
+            width: 100%;
+            border-radius: 0;
+            border: none
+        }
         .fa {
             color: white;
         }
@@ -264,16 +279,8 @@ h2 {
         .twitter {
             background-color: #1da1f2;
         }
-        .slack {
-            background-color: #4B9588;
-        }
         .linkedin {
             background-color: #0177B5;
-        }
-        .btn {
-            border-radius: 100px;
-            padding: 8px 8px;
-            border: none;
         }
     }
 }
