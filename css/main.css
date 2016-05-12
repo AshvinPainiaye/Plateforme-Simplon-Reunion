@@ -7,16 +7,27 @@ body {
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif; }
 
-#myCarousel {
-  padding-top: 80px;
-  background-color: #ffffff;
-  z-index: 3; }
-
 .espace-bloc {
   padding: 80px 0; }
 
 .no-padding {
   padding: 0; }
+
+.img-top {
+  margin-top: 150px; }
+
+h2 {
+  position: relative;
+  text-align: left;
+  width: 80%;
+  top: 200px;
+  transform: rotate(5.8deg);
+  -ms-transform: rotate(5.8deg);
+  -webkit-transform: rotate(5.8deg);
+  font-size: 63px;
+  color: #2a4789;
+  left: 12px;
+  font-family: 'Oswald', sans-serif; }
 
 /*debut nav*/
 .navbar-default {
@@ -28,9 +39,9 @@ body {
       background-color: transparent; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #ffffff; }
-  .navbar-default .brand {
-    padding-top: 15px;
-    padding-bottom: 10px; }
+  .navbar-default .navbar-brand {
+    width: 50%;
+    position: absolute; }
   .navbar-default .navbar-collapse .navbar-nav li a {
     color: #ffffff;
     padding-top: 30px;
@@ -55,13 +66,46 @@ body {
   background-color: #efdf31; }
 
 /*fin nav*/
+/*debut accueil*/
+#myCarousel {
+  padding-top: 80px;
+  background-color: #ffffff;
+  z-index: 3; }
+
 .carousel-indicators {
   text-align: right; }
 
-/*debut a propos*/
-.img-top {
-  margin-top: 150px; }
+.logo {
+  padding-bottom: 50px; }
+  .logo .row {
+    padding-bottom: 80px; }
+    .logo .row #logo1 {
+      width: 150px;
+      margin-top: 30px; }
+    .logo .row #logo2 {
+      width: 180px;
+      margin-top: 30px; }
+    .logo .row #logo3 {
+      width: 150px;
+      margin-top: 30px; }
+    .logo .row #logo4 {
+      width: 110px;
+      height: 140px;
+      margin-top: 30px; }
+    .logo .row #logo5 {
+      width: 280px;
+      margin-top: 30px; }
+    .logo .row #logo6 {
+      margin: 0 auto;
+      width: 350px;
+      margin-top: 30px; }
+    .logo .row #logo7 {
+      width: 240px;
+      margin-left: 20px;
+      margin-top: 30px; }
 
+/*fin accueil*/
+/*debut a propos*/
 #apropos {
   color: #222222;
   background-color: #f7f7f7;
@@ -73,18 +117,18 @@ body {
       color: #2a4789;
       border-left: 20px solid #f7f7f7;
       border-right: 20px solid #f7f7f7; }
-    #apropos article .deco {
-      margin-top: 30px;
-      display: flex; }
-      #apropos article .deco hr {
-        border-top: 2px solid #222222;
-        width: 38%; }
+    #apropos article .intro {
+      text-align: center; }
+    #apropos article p {
+      text-align: justify;
+      line-height: 25px; }
     #apropos article h2 {
       text-align: center;
       color: #222222; }
     #apropos article h4 {
       text-align: center;
-      color: #2a4789; }
+      color: #2a4789;
+      margin: 20px 0 25px 0; }
 
 /*fin a propos*/
 /*debut formation*/
@@ -101,41 +145,74 @@ body {
   #apprenants .img-circle {
     height: 150px;
     width: 150px; }
-  #apprenants article p {
-    margin-top: 20px;
-    margin-right: 50px;
-    color: #222222;
-    text-align: left; }
-  #apprenants article h3 {
-    text-align: center;
-    color: #222222;
-    font-size: 15px; }
-  #apprenants article .presentation {
-    margin: 20px; }
-  #apprenants article .social {
-    text-align: center; }
-  #apprenants article .cv {
-    margin: 25px 0;
-    text-align: center; }
-  #apprenants article .label {
-    line-height: 2.2; }
+  #apprenants article {
+    margin-bottom: 50px; }
+    #apprenants article p {
+      margin-top: 15px;
+      color: #222222;
+      text-align: left; }
+    #apprenants article h3 {
+      text-align: center;
+      color: #222222;
+      font-size: 15px; }
+    #apprenants article .NP {
+      color: #2a4789;
+      font-weight: bold; }
+    #apprenants article .social {
+      text-align: center; }
+    #apprenants article .portfolio {
+      margin-bottom: 25px;
+      text-align: center;
+      margin-top: 10px; }
+      #apprenants article .portfolio .btn {
+        background-color: #f7f7f7;
+        padding: 12px; }
+        #apprenants article .portfolio .btn:hover {
+          background-color: #777;
+          color: white; }
+    #apprenants article .label {
+      line-height: 2.2; }
+    #apprenants article .background {
+      background-color: white;
+      padding: 10px; }
+    #apprenants article .fa {
+      color: white; }
+    #apprenants article .github {
+      background-color: #333; }
+    #apprenants article .twitter {
+      background-color: #1da1f2; }
+    #apprenants article .slack {
+      background-color: #4B9588; }
+    #apprenants article .linkedin {
+      background-color: #0177B5; }
+    #apprenants article .btn {
+      border-radius: 100px;
+      padding: 8px 8px;
+      border: none; }
 
 /*fin apprenant*/
 /*debut contact*/
+.descriptionFormulaire p {
+  color: #ffffff; }
+
+.formulaire {
+  padding: 50px 0; }
+  .formulaire .control-label {
+    color: #2a4789; }
+
 #contact {
   margin-top: 80px;
   padding: 40px;
   color: white; }
 
 .contact {
-  background-color: #f7f7f7; }
-
-.descriptionFormulaire p {
-  color: #ffffff; }
-
-.formulaire {
-  padding: 50px; }
-  .formulaire .control-label {
+  background-color: #f7f7f7;
+  padding: 50px 0; }
+  .contact h3 {
+    color: #2a4789;
+    text-align: center;
+    margin-bottom: 20px; }
+  .contact h4 {
     color: #2a4789; }
 
 /*fin contact*/
@@ -149,91 +226,22 @@ footer {
       color: #ffffff; }
 
 /*fin footer*/
-h2 {
-  position: relative;
-  text-align: left;
-  width: 80%;
-  top: 200px;
-  transform: rotate(5.8deg);
-  -ms-transform: rotate(5.8deg);
-  -webkit-transform: rotate(5.8deg);
-  font-size: 63px;
-  color: #2a4789;
-  left: 12px;
-  font-family: 'Oswald', sans-serif; }
+/* debut mediaqueries */
+@media screen and (max-width: 768px) {
+  h2 {
+    margin-top: 100px;
+    position: static;
+    text-align: center;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    width: 100%;
+    font-size: 40px;
+    color: #2a4789;
+    font-family: 'Oswald', sans-serif; }
 
-.h2 {
-  position: relative;
-  text-align: right;
-  width: 98%;
-  top: 80px;
-  transform: rotate(-5.8deg);
-  -ms-transform: rotate(-5.8deg);
-  -webkit-transform: rotate(-5.8deg);
-  font-size: 80px;
-  color: #2a4789;
-  right: 12px;
-  font-family: 'Oswald', sans-serif; }
-
-.img-top2 {
-  margin-top: 0px; }
-
-#formulaire .has-error .form-control {
-  border-color: #EFDF31;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
-#formulaire h1 {
-  color: #efdf31; }
-#formulaire hr {
-  border-top: 3px solid #2A4789; }
-#formulaire h4 {
-  color: white; }
-#formulaire h3 {
-  color: white; }
-#formulaire h5 {
-  color: #efdf31;
-  font-weight: bolder; }
-
-.navbar-brand {
-  width: 50%;
-  position: absolute; }
-
-/**logos**/
-.logo {
-  height: 200px;
-  margin-top: 20px; }
-
-#logo1 {
-  width: 150px;
-  margin-top: 15px; }
-
-#logo2 {
-  width: 180px;
-  margin-top: 40px; }
-
-#logo3 {
-  width: 150px;
-  margin-top: 50px; }
-
-#logo4 {
-  width: 110px;
-  height: 140px;
-  margin-top: 30px; }
-
-.petitlogo {
-  height: 200px;
-  padding-top: 15px; }
-
-#logo5 {
-  width: 280px; }
-
-#logo6 {
-  background-color: #2a4789;
-  margin: 0 auto;
-  width: 350px; }
-
-#logo7 {
-  width: 240px;
-  margin-left: 20px; }
+  .img-top {
+    margin-top: 30px; } }
+/* fin mediaqueries */
 
 /*# sourceMappingURL=main.css.map */
