@@ -3,6 +3,7 @@ $couleur2:#2a4789;
 $couleur3:#222222;
 $couleur4: #ffffff;
 $couleur5: #f7f7f7;
+$couleur6:#ed1450;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 .fond {
@@ -192,15 +193,47 @@ h2 {
 /*debut formation*/
 
 #formation {
-    h2 {
-        text-align: center;
-        color: $couleur2;
-    }
-    article {
-        h3 {
-            text-align: center;
-            color:$couleur2;
+    
+     #imagform{
+            padding:35px;
+         margin-top: 50px;
         }
+    article {
+  
+            h3 {
+                 text-align: center;
+                 color:$couleur2;
+                 
+                 padding-top:45px;
+                padding-bottom: 45px;
+               }
+        #citation {
+            color:grey;
+            font-size: 15px;
+            font-style:italic;
+            font-weight: bold;
+            padding-top: 20px;
+          
+        }
+        .title {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+
+        
+            .deco{
+               color:$couleur6;
+               font-weight:bold;
+               
+               }
+        
+        li {
+            list-style-type:square;
+            
+        }
+        
+       
     }
 }
 

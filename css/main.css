@@ -132,11 +132,28 @@ h2 {
 
 /*fin a propos*/
 /*debut formation*/
-#formation h2 {
-  text-align: center;
-  color: #2a4789; }
+#formation #imagform {
+  padding: 35px;
+  margin-top: 50px; }
 #formation article h3 {
-  text-align: center; }
+  text-align: center;
+  color: #2a4789;
+  padding-top: 45px;
+  padding-bottom: 45px; }
+#formation article #citation {
+  color: grey;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 20px; }
+#formation article .title {
+  font-size: 25px;
+  font-weight: bold; }
+#formation article .deco {
+  color: #ed1450;
+  font-weight: bold; }
+#formation article li {
+  list-style-type: square; }
 
 /*fin formation*/
 /*debut apprenant*/
