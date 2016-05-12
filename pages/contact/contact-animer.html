@@ -15,9 +15,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="../../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/main.css">
-
     <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
-
 </head>
 
 
@@ -38,10 +36,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand">
-                    <img src="../../images/logo.png" alt="" class="img-responsive" height="10%" width="20%">
+                    <img src="../../images/logo.png" alt="" class="img-responsive" width="140px">
                 </a>
-
-
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -49,14 +45,14 @@
                     <li><a href="../../pages/apropos.html">A PROPOS</a></li>
                     <li><a href="../../pages/formation.html">FORMATION</a></li>
                     <li><a href="../../pages/apprenant.html">LES APPRENANTS</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="contact-PP.html">PROPOSER UN PROJET</a></li>
-                            <li><a href="contact-AA.html">ADOPTER UN APPRENANT</a></li>
-                            <li><a href="contact-FI.html">ANIMER UNE MASTER-CLASS</a></li>
+                            <li><a href="contact-projet.html">SOUMETTRE UN PROJET</a></li>
+                            <li><a href="contact-apprenant.html">RECRUTER UN APPRENANT</a></li>
+                            <li class="active"><a href="contact-animer.html" style="color: #222222;">ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="contact.html">CANDIDATER</a></li>
+                            <li><a href="contact-candidater.html">CANDIDATER</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -69,7 +65,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <h2>SOUMETTRE UN PROJET</h2>
+                <h2>ANIMER UNE MASTER-CLASS</h2>
                 <img src="../../images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
@@ -80,7 +76,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p style="color:black;">Vous recherchez des talents en développement web ou charge de projets numériques? Optimisez vos recrutements et valorisez votre marque employeur. Nos apprenants sont disponibles dès septembre 2016 en contrat de professionnalisation ou pour l'embauche.</p>
+                    <p style="color:black;">Repérez les talents et favorisez le contact direct avec nos apprenants. Nous vous proposons 10 évènements par session pour les rencontrer à l’occasion des master class Simplon Réunion. Une heure de présentation à partir de 16h au sein de nos locaux à Saint André. Partagez vos expériences et faites connaître vos métiers à nos apprenants pour attirer les meilleurs profils. </p>
                 </div>
             </div>
         </div>
@@ -115,7 +111,7 @@
 
                         <div class="form-group has-feedback">
                             <label for="entreprise" class="control-label">Société / Entreprise</label>
-                            <input type="text" class="form-control" id="entreprise" placeholder="Zettor" required>
+                            <input type="text" class="form-control" id="entreprise" placeholder="Entrer le nom de votre société / entreprise" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
@@ -130,13 +126,13 @@
 
                         <div class="form-group has-feedback">
                             <label for="sujet" class="control-label">Sujet</label>
-                            <input type="text" class="form-control" id="sujet" placeholder="Entrer votre sujet" required>
+                            <input type="text" class="form-control" id="sujet" placeholder="Entrer votre sujet" maxlength="60" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
                         <div class="form-group has-feedback">
                             <label for="sujet" class="control-label">Message</label>
-                            <textarea class="form-control" rows="10" maxlength="350" placeholder="Entrer votre message" style="height:256px;" required></textarea>
+                            <textarea class="form-control" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
@@ -186,6 +182,10 @@
     <!-- fin Contact -->
 
 
+    <!-- remonter au top -->
+    <a href="body"><i class="fa fa-chevron-up"></i></a>
+
+
     <!-- debut footer -->
     <footer class="espace-bloc">
         <div class="container">
@@ -200,10 +200,12 @@
 
 
 
+
     <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
     <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../app/public/libs/jquery/dist/validator.js"></script>
     <script src="../../js/main.js"></script>
+
 
 </body>
 
