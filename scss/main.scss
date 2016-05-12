@@ -3,8 +3,16 @@ $couleur2:#2a4789;
 $couleur3:#222222;
 $couleur4: #ffffff;
 $couleur5: #f7f7f7;
+$couleur6:#ed1450;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
+@mixin transition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
 .fond {
     background-color: $couleur5;
 }
@@ -26,6 +34,16 @@ body {
     margin-top: 150px;
 }
 
+.img-top1 {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 63px;
+    color: $couleur2;
+    font-family: 'Oswald', sans-serif;
+}
+
 h2 {
     position: relative;
     text-align: left;
@@ -37,6 +55,19 @@ h2 {
     font-size: 63px;
     color: $couleur2;
     left: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.h2 {
+    position: relative;
+    text-align: right;
+    width: 95%;
+    top: 70px;
+    transform: rotate(-5.8deg);
+    -ms-transform: rotate(-5.8deg);
+    -webkit-transform: rotate(-5.8deg);
+    font-size: 63px;
+    color: $couleur2;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -56,31 +87,32 @@ h2 {
             background-color: $couleur4;
         }
     }
-    .navbar-brand {
-        width: 50%;
-        position: absolute;
-    }
     .navbar-collapse {
         .navbar-nav {
-            li a {
-                color: $couleur4;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                &:hover {
-                    background-color: $couleur1;
-                    color: $couleur3;
+            li {
+                a {
+                    color: $couleur4;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    @include transition(all 0.3s ease-in-out);
+                    &:hover {
+                        background-color: $couleur1;
+                        color: $couleur3;
+                    }
                 }
             }
             .dropdown-menu {
                 background-color: $couleur2;
                 border: none;
-                li a {
-                    color: $couleur4;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                    &:hover {
-                        background-color: $couleur1;
-                        color: $couleur3;
+                li {
+                    a {
+                        color: $couleur4;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        &:hover {
+                            background-color: $couleur1;
+                            color: $couleur3;
+                        }
                     }
                 }
             }
@@ -94,6 +126,23 @@ h2 {
     background-color: $couleur1;
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: $couleur1;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    background-color: $couleur1;
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+    max-height: 800px;
+}
+
 
 /*fin nav*/
 
@@ -104,10 +153,24 @@ h2 {
     padding-top: 80px;
     background-color: $couleur4;
     z-index: 3;
+    .carousel-indicators {
+        text-align: right;
+    }
 }
 
-.carousel-indicators {
-    text-align: right;
+.descriptionAccueil {
+    p {
+        padding: 30px 0;
+        font-size: 20px;
+        line-height: 40px;
+        .color {
+            color: $couleur6;
+        }
+        .gras {
+            font-weight: bold;
+            color: $couleur2;
+        }
+    }
 }
 
 .logo {
@@ -115,34 +178,21 @@ h2 {
     .row {
         padding-bottom: 80px;
         #logo1 {
-            width: 150px;
             margin-top: 30px;
         }
         #logo2 {
-            width: 180px;
             margin-top: 30px;
         }
         #logo3 {
-            width: 150px;
             margin-top: 30px;
         }
         #logo4 {
-            width: 110px;
-            height: 140px;
             margin-top: 30px;
         }
         #logo5 {
-            width: 280px;
-            margin-top: 30px;
-        }
-        #logo6 {
-            margin: 0 auto;
-            width: 350px;
             margin-top: 30px;
         }
         #logo7 {
-            width: 240px;
-            margin-left: 20px;
             margin-top: 30px;
         }
     }
@@ -192,14 +242,38 @@ h2 {
 /*debut formation*/
 
 #formation {
-    h2 {
-        text-align: center;
-        color: $couleur2;
+    .imagform {
+        margin-top: 50px;
     }
     article {
         h3 {
             text-align: center;
-            color:$couleur2;
+            color: $couleur2;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .citation {
+            color: #808080;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: bold;
+            padding-top: 20px;
+        }
+        .deco {
+            color: $couleur6;
+            font-weight: bold;
+        }
+        li {
+            list-style-type: square;
+        }
+    }
+    .referentiel {
+        p {
+            line-height: 30px;
+            font-size: 16px;
+            margin-bottom: 20px;
         }
     }
 }
@@ -218,6 +292,10 @@ h2 {
     }
     article {
         margin-bottom: 50px;
+        .background {
+            background-color: $couleur4;
+            padding: 10px;
+        }
         p {
             margin-top: 15px;
             color: $couleur3;
@@ -225,55 +303,56 @@ h2 {
         }
         h3 {
             text-align: center;
-            color: $couleur3;
-            font-size: 15px;
-        }
-        .NP {
             color: $couleur2;
+            font-size: 15px;
             font-weight: bold;
         }
         .social {
             text-align: center;
+            .btn {
+                border-radius: 100px;
+                padding: 8px 8px;
+                border: none;
+            }
+            .fa {
+                color: $couleur4;
+            }
+            .github {
+                background-color: #333;
+            }
+            .twitter {
+                background-color: #1da1f2;
+            }
+            .linkedin {
+                background-color: #0177B5;
+            }
         }
         .portfolio {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 15px;
             .btn {
-                background-color: #f7f7f7;
-                padding: 12px;
+                background-color: $couleur1;
+                /*  padding: 12px; */
+                border-radius: 100px;
+                border: none;
                 &:hover {
                     background-color: #777;
-                    color: white
+                    /*    background-color: $couleur1; */
+                    color: $couleur4
                 }
             }
         }
         .label {
             line-height: 2.2;
         }
-        .background {
-            background-color: white;
-            padding: 10px;
-        }
-        .fa {
-            color: white;
-        }
-        .github {
-            background-color: #333;
-        }
-        .twitter {
-            background-color: #1da1f2;
-        }
-        .slack {
-            background-color: #4B9588;
-        }
-        .linkedin {
-            background-color: #0177B5;
-        }
-        .btn {
-            border-radius: 100px;
-            padding: 8px 8px;
+        .contacter {
+            background-color: #777;
+            color: $couleur4;
+            width: 100%;
+            border-radius: 0;
             border: none;
+            height: 50px;
         }
     }
 }
@@ -295,12 +374,6 @@ h2 {
     .control-label {
         color: $couleur2;
     }
-}
-
-#contact {
-    margin-top: 80px;
-    padding: 40px;
-    color: white;
 }
 
 .contact {
@@ -337,10 +410,48 @@ footer {
 /*fin footer*/
 
 
+/*remonter au top*/
+
+.fa-chevron-up {
+    position: fixed;
+    right: 10px;
+    color: white;
+    bottom: 20px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 100px;
+    visibility: hidden;
+    z-index: 99;
+    &:hover {
+        background-color: $couleur1;
+        color: $couleur3;
+    }
+}
+
+
 /* debut mediaqueries */
 
+@media screen and (max-width: 1200px) {
+    h2,
+    {
+        top: 180px;
+    }
+    .h2 {
+        top: 50px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    h2 {
+    .navbar-brand {
+        padding: 0 15px;
+    }
+    .navbar-collapse {
+        box-shadow: none;
+        border: none;
+    }
+    h2,
+    .h2 {
         margin-top: 100px;
         position: static;
         text-align: center;
@@ -351,6 +462,9 @@ footer {
         font-size: 40px;
         color: $couleur2;
         font-family: 'Oswald', sans-serif;
+    }
+    #myCarousel {
+        padding-top: 50px;
     }
     .img-top {
         margin-top: 30px;
