@@ -140,7 +140,7 @@ h2 {
 
 /*fin a propos*/
 /*debut formation*/
-#formation #imagform {
+#formation .imagform {
   padding: 35px;
   margin-top: 50px; }
 #formation article h3 {

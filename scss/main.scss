@@ -124,12 +124,10 @@ h2 {
         color: #ed1450;
     }
     .style {
-    color: $couleur2;
-    font-size: 60px;
+        color: $couleur2;
+        font-size: 60px;
+    }
 }
-}
-
-
 
 .logo {
     padding-bottom: 50px;
@@ -208,7 +206,7 @@ h2 {
 /*debut formation*/
 
 #formation {
-    #imagform {
+    .imagform {
         padding: 35px;
         margin-top: 50px;
     }
@@ -237,6 +235,7 @@ h2 {
         li {
             list-style-type: square;
         }
+  
     }
 }
 
