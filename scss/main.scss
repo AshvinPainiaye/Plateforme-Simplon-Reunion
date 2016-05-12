@@ -107,39 +107,27 @@ h2 {
     text-align: right;
 }
 
-
-
-
-
-
-.style{
-  color:$couleur2;
-  font-size: 60px;
-
+.descriptionAccueil {
+    .gras {
+        font-weight: bold;
+        color: $couleur2;
+    }
+    .text-center {
+        padding-top: 70px;
+    }
+    .text-justify {
+        padding-top: 55px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .color {
+        color: #ed1450;
+    }
+    .style {
+    color: $couleur2;
+    font-size: 60px;
 }
-
-.gras{
-  font-weight: bold;
-  color: $couleur2;
 }
-
-.text-center{
-  padding-top: 70px;
-
-}
- .text-justify{
-   padding-top: 55px;
-   font-size: 25px;
-   line-height: 40px;
- }
-
-.color{
-  color:#ed1450;
-
-}
-
-
-
 
 
 
@@ -168,7 +156,6 @@ h2 {
             width: 280px;
             margin-top: 30px;
         }
-
         #logo7 {
             width: 240px;
             margin-left: 20px;
@@ -221,48 +208,35 @@ h2 {
 /*debut formation*/
 
 #formation {
-    
-     #imagform{
-            padding:35px;
-         margin-top: 50px;
-        }
+    #imagform {
+        padding: 35px;
+        margin-top: 50px;
+    }
     article {
-
-            h3 {
-                 text-align: center;
-                 color:$couleur2;
-                 
-                 padding-top:45px;
-                padding-bottom: 45px;
-               }
+        h3 {
+            text-align: center;
+            color: $couleur2;
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
         #citation {
-            color:grey;
+            color: grey;
             font-size: 15px;
-            font-style:italic;
+            font-style: italic;
             font-weight: bold;
             padding-top: 20px;
-          
         }
         .title {
             font-size: 25px;
             font-weight: bold;
         }
-        
-
-        
-            .deco{
-               color:$couleur6;
-               font-weight:bold;
-               
-               }
-        
-        li {
-            list-style-type:square;
-            
-
+        .deco {
+            color: $couleur6;
+            font-weight: bold;
         }
-        
-       
+        li {
+            list-style-type: square;
+        }
     }
 }
 
@@ -424,7 +398,6 @@ footer {
     .img-top {
         margin-top: 30px;
     }
-
 }
 
 

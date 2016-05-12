@@ -72,24 +72,20 @@ h2 {
 .carousel-indicators {
   text-align: right; }
 
-.style {
-  color: #2a4789;
-  font-size: 60px; }
-
-.gras {
+.descriptionAccueil .gras {
   font-weight: bold;
   color: #2a4789; }
-
-.text-center {
+.descriptionAccueil .text-center {
   padding-top: 70px; }
-
-.text-justify {
+.descriptionAccueil .text-justify {
   padding-top: 55px;
   font-size: 25px;
   line-height: 40px; }
-
-.color {
+.descriptionAccueil .color {
   color: #ed1450; }
+.descriptionAccueil .style {
+  color: #2a4789;
+  font-size: 60px; }
 
 .logo {
   padding-bottom: 50px; }
@@ -149,7 +145,6 @@ h2 {
   margin-top: 50px; }
 #formation article h3 {
   text-align: center;
-<<<<<<< HEAD
   color: #2a4789;
   padding-top: 45px;
   padding-bottom: 45px; }
@@ -167,9 +162,6 @@ h2 {
   font-weight: bold; }
 #formation article li {
   list-style-type: square; }
-=======
-  color: #2a4789; }
->>>>>>> Petula
 
 /*fin formation*/
 /*debut apprenant*/
