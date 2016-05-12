@@ -14,12 +14,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#myCarousel {
-    padding-top: 80px;
-    background-color: $couleur4;
-    z-index: 3;
-}
-
 .espace-bloc {
     padding: 80px 0;
 }
@@ -30,6 +24,20 @@ body {
 
 .img-top {
     margin-top: 150px;
+}
+
+h2 {
+    position: relative;
+    text-align: left;
+    width: 80%;
+    top: 200px;
+    transform: rotate(5.8deg);
+    -ms-transform: rotate(5.8deg);
+    -webkit-transform: rotate(5.8deg);
+    font-size: 63px;
+    color: $couleur2;
+    left: 12px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -92,57 +100,52 @@ body {
 
 /*debut accueil*/
 
+#myCarousel {
+    padding-top: 80px;
+    background-color: $couleur4;
+    z-index: 3;
+}
+
 .carousel-indicators {
     text-align: right;
 }
 
-
-/**logos**/
-
 .logo {
-    height: 200px;
-    margin-top: 20px;
-}
-
-#logo1 {
-    width: 150px;
-    margin-top: 15px;
-}
-
-#logo2 {
-    width: 180px;
-    margin-top: 40px;
-}
-
-#logo3 {
-    width: 150px;
-    margin-top: 50px;
-}
-
-#logo4 {
-    width: 110px;
-    height: 140px;
-    margin-top: 30px;
-}
-
-.petitlogo {
-    height: 200px;
-    padding-top: 15px;
-}
-
-#logo5 {
-    width: 280px;
-}
-
-#logo6 {
-    background-color: $couleur2;
-    margin: 0 auto;
-    width: 350px;
-}
-
-#logo7 {
-    width: 240px;
-    margin-left: 20px;
+    padding-bottom: 50px;
+    .row {
+        padding-bottom: 80px;
+        #logo1 {
+            width: 150px;
+            margin-top: 30px;
+        }
+        #logo2 {
+            width: 180px;
+            margin-top: 30px;
+        }
+        #logo3 {
+            width: 150px;
+            margin-top: 30px;
+        }
+        #logo4 {
+            width: 110px;
+            height: 140px;
+            margin-top: 30px;
+        }
+        #logo5 {
+            width: 280px;
+            margin-top: 30px;
+        }
+        #logo6 {
+            margin: 0 auto;
+            width: 350px;
+            margin-top: 30px;
+        }
+        #logo7 {
+            width: 240px;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+    }
 }
 
 
@@ -163,7 +166,7 @@ body {
             border-left: 20px solid $couleur5;
             border-right: 20px solid $couleur5;
         }
-        .intro{
+        .intro {
             text-align: center;
         }
         p {
@@ -235,9 +238,41 @@ body {
             margin-bottom: 25px;
             text-align: center;
             margin-top: 10px;
+            .btn {
+                background-color: #f7f7f7;
+                padding: 12px;
+                &:hover {
+                    background-color: #777;
+                    color: white
+                }
+            }
         }
         .label {
             line-height: 2.2;
+        }
+        .background {
+            background-color: white;
+            padding: 10px;
+        }
+        .fa {
+            color: white;
+        }
+        .github {
+            background-color: #333;
+        }
+        .twitter {
+            background-color: #1da1f2;
+        }
+        .slack {
+            background-color: #4B9588;
+        }
+        .linkedin {
+            background-color: #0177B5;
+        }
+        .btn {
+            border-radius: 100px;
+            padding: 8px 8px;
+            border: none;
         }
     }
 }
@@ -300,20 +335,6 @@ footer {
 
 /*fin footer*/
 
-h2 {
-    position: relative;
-    text-align: left;
-    width: 80%;
-    top: 200px;
-    transform: rotate(5.8deg);
-    -ms-transform: rotate(5.8deg);
-    -webkit-transform: rotate(5.8deg);
-    font-size: 63px;
-    color: $couleur2;
-    left: 12px;
-    font-family: 'Oswald', sans-serif;
-}
-
 
 /* debut mediaqueries */
 
@@ -326,7 +347,7 @@ h2 {
         -ms-transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
         width: 100%;
-        font-size: 63px;
+        font-size: 40px;
         color: $couleur2;
         font-family: 'Oswald', sans-serif;
     }
