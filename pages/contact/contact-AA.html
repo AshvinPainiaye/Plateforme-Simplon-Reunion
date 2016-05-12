@@ -16,8 +16,16 @@
     <link rel="stylesheet" href="../../app/public/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+    <style id="__web-inspector-hide-shortcut-style__" type="text/css">
+        .__web-inspector-hide-shortcut__,
+        .__web-inspector-hide-shortcut__ *,
+        .__web-inspector-hidebefore-shortcut__::before,
+        .__web-inspector-hideafter-shortcut__::after {
+            visibility: hidden !important;
+        }
+    </style>
 </head>
-../
+
 
 <body>
     <!--[if lt IE 8]>
@@ -36,7 +44,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand">
-                    <img src="../../images/logo.png" alt="" class="img-responsive" height="10%" width="20%">
+                    <img src="../../images/logo.png" alt="" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -48,8 +56,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="contact-PP.html">PROPOSER UN PROJET</a></li>
-                            <li><a href="contact-AA.html">ADOPTER UN APPRENANT</a></li>
+                            <li><a href="contact-PP.html">SOUMETTRE UN PROJET</a></li>
+                            <li><a href="contact-AA.html">RECRUTER UN APPRENANT</a></li>
                             <li><a href="contact-FI.html">ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="contact.html">CANDIDATER</a></li>
@@ -65,7 +73,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <h2>RECRUTER UN TALENT</h2>
+                <h2>RECRUTER UN APPRENANT</h2>
                 <img src="../../images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
@@ -126,13 +134,13 @@
 
                         <div class="form-group has-feedback">
                             <label for="sujet" class="control-label">Sujet</label>
-                            <input type="text" class="form-control" id="sujet" placeholder="Entrer votre sujet" required>
+                            <input type="text" class="form-control" id="sujet" placeholder="Entrer votre sujet" maxlength="60" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
                         <div class="form-group has-feedback">
                             <label for="sujet" class="control-label">Message</label>
-                            <textarea class="form-control" rows="10" maxlength="350" placeholder="Entrer votre message" style="height:256px;" required></textarea>
+                            <textarea class="form-control" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
@@ -201,6 +209,7 @@
     <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../app/public/libs/jquery/dist/validator.js"></script>
     <script src="../../js/main.js"></script>
+
 
 </body>
 

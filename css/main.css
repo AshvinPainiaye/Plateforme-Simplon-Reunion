@@ -39,9 +39,6 @@ h2 {
       background-color: transparent; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #ffffff; }
-  .navbar-default .navbar-brand {
-    width: 50%;
-    position: absolute; }
   .navbar-default .navbar-collapse .navbar-nav li a {
     color: #ffffff;
     padding-top: 30px;
@@ -177,35 +174,42 @@ h2 {
       font-weight: bold; }
     #apprenants article .social {
       text-align: center; }
+      #apprenants article .social .btn {
+        border-radius: 100px;
+        padding: 8px 8px;
+        border: none; }
     #apprenants article .portfolio {
-      margin-bottom: 25px;
+      margin-bottom: 15px;
       text-align: center;
-      margin-top: 10px; }
+      margin-top: 15px; }
       #apprenants article .portfolio .btn {
-        background-color: #f7f7f7;
-        padding: 12px; }
+        background-color: #efdf31;
+        /*  padding: 12px; */
+        border-radius: 100px;
+        border: none; }
         #apprenants article .portfolio .btn:hover {
           background-color: #777;
+          /*    background-color: $couleur1; */
           color: white; }
     #apprenants article .label {
       line-height: 2.2; }
     #apprenants article .background {
       background-color: white;
       padding: 10px; }
+    #apprenants article .contacter {
+      background-color: #777;
+      color: white;
+      width: 100%;
+      border-radius: 0;
+      border: none; }
     #apprenants article .fa {
       color: white; }
     #apprenants article .github {
       background-color: #333; }
     #apprenants article .twitter {
       background-color: #1da1f2; }
-    #apprenants article .slack {
-      background-color: #4B9588; }
     #apprenants article .linkedin {
       background-color: #0177B5; }
-    #apprenants article .btn {
-      border-radius: 100px;
-      padding: 8px 8px;
-      border: none; }
 
 /*fin apprenant*/
 /*debut contact*/
