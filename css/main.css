@@ -106,22 +106,18 @@ h2 {
   padding-top: 80px;
   background-color: #ffffff;
   z-index: 3; }
+  #myCarousel .carousel-indicators {
+    text-align: right; }
 
-.carousel-indicators {
-  text-align: right; }
-
-.descriptionAccueil .gras {
-  font-weight: bold;
-  color: #2a4789; }
 .descriptionAccueil p {
   padding: 30px 0;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 40px; }
-.descriptionAccueil .color {
-  color: #ed1450; }
-.descriptionAccueil .style {
-  color: #2a4789;
-  font-size: 60px; }
+  .descriptionAccueil p .color {
+    color: #ed1450; }
+  .descriptionAccueil p .gras {
+    font-weight: bold;
+    color: #2a4789; }
 
 .logo {
   padding-bottom: 50px; }
@@ -200,16 +196,17 @@ h2 {
     width: 150px; }
   #apprenants article {
     margin-bottom: 50px; }
+    #apprenants article .background {
+      background-color: #ffffff;
+      padding: 10px; }
     #apprenants article p {
       margin-top: 15px;
       color: #222222;
       text-align: left; }
     #apprenants article h3 {
       text-align: center;
-      color: #222222;
-      font-size: 15px; }
-    #apprenants article .NP {
       color: #2a4789;
+      font-size: 15px;
       font-weight: bold; }
     #apprenants article .social {
       text-align: center; }
@@ -217,6 +214,14 @@ h2 {
         border-radius: 100px;
         padding: 8px 8px;
         border: none; }
+      #apprenants article .social .fa {
+        color: #ffffff; }
+      #apprenants article .social .github {
+        background-color: #333; }
+      #apprenants article .social .twitter {
+        background-color: #1da1f2; }
+      #apprenants article .social .linkedin {
+        background-color: #0177B5; }
     #apprenants article .portfolio {
       margin-bottom: 15px;
       text-align: center;
@@ -232,9 +237,6 @@ h2 {
           color: #ffffff; }
     #apprenants article .label {
       line-height: 2.2; }
-    #apprenants article .background {
-      background-color: #ffffff;
-      padding: 10px; }
     #apprenants article .contacter {
       background-color: #777;
       color: #ffffff;
@@ -242,14 +244,6 @@ h2 {
       border-radius: 0;
       border: none;
       height: 50px; }
-    #apprenants article .fa {
-      color: #ffffff; }
-    #apprenants article .github {
-      background-color: #333; }
-    #apprenants article .twitter {
-      background-color: #1da1f2; }
-    #apprenants article .linkedin {
-      background-color: #0177B5; }
 
 /*fin apprenant*/
 /*debut contact*/
@@ -260,11 +254,6 @@ h2 {
   padding: 50px 0; }
   .formulaire .control-label {
     color: #2a4789; }
-
-#contact {
-  margin-top: 80px;
-  padding: 40px;
-  color: #ffffff; }
 
 .contact {
   background-color: #f7f7f7;

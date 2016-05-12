@@ -153,28 +153,23 @@ h2 {
     padding-top: 80px;
     background-color: $couleur4;
     z-index: 3;
-}
-
-.carousel-indicators {
-    text-align: right;
+    .carousel-indicators {
+        text-align: right;
+    }
 }
 
 .descriptionAccueil {
-    .gras {
-        font-weight: bold;
-        color: $couleur2;
-    }
     p {
         padding: 30px 0;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 40px;
-    }
-    .color {
-        color: $couleur6;
-    }
-    .style {
-        color: $couleur2;
-        font-size: 60px;
+        .color {
+            color: $couleur6;
+        }
+        .gras {
+            font-weight: bold;
+            color: $couleur2;
+        }
     }
 }
 
@@ -293,6 +288,10 @@ h2 {
     }
     article {
         margin-bottom: 50px;
+        .background {
+            background-color: $couleur4;
+            padding: 10px;
+        }
         p {
             margin-top: 15px;
             color: $couleur3;
@@ -300,11 +299,8 @@ h2 {
         }
         h3 {
             text-align: center;
-            color: $couleur3;
-            font-size: 15px;
-        }
-        .NP {
             color: $couleur2;
+            font-size: 15px;
             font-weight: bold;
         }
         .social {
@@ -313,6 +309,18 @@ h2 {
                 border-radius: 100px;
                 padding: 8px 8px;
                 border: none;
+            }
+            .fa {
+                color: $couleur4;
+            }
+            .github {
+                background-color: #333;
+            }
+            .twitter {
+                background-color: #1da1f2;
+            }
+            .linkedin {
+                background-color: #0177B5;
             }
         }
         .portfolio {
@@ -334,10 +342,6 @@ h2 {
         .label {
             line-height: 2.2;
         }
-        .background {
-            background-color: $couleur4;
-            padding: 10px;
-        }
         .contacter {
             background-color: #777;
             color: $couleur4;
@@ -345,18 +349,6 @@ h2 {
             border-radius: 0;
             border: none;
             height: 50px;
-        }
-        .fa {
-            color: $couleur4;
-        }
-        .github {
-            background-color: #333;
-        }
-        .twitter {
-            background-color: #1da1f2;
-        }
-        .linkedin {
-            background-color: #0177B5;
         }
     }
 }
@@ -378,12 +370,6 @@ h2 {
     .control-label {
         color: $couleur2;
     }
-}
-
-#contact {
-    margin-top: 80px;
-    padding: 40px;
-    color: $couleur4;
 }
 
 .contact {
