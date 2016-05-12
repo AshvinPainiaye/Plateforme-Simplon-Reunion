@@ -27,6 +27,16 @@ body {
     margin-top: 150px;
 }
 
+.img-top1 {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 63px;
+    color: $couleur2;
+    font-family: 'Oswald', sans-serif;
+}
+
 h2 {
     position: relative;
     text-align: left;
@@ -38,6 +48,19 @@ h2 {
     font-size: 63px;
     color: $couleur2;
     left: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.h2 {
+    position: relative;
+    text-align: right;
+    width: 95%;
+    top: 70px;
+    transform: rotate(-5.8deg);
+    -ms-transform: rotate(-5.8deg);
+    -webkit-transform: rotate(-5.8deg);
+    font-size: 63px;
+    color: $couleur2;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -235,7 +258,6 @@ h2 {
         li {
             list-style-type: square;
         }
-  
     }
 }
 
@@ -382,7 +404,8 @@ footer {
 /* debut mediaqueries */
 
 @media screen and (max-width: 768px) {
-    h2 {
+    h2,
+    .h2 {
         margin-top: 100px;
         position: static;
         text-align: center;
