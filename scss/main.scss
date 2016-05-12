@@ -107,6 +107,42 @@ h2 {
     text-align: right;
 }
 
+
+
+
+
+
+.style{
+  color:$couleur2;
+  font-size: 60px;
+
+}
+
+.gras{
+  font-weight: bold;
+  color: $couleur2;
+}
+
+.text-center{
+  padding-top: 70px;
+
+}
+ .text-justify{
+   padding-top: 55px;
+   font-size: 25px;
+   line-height: 40px;
+ }
+
+.color{
+  color:#ed1450;
+
+}
+
+
+
+
+
+
 .logo {
     padding-bottom: 50px;
     .row {
@@ -132,11 +168,7 @@ h2 {
             width: 280px;
             margin-top: 30px;
         }
-        #logo6 {
-            margin: 0 auto;
-            width: 350px;
-            margin-top: 30px;
-        }
+
         #logo7 {
             width: 240px;
             margin-left: 20px;
