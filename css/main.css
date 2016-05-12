@@ -122,17 +122,23 @@ strong {
   .logo .row {
     padding-bottom: 80px; }
     .logo .row #logo1 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo2 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo3 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo4 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo5 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo7 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
 
 /*fin accueil*/
 /*debut a propos*/
