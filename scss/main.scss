@@ -243,7 +243,6 @@ h2 {
 
 #formation {
     .imagform {
-        padding: 35px;
         margin-top: 50px;
     }
     article {
@@ -252,17 +251,15 @@ h2 {
             color: $couleur2;
             padding-top: 45px;
             padding-bottom: 45px;
+            font-size: 25px;
+            font-weight: bold;
         }
-        #citation {
-            color: grey;
+        .citation {
+            color: #808080;
             font-size: 15px;
             font-style: italic;
             font-weight: bold;
             padding-top: 20px;
-        }
-        .title {
-            font-size: 25px;
-            font-weight: bold;
         }
         .deco {
             color: $couleur6;
@@ -270,6 +267,13 @@ h2 {
         }
         li {
             list-style-type: square;
+        }
+    }
+    .referentiel {
+        p {
+            line-height: 30px;
+            font-size: 16px;
+            margin-bottom: 20px;
         }
     }
 }
@@ -404,6 +408,26 @@ footer {
 
 
 /*fin footer*/
+
+
+/*remonter au top*/
+
+.fa-chevron-up {
+    position: fixed;
+    right: 10px;
+    color: white;
+    bottom: 20px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 100px;
+    visibility: hidden;
+    z-index: 99;
+    &:hover {
+        background-color: $couleur1;
+        color: $couleur3;
+    }
+}
 
 
 /* debut mediaqueries */

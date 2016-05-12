@@ -165,27 +165,29 @@ h2 {
 /*fin a propos*/
 /*debut formation*/
 #formation .imagform {
-  padding: 35px;
   margin-top: 50px; }
 #formation article h3 {
   text-align: center;
   color: #2a4789;
   padding-top: 45px;
-  padding-bottom: 45px; }
-#formation article #citation {
-  color: grey;
+  padding-bottom: 45px;
+  font-size: 25px;
+  font-weight: bold; }
+#formation article .citation {
+  color: #808080;
   font-size: 15px;
   font-style: italic;
   font-weight: bold;
   padding-top: 20px; }
-#formation article .title {
-  font-size: 25px;
-  font-weight: bold; }
 #formation article .deco {
   color: #ed1450;
   font-weight: bold; }
 #formation article li {
   list-style-type: square; }
+#formation .referentiel p {
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 20px; }
 
 /*fin formation*/
 /*debut apprenant*/
@@ -276,6 +278,22 @@ footer {
       color: #ffffff; }
 
 /*fin footer*/
+/*remonter au top*/
+.fa-chevron-up {
+  position: fixed;
+  right: 10px;
+  color: white;
+  bottom: 20px;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 100px;
+  visibility: hidden;
+  z-index: 99; }
+  .fa-chevron-up:hover {
+    background-color: #efdf31;
+    color: #222222; }
+
 /* debut mediaqueries */
 @media screen and (max-width: 1200px) {
   h2 {
