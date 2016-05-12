@@ -75,6 +75,25 @@ h2 {
 .carousel-indicators {
   text-align: right; }
 
+.style {
+  color: #2a4789;
+  font-size: 60px; }
+
+.gras {
+  font-weight: bold;
+  color: #2a4789; }
+
+.text-center {
+  padding-top: 70px; }
+
+.text-justify {
+  padding-top: 55px;
+  font-size: 25px;
+  line-height: 40px; }
+
+.color {
+  color: #ed1450; }
+
 .logo {
   padding-bottom: 50px; }
   .logo .row {
@@ -94,10 +113,6 @@ h2 {
       margin-top: 30px; }
     .logo .row #logo5 {
       width: 280px;
-      margin-top: 30px; }
-    .logo .row #logo6 {
-      margin: 0 auto;
-      width: 350px;
       margin-top: 30px; }
     .logo .row #logo7 {
       width: 240px;
