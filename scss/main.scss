@@ -222,6 +222,11 @@ strong {
         .intro {
             text-align: center;
         }
+        a {
+            &:hover {
+                color: $couleur6;
+            }
+        }
         p {
             text-align: justify;
             line-height: 25px;
@@ -441,9 +446,20 @@ footer {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .navbar-brand {
+        img {
+            width: 83px;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar-brand {
         padding: 0 15px;
+        img {
+            width: 140px;
+        }
     }
     .navbar-collapse {
         box-shadow: none;

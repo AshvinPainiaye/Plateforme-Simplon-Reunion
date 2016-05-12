@@ -155,6 +155,8 @@ strong {
       border-right: 20px solid #f7f7f7; }
     #apropos article .intro {
       text-align: center; }
+    #apropos article a:hover {
+      color: #ed1450; }
     #apropos article p {
       text-align: justify;
       line-height: 25px; }
@@ -302,9 +304,14 @@ footer {
 
   .h2 {
     top: 50px; } }
+@media screen and (max-width: 900px) {
+  .navbar-brand img {
+    width: 83px; } }
 @media screen and (max-width: 768px) {
   .navbar-brand {
     padding: 0 15px; }
+    .navbar-brand img {
+      width: 140px; }
 
   .navbar-collapse {
     box-shadow: none;
