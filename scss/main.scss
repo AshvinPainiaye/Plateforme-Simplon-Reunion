@@ -5,7 +5,7 @@ $couleur4: #ffffff;
 $couleur5: #f7f7f7;
 $couleur6:#ed1450;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
 @mixin transition($transition...) {
     -moz-transition: $transition;
     -o-transition: $transition;
@@ -69,6 +69,10 @@ h2 {
     font-size: 63px;
     color: $couleur2;
     font-family: 'Oswald', sans-serif;
+}
+
+strong {
+    color: $couleur6;
 }
 
 
@@ -163,13 +167,6 @@ h2 {
         padding: 30px 0;
         font-size: 20px;
         line-height: 40px;
-        .color {
-            color: $couleur6;
-        }
-        .gras {
-            font-weight: bold;
-            color: $couleur2;
-        }
     }
 }
 
@@ -260,10 +257,6 @@ h2 {
             font-style: italic;
             font-weight: bold;
             padding-top: 20px;
-        }
-        .deco {
-            color: $couleur6;
-            font-weight: bold;
         }
         li {
             list-style-type: square;
