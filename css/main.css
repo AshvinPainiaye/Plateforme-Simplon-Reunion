@@ -312,14 +312,21 @@ footer {
   .navbar-brand img {
     width: 83px; } }
 @media screen and (max-width: 768px) {
-  .navbar-brand {
+  .navbar-default .navbar-toggle {
+    float: left; }
+  .navbar-default .navbar-brand {
     padding: 0 15px; }
-    .navbar-brand img {
+    .navbar-default .navbar-brand img {
       width: 140px; }
-
-  .navbar-collapse {
+  .navbar-default .navbar-collapse {
     box-shadow: none;
     border: none; }
+    .navbar-default .navbar-collapse .navbar-nav li a {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a {
+      padding-top: 18px;
+      padding-bottom: 18px; }
 
   h2,
   .h2 {
