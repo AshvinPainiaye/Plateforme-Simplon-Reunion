@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../../css/main.css">
 
     <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../../css/main.css" type="text/css" />
+
 </head>
 
 
@@ -50,11 +50,19 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;"><i class="fa fa-envelope"></i> CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="contact-projet.html"><i class="fa fa-suitcase"></i> SOUMETTRE UN PROJET</a></li>
+<<<<<<< HEAD:pages/contact/contact-projet.html
+                            <li class="active"><a href="contact-projet.html" style="color: #222222;"><i class="fa fa-suitcase"></i> SOUMETTRE UN PROJET</a></li>
                             <li><a href="contact-apprenant.html"><i class="fa fa-user-plus"></i> RECRUTER UN APPRENANT</a></li>
                             <li><a href="contact-animer.html"><i class="fa fa-share-alt"></i> ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
-                            <li class="active"><a href="contact-candidater.html" style="color: #222222;"><i class="fa fa-file"></i> CANDIDATER</a></li>
+                            <li><a href="contact-candidater.html"><i class="fa fa-file"></i> CANDIDATER</a></li>
+=======
+                            <li class="active"><a href="contact-projet.php" style="color: #222222;">SOUMETTRE UN PROJET</a></li>
+                            <li><a href="contact-apprenant.php">RECRUTER UN APPRENANT</a></li>
+                            <li><a href="contact-animer.php">ANIMER UNE MASTER-CLASS</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="contact-candidater.php">CANDIDATER</a></li>
+>>>>>>> Guillaume:pages/contact/contact-projet.php
                         </ul>
                     </li>
                 </ul>
@@ -67,7 +75,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <h2>CANDIDATER</h2>
+                <h2>SOUMETTRE UN PROJET</h2>
                 <img src="../../images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
@@ -78,7 +86,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia laboriosam tenetur delectus eveniet natus, dolore possimus modi optio hic iure voluptatum aliquam voluptatibus consequatur corporis debitis veritatis reiciendis dignissimos labore.</p>
+                    <p style="color:black;">En réalisant des projets pour les acteurs économiques, les apprenants mettent à l’oeuvre leurs compétences acquises en formation à votre service. Cela vous permet d’avoir un nouvel éclairage sur vos projets. Nos développeurs acrobates peuvent ainsi s'inscrire durablement dans l’écosystème réunionnais. Et cela vous permet également de créer un vivier de talents pour des recrutements futurs, ou de découvrir les talents de vos prochains contrats de professionnalisation.
+                    </p>
                 </div>
             </div>
         </div>
@@ -89,25 +98,31 @@
     <section class="formulaire fond">
         <div class="container">
             <div class="row">
-                <form method="post" action="php/action.php" role="form" name="formulaire" data-toggle="validator" id="myform">
+                <form method="post" action="" role="form" name="formulaire" data-toggle="validator" id="myform">
 
                     <div class="col-md-6">
 
                         <div class="form-group has-feedback">
                             <label for="nom" class="control-label">Nom</label>
-                            <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom" required>
+                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer votre nom" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
                         <div class="form-group has-feedback">
                             <label for="prenom" class="control-label">Prénom</label>
-                            <input type="text" class="form-control" id="prenom" placeholder="Entrer votre prénom" required>
+                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer votre prénom" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
                         <div class="form-group has-feedback">
                             <label for="email" name="email" class="control-label">Adresse Email</label>
-                            <input type="email" class="form-control" id="email" pattern="^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@example.com" required>
+                            <input type="email" class="form-control" id="email" name="email" pattern="^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@example.com" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        </div>
+
+                        <div class="form-group has-feedback">
+                            <label for="entreprise" class="control-label">Société / Entreprise</label>
+                            <input type="text" class="form-control" id="entreprise" name="entreprise" placeholder="Entrer le nom de votre société / entreprise" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
@@ -121,21 +136,28 @@
                     <div class="col-md-6">
 
                         <div class="form-group has-feedback">
-                            <label for="sujet" class="control-label">Message</label>
-                            <textarea class="form-control" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
+                            <label for="sujet" class="control-label">Sujet</label>
+                            <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Entrer votre sujet" maxlength="60" required>
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        </div>
+
+                        <div class="form-group has-feedback">
+                            <label for="message" class="control-label">Message</label>
+                            <textarea class="form-control" name="message"  rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
                     </div>
+                    <div class="row">
+                        <div class="col-sm-offset-8 col-sm-4 text-right">
+                            <div class="form-group">
+                                <button type="submit" name="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </form>
-            </div>
-            <div class="row">
-                <div class="col-xs-offset-8 col-xs-4 text-right">
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
-                    </div>
-                </div>
             </div>
 
             <div class="row contact">
@@ -195,6 +217,45 @@
     </footer>
     <!-- fin footer -->
 
+    <!-- PhP -->
+    <?php if (isset($_POST['submit']))
+{
+  $msg_ok = "Votre demande a bien été prise en compte.";
+
+  define('MAIL_DESTINATAIRE','simploners974@gmail.com');
+  define('MAIL_SUJET','Message du formulaire ');
+
+  foreach($_POST as $index => $valeur) {
+  $$index = stripslashes(trim($valeur));
+  }
+  //Préparation de l'entête du mail:
+  $mail_entete  = "MIME-Version: 1.0\r\n";
+  $mail_entete .= "From: {$_POST['nom']} "
+               ."<{$_POST['email']}>\r\n";
+  $mail_entete .= 'Reply-To: '.$_POST['email']."\r\n";
+  $mail_entete .= 'Content-Type: text/plain; charset="iso-8859-1"';
+  $mail_entete .= "\r\nContent-Transfer-Encoding: 8bit\r\n";
+  $mail_entete .= 'X-Mailer:PHP/' . phpversion()."\r\n";
+
+  $mail_corps  = "Message de : $prenom $nom\n";
+  $mail_corps .= "Entreprise : $entreprise\n";
+  $mail_corps .= "Contact : $telephone, $email\n";
+  $mail_corps .= " $sujet  \n";
+  $mail_corps .= $message;
+
+  if (mail(MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$mail_entete)) {
+    //Le mail est bien expédié
+    echo $msg_ok;
+  } else {
+    //Le mail n'a pas été expédié
+    echo "Une erreur est survenue lors de l'envoi du formulaire par email";
+  }
+
+}
+
+?>
+
+<!--Fin Php -->
 
 
 
@@ -202,7 +263,6 @@
     <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../app/public/libs/jquery/dist/validator.js"></script>
     <script src="../../js/main.js"></script>
-
 
 </body>
 
