@@ -118,7 +118,7 @@
 
                         <div class="form-group has-feedback">
                             <label for="telephone" class="control-label">Numéro de téléphone</label>
-                            <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^(0262|0692|0693)\d{6}$" placeholder="XXXX XX XX XX" required>
+                            <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^0(262|692|693|976)([-. ]?[0-9]{2}){3}$" placeholder="XXXX XX XX XX" required>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
                     </div>
@@ -139,15 +139,15 @@
                         </div>
 
                     </div>
+                    <div class="row">
+                        <div class="col-xs-offset-8 col-xs-4 text-right">
+                            <div class="form-group">
+                                <button type="submit" name="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
+                            </div>
+                        </div>
+                    </div>
 
                 </form>
-            </div>
-            <div class="row">
-                <div class="col-xs-offset-8 col-xs-4 text-right">
-                    <div class="form-group">
-                        <button type="submit" name="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
-                    </div>
-                </div>
             </div>
 
             <div class="row contact">
@@ -212,9 +212,9 @@
     <?php if (isset($_POST['submit']))
 {
   $msg_ok = "Votre demande a bien été prise en compte.";
-
+  $msg_erreur ="Une erreur est survenue lors de l'envoi du formulaire.";
   define('MAIL_DESTINATAIRE','simploners974@gmail.com');
-  define('MAIL_SUJET','Message du formulaire ');
+  define('MAIL_SUJET','Message du formulaire : Recrutement ');
 
   foreach($_POST as $index => $valeur) {
   $$index = stripslashes(trim($valeur));
@@ -236,10 +236,10 @@
 
   if (mail(MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$mail_entete)) {
     //Le mail est bien expédié
-    echo $msg_ok;
+    echo '<script>alert("'.$msg_ok.'");</script>';
   } else {
     //Le mail n'a pas été expédié
-    echo "Une erreur est survenue lors de l'envoi du formulaire par email";
+    echo '<script>alert("'.$msg_erreur.'");</script>';
   }
 
 }
