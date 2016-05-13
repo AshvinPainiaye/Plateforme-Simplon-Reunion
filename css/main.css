@@ -52,6 +52,21 @@ h2 {
 strong {
   color: #ed1450; }
 
+.social {
+  text-align: center; }
+  .social .btn {
+    border-radius: 100px;
+    padding: 8px 8px;
+    border: none; }
+  .social .fa {
+    color: #ffffff; }
+  .social .github {
+    background-color: #333; }
+  .social .twitter {
+    background-color: #1da1f2; }
+  .social .linkedin {
+    background-color: #0177B5; }
+
 /*debut nav*/
 .navbar-default {
   border: none;
@@ -156,6 +171,19 @@ strong {
       margin-top: 30px;
       max-width: 250px; }
 
+.devise {
+  background: url(../images/devise.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: 90px; }
+  .devise p {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif; }
+
 /*fin accueil*/
 /*debut a propos*/
 #apropos {
@@ -219,7 +247,27 @@ strong {
     height: 150px;
     width: 150px; }
   #apprenants article {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    /*     .social {
+        text-align: center;
+        .btn {
+            border-radius: 100px;
+            padding: 8px 8px;
+            border: none;
+        }
+        .fa {
+            color: $couleur4;
+        }
+        .github {
+            background-color: #333;
+        }
+        .twitter {
+            background-color: #1da1f2;
+        }
+        .linkedin {
+            background-color: #0177B5;
+        }
+    } */ }
     #apprenants article .background {
       background-color: #ffffff;
       padding: 10px; }
@@ -232,20 +280,6 @@ strong {
       color: #2a4789;
       font-size: 15px;
       font-weight: bold; }
-    #apprenants article .social {
-      text-align: center; }
-      #apprenants article .social .btn {
-        border-radius: 100px;
-        padding: 8px 8px;
-        border: none; }
-      #apprenants article .social .fa {
-        color: #ffffff; }
-      #apprenants article .social .github {
-        background-color: #333; }
-      #apprenants article .social .twitter {
-        background-color: #1da1f2; }
-      #apprenants article .social .linkedin {
-        background-color: #0177B5; }
     #apprenants article .portfolio {
       margin-bottom: 15px;
       text-align: center;

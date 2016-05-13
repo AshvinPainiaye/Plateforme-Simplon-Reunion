@@ -75,6 +75,27 @@ strong {
     color: $couleur6;
 }
 
+.social {
+    text-align: center;
+    .btn {
+        border-radius: 100px;
+        padding: 8px 8px;
+        border: none;
+    }
+    .fa {
+        color: $couleur4;
+    }
+    .github {
+        background-color: #333;
+    }
+    .twitter {
+        background-color: #1da1f2;
+    }
+    .linkedin {
+        background-color: #0177B5;
+    }
+}
+
 
 /*debut nav*/
 
@@ -222,6 +243,21 @@ strong {
     }
 }
 
+.devise {
+    background: url(../images/devise.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 90px;
+    p {
+        color: $couleur4;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
 
 /*fin accueil*/
 
@@ -335,7 +371,7 @@ strong {
             font-size: 15px;
             font-weight: bold;
         }
-        .social {
+        /*     .social {
             text-align: center;
             .btn {
                 border-radius: 100px;
@@ -354,7 +390,7 @@ strong {
             .linkedin {
                 background-color: #0177B5;
             }
-        }
+        } */
         .portfolio {
             margin-bottom: 15px;
             text-align: center;
