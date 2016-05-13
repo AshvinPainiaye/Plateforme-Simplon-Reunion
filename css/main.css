@@ -176,6 +176,8 @@ strong {
 /*debut formation*/
 #formation .imagform {
   margin-top: 50px; }
+#formation .imagform2 {
+  padding-top: 70px; }
 #formation article h3 {
   text-align: center;
   color: #2a4789;
@@ -191,10 +193,11 @@ strong {
   padding-top: 20px; }
 #formation article li {
   list-style-type: square; }
-#formation .referentiel p {
-  line-height: 30px;
-  font-size: 16px;
-  margin-bottom: 20px; }
+#formation .referentiel {
+  padding-top: 50px; }
+  #formation .referentiel p {
+    line-height: 30px;
+    margin-bottom: 20px; }
 
 /*fin formation*/
 /*debut apprenant*/
