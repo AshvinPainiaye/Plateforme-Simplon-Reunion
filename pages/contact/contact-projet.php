@@ -50,19 +50,11 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;"><i class="fa fa-envelope"></i> CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-<<<<<<< HEAD:pages/contact/contact-projet.html
-                            <li class="active"><a href="contact-projet.html" style="color: #222222;"><i class="fa fa-suitcase"></i> SOUMETTRE UN PROJET</a></li>
-                            <li><a href="contact-apprenant.html"><i class="fa fa-user-plus"></i> RECRUTER UN APPRENANT</a></li>
-                            <li><a href="contact-animer.html"><i class="fa fa-share-alt"></i> ANIMER UNE MASTER-CLASS</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="contact-candidater.html"><i class="fa fa-file"></i> CANDIDATER</a></li>
-=======
                             <li class="active"><a href="contact-projet.php" style="color: #222222;">SOUMETTRE UN PROJET</a></li>
                             <li><a href="contact-apprenant.php">RECRUTER UN APPRENANT</a></li>
                             <li><a href="contact-animer.php">ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="contact-candidater.php">CANDIDATER</a></li>
->>>>>>> Guillaume:pages/contact/contact-projet.php
                         </ul>
                     </li>
                 </ul>
