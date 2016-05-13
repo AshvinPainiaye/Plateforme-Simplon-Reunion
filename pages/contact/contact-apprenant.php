@@ -87,11 +87,8 @@
     <section class="formulaire fond">
         <div class="container">
             <div class="row">
-<<<<<<< HEAD:pages/contact/contact-apprenant.html
-                <form method="post" action="php/action.php" role="form" name="formulaire" data-toggle="validator" id="myform">
-=======
+
                 <form method="post" action="" role="form" name="formulaire" data-toggle="validator" id="myform">
->>>>>>> Guillaume:pages/contact/contact-apprenant.php
 
                     <div class="col-md-6">
 
@@ -135,13 +132,9 @@
                         </div>
 
                         <div class="form-group has-feedback">
-<<<<<<< HEAD:pages/contact/contact-apprenant.html
-                            <label for="sujet" class="control-label">Message</label>
-                            <textarea class="form-control" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
-=======
                             <label for="message" class="control-label">Message</label>
                             <textarea class="form-control" id="message" name="message" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
->>>>>>> Guillaume:pages/contact/contact-apprenant.php
+
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
