@@ -135,7 +135,7 @@
 
                         <div class="form-group has-feedback">
                             <label for="message" class="control-label">Message</label>
-                            <textarea class="form-control" name="message"  rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
+                            <textarea class="form-control" name="message" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
                             <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         </div>
 
@@ -247,14 +247,14 @@
 
 ?>
 
-<!--Fin Php -->
+        <!--Fin Php -->
 
 
 
-    <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../app/public/libs/jquery/dist/validator.js"></script>
-    <script src="../../js/main.js"></script>
+        <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
+        <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../../app/public/libs/jquery/dist/validator.js"></script>
+        <script src="../../js/main.js"></script>
 
 </body>
 
