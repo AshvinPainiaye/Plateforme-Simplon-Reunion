@@ -83,6 +83,49 @@
     </section>
     <!-- fin description formulaire -->
 
+    <!-- PhP -->
+    <?php if (isset($_POST['submit']))
+{
+  $msg_ok = "Votre demande a bien été prise en compte.";
+  $msg_erreur ="Une erreur est survenue lors de l'envoi du formulaire.";
+  define('MAIL_DESTINATAIRE','simploners974@gmail.com');
+  define('MAIL_SUJET','Message du formulaire : Master-Class ');
+
+  foreach($_POST as $index => $valeur) {
+  $$index = stripslashes(trim($valeur));
+  }
+  //Préparation de l'entête du mail:
+  $mail_entete  = "MIME-Version: 1.0\r\n";
+  $mail_entete .= "From: {$_POST['nom']} "
+               ."<{$_POST['email']}>\r\n";
+  $mail_entete .= 'Reply-To: '.$_POST['email']."\r\n";
+  $mail_entete .= 'Content-Type: text/plain; charset="iso-8859-1"';
+  $mail_entete .= "\r\nContent-Transfer-Encoding: 8bit\r\n";
+  $mail_entete .= 'X-Mailer:PHP/' . phpversion()."\r\n";
+
+  $mail_corps  = "Message de : $prenom $nom\n";
+  $mail_corps .= "Entreprise : $entreprise\n";
+  $mail_corps .= "Contact : $telephone, $email\n";
+  $mail_corps .= " $sujet  \n";
+  $mail_corps .= " \n";
+  $mail_corps .= $message;
+
+  if (mail(MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$mail_entete)) {
+    //Le mail est bien expédié
+    echo '<div class="alert alert-success text-center" role="alert">'.$msg_ok.'</div>';
+  } else {
+    //Le mail n'a pas été expédié
+    echo '<div class="alert alert-danger test-center" role="alert">'.$msg_erreur.'</div>';
+
+
+  }
+
+}
+
+?>
+
+<!--Fin Php -->
+
     <!-- debut Contact -->
     <section class="formulaire fond">
         <div class="container">
@@ -137,13 +180,13 @@
                         </div>
 
                     </div>
-                    <div class="row">
+
                         <div class="col-xs-offset-8 col-xs-4 text-right">
                             <div class="form-group">
                                 <button type="submit" name="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
                             </div>
                         </div>
-                    </div>
+
 
                 </form>
             </div>
@@ -206,45 +249,6 @@
     </footer>
     <!-- fin footer -->
 
-    <!-- PhP -->
-    <?php if (isset($_POST['submit']))
-{
-  $msg_ok = "Votre demande a bien été prise en compte.";
-  $msg_erreur ="Une erreur est survenue lors de l'envoi du formulaire.";
-  define('MAIL_DESTINATAIRE','simploners974@gmail.com');
-  define('MAIL_SUJET','Message du formulaire : Master-Class ');
-
-  foreach($_POST as $index => $valeur) {
-  $$index = stripslashes(trim($valeur));
-  }
-  //Préparation de l'entête du mail:
-  $mail_entete  = "MIME-Version: 1.0\r\n";
-  $mail_entete .= "From: {$_POST['nom']} "
-               ."<{$_POST['email']}>\r\n";
-  $mail_entete .= 'Reply-To: '.$_POST['email']."\r\n";
-  $mail_entete .= 'Content-Type: text/plain; charset="iso-8859-1"';
-  $mail_entete .= "\r\nContent-Transfer-Encoding: 8bit\r\n";
-  $mail_entete .= 'X-Mailer:PHP/' . phpversion()."\r\n";
-
-  $mail_corps  = "Message de : $prenom $nom\n";
-  $mail_corps .= "Entreprise : $entreprise\n";
-  $mail_corps .= "Contact : $telephone, $email\n";
-  $mail_corps .= " $sujet  \n";
-  $mail_corps .= $message;
-
-  if (mail(MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$mail_entete)) {
-    //Le mail est bien expédié
-    echo '<script>alert("'.$msg_ok.'");</script>';
-  } else {
-    //Le mail n'a pas été expédié
-    echo '<script>alert("'.$msg_erreur.'");</script>';
-  }
-
-}
-
-?>
-
-<!--Fin Php -->
 
 
 
