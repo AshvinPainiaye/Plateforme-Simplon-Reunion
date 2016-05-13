@@ -5,7 +5,7 @@ $couleur4: #ffffff;
 $couleur5: #f7f7f7;
 $couleur6:#ed1450;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
 @mixin transition($transition...) {
     -moz-transition: $transition;
     -o-transition: $transition;
@@ -69,6 +69,10 @@ h2 {
     font-size: 63px;
     color: $couleur2;
     font-family: 'Oswald', sans-serif;
+}
+
+strong {
+    color: $couleur6;
 }
 
 
@@ -143,7 +147,10 @@ h2 {
     max-height: 800px;
 }
 
-
+.dropdown-menu .divider{
+    margin:0;
+    height: 2px;
+}
 /*fin nav*/
 
 
@@ -163,13 +170,6 @@ h2 {
         padding: 30px 0;
         font-size: 20px;
         line-height: 40px;
-        .color {
-            color: $couleur6;
-        }
-        .gras {
-            font-weight: bold;
-            color: $couleur2;
-        }
     }
 }
 
@@ -179,21 +179,27 @@ h2 {
         padding-bottom: 80px;
         #logo1 {
             margin-top: 30px;
+            max-width: 250px;
         }
         #logo2 {
             margin-top: 30px;
+            max-width: 250px;
         }
         #logo3 {
             margin-top: 30px;
+            max-width: 250px;
         }
         #logo4 {
             margin-top: 30px;
+            max-width: 250px;
         }
         #logo5 {
             margin-top: 30px;
+            max-width: 250px;
         }
         #logo7 {
             margin-top: 30px;
+            max-width: 250px;
         }
     }
 }
@@ -218,6 +224,11 @@ h2 {
         }
         .intro {
             text-align: center;
+        }
+        a {
+            &:hover {
+                color: $couleur6;
+            }
         }
         p {
             text-align: justify;
@@ -260,10 +271,6 @@ h2 {
             font-style: italic;
             font-weight: bold;
             padding-top: 20px;
-        }
-        .deco {
-            color: $couleur6;
-            font-weight: bold;
         }
         li {
             list-style-type: square;
@@ -442,9 +449,20 @@ footer {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .navbar-brand {
+        img {
+            width: 83px;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar-brand {
         padding: 0 15px;
+        img {
+            width: 140px;
+        }
     }
     .navbar-collapse {
         box-shadow: none;

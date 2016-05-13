@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
 .fond {
   background-color: #f7f7f7; }
 
@@ -48,6 +48,9 @@ h2 {
   font-size: 63px;
   color: #2a4789;
   font-family: 'Oswald', sans-serif; }
+
+strong {
+  color: #ed1450; }
 
 /*debut nav*/
 .navbar-default {
@@ -100,6 +103,10 @@ h2 {
 .navbar-fixed-top .navbar-collapse {
   max-height: 800px; }
 
+.dropdown-menu .divider {
+  margin: 0;
+  height: 2px; }
+
 /*fin nav*/
 /*debut accueil*/
 #myCarousel {
@@ -113,28 +120,29 @@ h2 {
   padding: 30px 0;
   font-size: 20px;
   line-height: 40px; }
-  .descriptionAccueil p .color {
-    color: #ed1450; }
-  .descriptionAccueil p .gras {
-    font-weight: bold;
-    color: #2a4789; }
 
 .logo {
   padding-bottom: 50px; }
   .logo .row {
     padding-bottom: 80px; }
     .logo .row #logo1 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo2 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo3 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo4 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo5 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
     .logo .row #logo7 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 250px; }
 
 /*fin accueil*/
 /*debut a propos*/
@@ -151,6 +159,8 @@ h2 {
       border-right: 20px solid #f7f7f7; }
     #apropos article .intro {
       text-align: center; }
+    #apropos article a:hover {
+      color: #ed1450; }
     #apropos article p {
       text-align: justify;
       line-height: 25px; }
@@ -179,9 +189,6 @@ h2 {
   font-style: italic;
   font-weight: bold;
   padding-top: 20px; }
-#formation article .deco {
-  color: #ed1450;
-  font-weight: bold; }
 #formation article li {
   list-style-type: square; }
 #formation .referentiel p {
@@ -301,9 +308,14 @@ footer {
 
   .h2 {
     top: 50px; } }
+@media screen and (max-width: 900px) {
+  .navbar-brand img {
+    width: 83px; } }
 @media screen and (max-width: 768px) {
   .navbar-brand {
     padding: 0 15px; }
+    .navbar-brand img {
+      width: 140px; }
 
   .navbar-collapse {
     box-shadow: none;
