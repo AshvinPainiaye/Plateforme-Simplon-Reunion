@@ -118,12 +118,14 @@ strong {
 
 .descriptionAccueil h3 {
   color: #2a4789;
-  font-size: 35px; }
+  font-size: 35px;
+  margin-bottom: 40px; }
 .descriptionAccueil p {
-  padding: 30px 0;
   font-size: 17px;
-  line-height: 40px;
+  line-height: 30px;
   text-align: justify; }
+.descriptionAccueil hr {
+  margin: 50px 0; }
 
 .logo {
   padding-bottom: 50px; }
