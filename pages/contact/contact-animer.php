@@ -35,16 +35,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="../../index.html" class="navbar-brand">
+                <a href="../../index.php" class="navbar-brand">
                     <img src="../../images/logo.png" alt="" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../../index.html"><i class="fa fa-home"></i> ACCUEIL</a></li>
-                    <li><a href="../../pages/apropos.html"><i class="fa fa-book"></i> A PROPOS</a></li>
-                    <li><a href="../../pages/formation.html"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
-                    <li><a href="../../pages/apprenant.html"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
+                    <li><a href="../../index.php"><i class="fa fa-home"></i> ACCUEIL</a></li>
+                    <li><a href="../../pages/apropos.php"><i class="fa fa-book"></i> A PROPOS</a></li>
+                    <li><a href="../../pages/formation.php"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
+                    <li><a href="../../pages/apprenant.php"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;"><i class="fa fa-envelope"></i> CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -87,8 +87,8 @@
     <!-- debut Contact -->
     <section class="formulaire fond">
         <div class="container">
-          <!-- PhP -->
-          <?php if (isset($_POST['submit']))
+            <!-- PhP -->
+            <?php if (isset($_POST['submit']))
       {
         $msg_ok = "Votre demande a bien été prise en compte.";
         $msg_erreur ="Une erreur est survenue lors de l'envoi du formulaire.";
@@ -128,59 +128,59 @@
 
       ?>
 
-      <!--Fin Php -->
+                <!--Fin Php -->
 
-            <div class="row">
-                <form method="post" action="" role="form" name="formulaire" data-toggle="validator" id="myform">
+                <div class="row">
+                    <form method="post" action="" role="form" name="formulaire" data-toggle="validator" id="myform">
 
-                    <div class="col-md-6">
+                        <div class="col-md-6">
 
-                        <div class="form-group has-feedback">
-                            <label for="nom" class="control-label">Nom</label>
-                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer votre nom" required>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            <div class="form-group has-feedback">
+                                <label for="nom" class="control-label">Nom</label>
+                                <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer votre nom" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="prenom" class="control-label">Prénom</label>
+                                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer votre prénom" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="email" name="email" class="control-label">Adresse Email</label>
+                                <input type="email" class="form-control" id="email" name="email" pattern="^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@example.com" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="entreprise" class="control-label">Société / Entreprise</label>
+                                <input type="text" class="form-control" id="entreprise" name="entreprise" placeholder="Entrer le nom de votre société / entreprise" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="telephone" class="control-label">Numéro de téléphone</label>
+                                <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^0(262|692|693|976)([-. ]?[0-9]{2}){3}$" placeholder="XXXX XX XX XX" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
                         </div>
 
-                        <div class="form-group has-feedback">
-                            <label for="prenom" class="control-label">Prénom</label>
-                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer votre prénom" required>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <div class="col-md-6">
+
+                            <div class="form-group has-feedback">
+                                <label for="sujet" class="control-label">Sujet</label>
+                                <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Entrer votre sujet" maxlength="60" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="message" class="control-label">Message</label>
+                                <textarea class="form-control" name="message" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
                         </div>
-
-                        <div class="form-group has-feedback">
-                            <label for="email" name="email" class="control-label">Adresse Email</label>
-                            <input type="email" class="form-control" id="email" name="email" pattern="^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@example.com" required>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        </div>
-
-                        <div class="form-group has-feedback">
-                            <label for="entreprise" class="control-label">Société / Entreprise</label>
-                            <input type="text" class="form-control" id="entreprise" name="entreprise" placeholder="Entrer le nom de votre société / entreprise" required>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        </div>
-
-                        <div class="form-group has-feedback">
-                            <label for="telephone" class="control-label">Numéro de téléphone</label>
-                            <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^0(262|692|693|976)([-. ]?[0-9]{2}){3}$" placeholder="XXXX XX XX XX" required>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="form-group has-feedback">
-                            <label for="sujet" class="control-label">Sujet</label>
-                            <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Entrer votre sujet" maxlength="60" required>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        </div>
-
-                        <div class="form-group has-feedback">
-                            <label for="message" class="control-label">Message</label>
-                            <textarea class="form-control" name="message" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
-                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        </div>
-
-                    </div>
 
                         <div class="col-xs-offset-8 col-xs-4 text-right">
                             <div class="form-group">
@@ -189,49 +189,46 @@
                         </div>
 
 
-                </form>
-            </div>
+                    </form>
+                </div>
 
 
-            <div class="row contact">
-                <div class="col-md-4">
-                    <div>
-                        <h3>SIMPLON-REUNION</h3>
+                <div class="row contact">
+                    <div class="col-md-4">
+                        <div>
+                            <h3>SIMPLON-REUNION</h3>
 
-                        <ul class="list-unstyled text-left">
-                            <li>
-                                <h4>Adresse :</h4>
-                                <p>Espace culturel et éducatif Pierre Roselli,
-                                    <br>Rue des Longains,97440 St André</p>
-                            </li>
-                            <li>
-                                <h4>Email :</h4>
-                                <p>
-                                    nludovic@simplon.co
-                                </p>
-                            </li>
-                            <li>
-                                <h4>Numéro de Téléphone :</h4>
-                                <p></p>+ 262 XXX XXX | + 692 XXX XXX</li>
-                        </ul>
+                            <ul class="list-unstyled text-left">
+                                <li>
+                                    <h4>Adresse :</h4>
+                                    <p>Espace culturel et éducatif Pierre Roselli,
+                                        <br>Rue des Longains,97440 St André</p>
+                                </li>
+                                <li>
+                                    <h4>Email :</h4>
+                                    <p>
+                                        nludovic@simplon.co
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4>Numéro de Téléphone :</h4>
+                                    <p></p>+ 262 XXX XXX | + 692 XXX XXX</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.414955590089!2d55.65536505012309!3d-20.975997177031196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21787d582ee3f92b%3A0x97e959a661b3f3de!2sEspace+culturel+et+%C3%A9ducatif+Pierre+Roselli!5e0!3m2!1sfr!2sfr!4v1462862396657" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                 </div>
-
-                <div class="col-md-8">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.414955590089!2d55.65536505012309!3d-20.975997177031196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21787d582ee3f92b%3A0x97e959a661b3f3de!2sEspace+culturel+et+%C3%A9ducatif+Pierre+Roselli!5e0!3m2!1sfr!2sfr!4v1462862396657" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                </div>
-            </div>
 
         </div>
     </section>
     <!-- fin Contact -->
 
-
     <!-- remonter au top -->
     <a href="body"><i class="fa fa-chevron-up"></i></a>
 
-
-    <!-- debut footer -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
@@ -239,25 +236,18 @@
             </div>
         </div>
     </div>
-    <footer class="espace-bloc">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center">Copyright <a href="https://github.com/AshvinPainiaye" target="_blank">Ashvin PAINIAYE</a> | <a href="https://github.com/Sweezy974" target="_blank">Frederic BOYER</a> | <a href="https://github.com/CroOn974" target="_blank">Guillaume VACARME</a> | <a href="https://github.com/Grenouille974" target="_blank">Lola CADENA</a> | <a href="https://github.com/petula" target="_blank">Petula PUELLE</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- fin footer -->
+
+    <?php include("../../php/footer.php"); ?>
 
 
 
 
 
-    <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../app/public/libs/jquery/dist/validator.js"></script>
-    <script src="../../js/main.js"></script>
+
+        <script src="../../app/public/libs/jquery/dist/jquery.min.js"></script>
+        <script src="../../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../../app/public/libs/jquery/dist/validator.js"></script>
+        <script src="../../js/main.js"></script>
 
 
 </body>

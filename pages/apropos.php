@@ -1,4 +1,4 @@
-php<!doctype html>
+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="fr"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="fr"> <![endif]-->
@@ -33,16 +33,16 @@ php<!doctype html>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="../index.html" class="navbar-brand">
+                <a href="../index.php" class="navbar-brand">
                     <img src="../images/logo.png" alt="" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../index.html"><i class="fa fa-home"></i> ACCUEIL</a></li>
-                    <li class="active"><a href="apropos.html" style="color: #222222;"><i class="fa fa-book"></i> A PROPOS</a></li>
-                    <li><a href="formation.html"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
-                    <li><a href="apprenant.html"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
+                    <li><a href="../index.php"><i class="fa fa-home"></i> ACCUEIL</a></li>
+                    <li class="active"><a href="apropos.php" style="color: #222222;"><i class="fa fa-book"></i> A PROPOS</a></li>
+                    <li><a href="formation.php"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
+                    <li><a href="apprenant.php"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-envelope"></i> CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -74,19 +74,15 @@ php<!doctype html>
             <div class="row">
                 <article class="col-md-12 text-center">
                     <p class="intro">
-                        Créée à Montreuil (93) en avril 2013, Simplon.co est une entreprise sociale agréée solidaire labellisée  <strong>French Tech</strong>,
-                         <strong>«La France S’Engage»</strong> et <a href="http://www.economie.gouv.fr/grande-ecole-du-numerique/171-formations-labellisees" target="_blank">
-                           <strong>Grande école du numérique.</strong></a>
-                          Simplon.co agit dans le domaine de la démocratisation de l’apprentissage de la programmation informatique auprès du grand public et des enfants
-                          en coordonnant des initiatives comme la Europe Code Week et l’Africa Code Week.
-                        </p>
+                        Créée à Montreuil (93) en avril 2013, Simplon.co est une entreprise sociale agréée solidaire labellisée <strong>French Tech</strong>,
+                        <strong>«La France S’Engage»</strong> et
+                        <a href="http://www.economie.gouv.fr/grande-ecole-du-numerique/171-formations-labellisees" target="_blank">
+                            <strong>Grande école du numérique.</strong></a>
+                        Simplon.co agit dans le domaine de la démocratisation de l’apprentissage de la programmation informatique auprès du grand public et des enfants en coordonnant des initiatives comme la Europe Code Week et l’Africa Code Week.
+                    </p>
 
                     <p class="intro">
-                        Enfin, toujours dans l’optique de créer des emplois, <strong>Simplon.co</strong> propose – au travers d’un réseau d’écoles – des formations <strong>gratuites et intensives</strong> pour apprendre à <strong>créer des sites web et des applications mobiles</strong>,
-                           et en faire son métier. La formation s’adresse prioritairement aux <strong>jeunes de moins de 25 ans</strong>, non diplômés ou peu diplômés, issus des quartiers populaires et des milieux ruraux,
-                           mais également aux <strong>demandeurs d’emploi</strong>, allocataires des minima sociaux, aux seniors en reconversion ainsi qu’aux femmes et personnes en situation de handicap,
-                            populations insuffisamment représentées dans les métiers techniques du numérique particulièrement recherchés. Les formations Simplon.co sont bien sûr <strong>ouvertes à tous</strong>,
-                             pourvu que la <strong>motivation</strong> soit au rendez-vous !
+                        Enfin, toujours dans l’optique de créer des emplois, <strong>Simplon.co</strong> propose – au travers d’un réseau d’écoles – des formations <strong>gratuites et intensives</strong> pour apprendre à <strong>créer des sites web et des applications mobiles</strong>, et en faire son métier. La formation s’adresse prioritairement aux <strong>jeunes de moins de 25 ans</strong>, non diplômés ou peu diplômés, issus des quartiers populaires et des milieux ruraux, mais également aux <strong>demandeurs d’emploi</strong>, allocataires des minima sociaux, aux seniors en reconversion ainsi qu’aux femmes et personnes en situation de handicap, populations insuffisamment représentées dans les métiers techniques du numérique particulièrement recherchés. Les formations Simplon.co sont bien sûr <strong>ouvertes à tous</strong>, pourvu que la <strong>motivation</strong> soit au rendez-vous !
                     </p>
                 </article>
             </div>
@@ -123,12 +119,9 @@ php<!doctype html>
     </section>
     <!-- fin a propos -->
 
-
     <!-- remonter au top -->
     <a href="body"><i class="fa fa-chevron-up"></i></a>
 
-
-    <!-- debut footer -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
@@ -136,22 +129,15 @@ php<!doctype html>
             </div>
         </div>
     </div>
-    <footer class="espace-bloc">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center">Copyright <a href="https://github.com/AshvinPainiaye" target="_blank">Ashvin PAINIAYE</a> | <a href="https://github.com/Sweezy974" target="_blank">Frederic BOYER</a> | <a href="https://github.com/CroOn974" target="_blank">Guillaume VACARME</a> | <a href="https://github.com/Grenouille974" target="_blank">Lola CADENA</a> | <a href="https://github.com/petula" target="_blank">Petula PUELLE</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- fin footer -->
+
+    <?php include("../php/footer.php"); ?>
 
 
 
-    <script src="../app/public/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+
+        <script src="../app/public/libs/jquery/dist/jquery.min.js"></script>
+        <script src="../app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
 
 </body>
 
