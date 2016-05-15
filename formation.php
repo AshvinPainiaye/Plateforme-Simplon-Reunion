@@ -94,9 +94,9 @@
 
                     <ul>
                         <li><strong>20%</strong> de théorie <strong>80%</strong> de pratique</li>
-                        <li>Pédagogie par projets (“learning by doing”)</li>
-                        <li>Mise en situation de présentation, d’assistance et d’enseignement (“learning by teaching”)</li>
-                        <li><strong>Pédagogie active</strong> (“learning by «débrouillez vous»”)</li>
+                        <li>Pédagogie par projets (<em>“learning by doing”</em>)</li>
+                        <li>Mise en situation de présentation, d’assistance et d’enseignement (<em>“learning by teaching”</em>)</li>
+                        <li><strong>Pédagogie active</strong> (<em>“learning by «débrouillez vous»”</em>)</li>
                         <li>Mise en oeuvre des <strong>méthodes agiles</strong> dans la mise en oeuvre des projets et l’organisation en équipe</li>
                         <li>Responsabilisation, d’acculturation à une posture d’autonomie et de proactivité</li>
                     </ul>
@@ -110,13 +110,13 @@
                 </article>
 
                 <div class="col-md-6">
-                    <img src="images/formation/formation.jpg" alt="" class="img-responsive pull-left imagform">
+                    <img src="images/formation/formation.jpg" alt="" class="img-responsive pull-left">
                 </div>
             </div>
 
             <div class="row espace-bloc">
                 <div class="col-md-6">
-                    <img src="images/formation/imageformation.jpg" alt="" class="img-responsive pull-left imagform2">
+                    <img src="images/formation/imageformation.jpg" alt="" class="img-responsive pull-left">
                 </div>
                 <article class="col-md-6 referentiel">
                     <h3>RÉFÉRENTIELS DE FORMATION</h3>

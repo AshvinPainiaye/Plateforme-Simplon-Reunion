@@ -305,18 +305,15 @@ strong {
 /*debut formation*/
 
 #formation {
-    .imagform {
-        margin-top: 50px;
-    }
-    .imagform2 {
-        padding-top: 60px;
+    img {
+        padding-top: 50px;
     }
     article {
         h3 {
             text-align: center;
             color: $couleur2;
-            padding-top: 45px;
-            padding-bottom: 45px;
+            padding-top: 30px;
+            padding-bottom: 40px;
             font-size: 25px;
             font-weight: bold;
         }
@@ -329,10 +326,10 @@ strong {
         }
         li {
             list-style-type: square;
+            margin: 8px auto;
         }
     }
     .referentiel {
-        /*   padding-top: 50px; */
         p {
             line-height: 30px;
             margin-bottom: 20px;
@@ -473,6 +470,7 @@ footer {
     border-radius: 100px;
     visibility: hidden;
     z-index: 99;
+    @include transition(all 0.2s ease-in-out);
     &:hover {
         background-color: $couleur1;
         color: $couleur3;

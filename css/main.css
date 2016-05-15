@@ -220,15 +220,13 @@ strong {
 
 /*fin a propos*/
 /*debut formation*/
-#formation .imagform {
-  margin-top: 50px; }
-#formation .imagform2 {
-  padding-top: 60px; }
+#formation img {
+  padding-top: 50px; }
 #formation article h3 {
   text-align: center;
   color: #2a4789;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   font-size: 25px;
   font-weight: bold; }
 #formation article .citation {
@@ -238,12 +236,11 @@ strong {
   font-weight: bold;
   padding-top: 20px; }
 #formation article li {
-  list-style-type: square; }
-#formation .referentiel {
-  /*   padding-top: 50px; */ }
-  #formation .referentiel p {
-    line-height: 30px;
-    margin-bottom: 20px; }
+  list-style-type: square;
+  margin: 8px auto; }
+#formation .referentiel p {
+  line-height: 30px;
+  margin-bottom: 20px; }
 
 /*fin formation*/
 /*debut apprenant*/
@@ -341,7 +338,11 @@ footer {
   padding: 10px;
   border-radius: 100px;
   visibility: hidden;
-  z-index: 99; }
+  z-index: 99;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   .fa-chevron-up:hover {
     background-color: #efdf31;
     color: #222222; }
