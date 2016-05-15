@@ -590,6 +590,48 @@
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+                <article class="col-md-3">
+                    <div class="background">
+                        <img src="images/apprenants/lorenza.jpg" alt="" class="img-circle center-block">
+                        <h3 class="NP">Ludovic DIEUDONNE</h3>
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
+                            <br> Exemple , exemple , exemple , exemple.
+                        </p>
+
+                        <div class="tag">
+                            <span class="label label-default">CSS</span>
+                            <span class="label label-default">HTML</span>
+                            <span class="label label-default">Bootstrap</span>
+                            <span class="label label-default">JQuery</span>
+                            <span class="label label-default">PHP</span>
+                            <span class="label label-default">Javascript</span>
+                        </div>
+
+                        <ul class="list-inline portfolio">
+                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                        </ul>
+
+
+                    </div>
+                    <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
+                </article>
 
                 <article class="col-md-3">
                     <div class="background">
