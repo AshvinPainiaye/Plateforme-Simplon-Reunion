@@ -196,7 +196,7 @@ strong {
 #formation .imagform {
   margin-top: 50px; }
 #formation .imagform2 {
-  padding-top: 70px; }
+  padding-top: 60px; }
 #formation article h3 {
   text-align: center;
   color: #2a4789;
@@ -213,7 +213,7 @@ strong {
 #formation article li {
   list-style-type: square; }
 #formation .referentiel {
-  padding-top: 50px; }
+  /*   padding-top: 50px; */ }
   #formation .referentiel p {
     line-height: 30px;
     margin-bottom: 20px; }

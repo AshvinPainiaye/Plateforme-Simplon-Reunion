@@ -70,10 +70,10 @@
         </div>
     </div>
 
-    <section id="formation" class="espace-bloc fond">
+    <section id="formation" class="fond">
         <div class="container">
             <div class="row">
-                <article class="col-md-12">
+                <article class="col-md-12 espace-bloc">
                     <p>
                         Révéler les <strong>talents</strong> à travers l’innovation numérique, pédagogique et sociale:
                     </p>
@@ -114,21 +114,17 @@
                 </div>
             </div>
 
-            <div class="row">
-                <article class="col-md-12 referentiel" style="
-    padding-top: 50;
-">
-
-                    <img src="images/formation/imageformation.jpg" alt="" class="col-md-6 img-responsive pull-left imagform2">
-
-                    <div class="col-md-6">
-                        <h3>RÉFÉRENTIELS DE FORMATION</h3>
-                        <p>
-                            Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong>
-                            <br/> Référent numérique Formation à la gestion de projet numérique via les méthodes agiles. Administration systèmes et réseaux, webmastering, web marketing et communication digitale, support utilisateur, outils de productivité, BDD et GED. <strong>Formation qualifiante / 3 mois</strong>
-                            <br/> Autres référentiels en cours de création : FTTH/fibre, cybersécurité, 3D (Dassault Systèmes : Catia et Solidworks), Analytics et prédictif (IBM Watson), technico commercial IT
-                        </p>
-                    </div>
+            <div class="row espace-bloc">
+                <div class="col-md-6">
+                    <img src="images/formation/imageformation.jpg" alt="" class="img-responsive pull-left imagform2">
+                </div>
+                <article class="col-md-6 referentiel">
+                    <h3>RÉFÉRENTIELS DE FORMATION</h3>
+                    <p>
+                        Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong>
+                        <br/> Référent numérique Formation à la gestion de projet numérique via les méthodes agiles. Administration systèmes et réseaux, webmastering, web marketing et communication digitale, support utilisateur, outils de productivité, BDD et GED. <strong>Formation qualifiante / 3 mois</strong>
+                        <br/> Autres référentiels en cours de création : FTTH/fibre, cybersécurité, 3D (Dassault Systèmes : Catia et Solidworks), Analytics et prédictif (IBM Watson), technico commercial IT
+                    </p>
                 </article>
             </div>
         </div>
