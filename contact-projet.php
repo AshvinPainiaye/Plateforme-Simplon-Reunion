@@ -13,6 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="app/public/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -68,7 +69,7 @@
         <div class="row">
             <div class="col-md-12 no-padding">
                 <h2>SOUMETTRE UN PROJET</h2>
-                <img src="images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top center-block">
+                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top center-block">
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 no-padding">
-            <img src="images/Sans-titre-6.png" alt="" class="img-responsive center-block">
+            <img src="images/bande/bande4.png" alt="" class="img-responsive center-block">
         </div>
     </div>
 </div>

@@ -13,6 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="app/public/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -95,7 +96,6 @@
                 <img src="images/carousel/5.jpg" alt="" class="img-responsive">
             </div>
         </div>
-
     </div>
     <!-- fin carousel -->
 
@@ -109,7 +109,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <img src="images/Sans%20titre%20-%201.png" alt="" class="img-responsive img-top1 center-block">
+                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top1 center-block">
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
                     <h3><i class="fa fa-thumbs-up"></i> L'EQUIPE</h3>
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="images/farid.jpg" alt="" class="img-responsive center-block">
+                            <img src="images/lequipe/farid.jpg" alt="" class="img-responsive center-block">
                             <h4>Farid HUMBLOT</h4>
                             <h5>Directeur Simplon Réunion</h5>
                             <div class="social">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img src="images/nicolas.jpg" alt="" class="img-responsive center-block">
+                            <img src="images/lequipe/nicolas.jpg" alt="" class="img-responsive center-block">
                             <h4>Nicolas LUDOVIC</h4>
                             <h5>Lead Formateur</h5>
                             <div class="social">
@@ -185,7 +185,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <img src="images/Sans%20titre%20-%202.png" alt="" class="img-responsive center-block">
+                <img src="images/bande/bande2.png" alt="" class="img-responsive center-block">
             </div>
         </div>
     </div>
@@ -240,7 +240,7 @@
         <div class="row">
             <div class="col-md-12 no-padding">
                 <h2 class="h2">NOS PARTENAIRES</h2>
-                <img src="images/Sans%20titre%20-%203.png" alt="" class="img-responsive center-block">
+                <img src="images/bande/bande3.png" alt="" class="img-responsive center-block">
             </div>
         </div>
     </div>
@@ -249,34 +249,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo4" src="images/partenaire/GEN.jpg" alt="logo GEN" />
+                    <img class="img-responsive center-block" src="images/partenaire/GEN.png" alt="logo GEN" />
                 </div>
 
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo5" src="images/partenaire/france sengage.png" alt="france sengage" />
+                    <img class="img-responsive center-block" src="images/partenaire/france-sengage.png" alt="france sengage" />
                 </div>
 
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo3" src="images/partenaire/ue.png" alt="logo eu" />
+                    <img class="img-responsive center-block" src="images/partenaire/ue.png" alt="logo eu" />
                 </div>
 
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo8" src="images/partenaire/Logo-opcalia.jpg" alt="logo eu" />
+                    <img class="img-responsive center-block" src="images/partenaire/Logo-opcalia.png" alt="logo eu" />
                 </div>
 
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo9" src="images/partenaire/logo-region-reunion.jpg" alt="logo engage " />
+                    <img class="img-responsive center-block" src="images/partenaire/logo-region-reunion.png" alt="logo engage " />
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo1" src="images/partenaire/engage.png" alt="logo engage" />
-                </div>
-
-                <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo2" src="images/partenaire/eu sengage.png" alt="logo eu sengage" />
+                    <img class="img-responsive center-block" src="images/partenaire/engage.png" alt="logo engage" />
                 </div>
 
                 <div class="col-md-3 col-xs-6">
-                    <img class="img-responsive center-block" id="logo7" src="images/partenaire/marianne.png" alt="marianne" />
+                    <img class="img-responsive center-block" src="images/partenaire/eu sengage.png" alt="logo eu sengage" />
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <img class="img-responsive center-block" src="images/partenaire/marianne.png" alt="marianne" />
                 </div>
             </div>
         </div>

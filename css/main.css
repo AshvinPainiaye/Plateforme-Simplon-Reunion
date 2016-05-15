@@ -148,22 +148,8 @@ strong {
   padding-bottom: 50px; }
   .logo .row {
     padding-bottom: 80px; }
-    .logo .row #logo1 {
-      margin-top: 30px; }
-    .logo .row #logo2 {
-      margin-top: 30px; }
-    .logo .row #logo3 {
-      margin-top: 30px; }
-    .logo .row #logo4 {
-      margin-top: 30px; }
-    .logo .row #logo5 {
-      margin-top: 30px; }
-    .logo .row #logo7 {
-      margin-top: 30px; }
-    .logo .row #logo8 {
-      margin-top: 50px; }
-    .logo .row #logo9 {
-      margin-top: 30px; }
+    .logo .row img {
+      margin-top: 80px; }
 
 .devise {
   background: url(../images/devise.jpg) no-repeat;
