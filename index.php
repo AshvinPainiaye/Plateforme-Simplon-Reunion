@@ -34,24 +34,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <img src="images/logo.png" alt="" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#" style="color: #222222;"><i class="fa fa-home"></i> ACCUEIL</a></li>
-                    <li><a href="pages/apropos.php"><i class="fa fa-book"></i> A PROPOS</a></li>
-                    <li><a href="pages/formation.php"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
-                    <li><a href="pages/apprenant.php"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
+                    <li class="active"><a href="index.php" style="color: #222222;"><i class="fa fa-home"></i> ACCUEIL</a></li>
+                    <li><a href="apropos.php"><i class="fa fa-book"></i> A PROPOS</a></li>
+                    <li><a href="formation.php"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
+                    <li><a href="apprenant.php"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-envelope"></i> CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="pages/contact/contact-projet.php">SOUMETTRE UN PROJET</a></li>
-                            <li><a href="pages/contact/contact-apprenant.php">RECRUTER UN APPRENANT</a></li>
-                            <li><a href="pages/contact/contact-animer.php">ANIMER UNE MASTER-CLASS</a></li>
+                            <li><a href="contact-projet.php"><i class="fa fa-suitcase"></i> SOUMETTRE UN PROJET</a></li>
+                            <li><a href="contact-apprenant.php"><i class="fa fa-user-plus"></i> RECRUTER UN APPRENANT</a></li>
+                            <li><a href="contact-animer.php"><i class="fa fa-share-alt"></i> ANIMER UNE MASTER-CLASS</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="pages/contact/contact-candidater.php">CANDIDATER</a></li>
+                            <li><a href="contact-candidater.php"><i class="fa fa-file"></i> CANDIDATER</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -287,16 +287,6 @@
     </section>
     <!-- fin partenaires-->
 
-    <!-- remonter au top -->
-    <a href="body"><i class="fa fa-chevron-up"></i></a>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 no-padding">
-                <img src="images/Sans-titre-6.png" alt="" class="img-responsive center-block">
-            </div>
-        </div>
-    </div>
 
     <?php include("php/footer.php"); ?>
 
