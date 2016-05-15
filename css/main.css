@@ -57,7 +57,9 @@ strong {
   .social .btn {
     border-radius: 100px;
     padding: 8px 8px;
-    border: none; }
+    border: none;
+    height: 36px;
+    width: 36px; }
   .social .fa {
     color: #ffffff; }
   .social .github {
@@ -247,27 +249,7 @@ strong {
     height: 150px;
     width: 150px; }
   #apprenants article {
-    margin-bottom: 50px;
-    /*     .social {
-        text-align: center;
-        .btn {
-            border-radius: 100px;
-            padding: 8px 8px;
-            border: none;
-        }
-        .fa {
-            color: $couleur4;
-        }
-        .github {
-            background-color: #333;
-        }
-        .twitter {
-            background-color: #1da1f2;
-        }
-        .linkedin {
-            background-color: #0177B5;
-        }
-    } */ }
+    margin-bottom: 50px; }
     #apprenants article .background {
       background-color: #ffffff;
       padding: 10px; }
@@ -288,7 +270,11 @@ strong {
         background-color: #efdf31;
         /*  padding: 12px; */
         border-radius: 100px;
-        border: none; }
+        border: none;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
         #apprenants article .portfolio .btn:hover {
           background-color: #777;
           /*    background-color: $couleur1; */
@@ -301,7 +287,8 @@ strong {
       width: 100%;
       border-radius: 0;
       border: none;
-      height: 50px; }
+      padding-top: 20px;
+      padding-bottom: 20px; }
 
 /*fin apprenant*/
 /*debut contact*/
@@ -319,9 +306,13 @@ strong {
   .contact h3 {
     color: #2a4789;
     text-align: center;
+    margin-bottom: 30px; }
+  .contact li {
     margin-bottom: 20px; }
-  .contact h4 {
-    color: #2a4789; }
+  .contact .fa {
+    color: #2a4789;
+    font-size: 20px;
+    margin-right: 10px; }
 
 /*fin contact*/
 /*debut footer*/

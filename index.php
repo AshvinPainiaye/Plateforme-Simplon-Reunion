@@ -138,7 +138,7 @@
 
                     <h3><i class="fa fa-thumbs-up"></i> L'EQUIPE</h3>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <img src="images/farid.jpg" alt="" class="img-responsive center-block">
                             <h4>Farid HUMBLOT</h4>
                             <h5>Directeur Simplon Réunion</h5>
@@ -157,7 +157,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <img src="images/nicolas.jpg" alt="" class="img-responsive center-block">
                             <h4>Nicolas LUDOVIC</h4>
                             <h5>Lead Formateur</h5>
