@@ -201,7 +201,7 @@
     </section>
 
     <!-- debut widget twitter et facebook -->
-    <section>
+    <section style="margin-bottom:90px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center">
