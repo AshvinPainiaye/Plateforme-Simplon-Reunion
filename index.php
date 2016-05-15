@@ -121,7 +121,7 @@
                 <div class="col-md-offset-1 col-md-10 text-center">
                     <h3><i class="fa fa-book"></i> A PROPOS</h3>
                     <p><strong>Simplon Réunion</strong> est présente sur l'ile depuis le début de l'année 2016 et fait partie du plus grand réseau de fabriques labellisées <strong>"Grande école du numérique"</strong>.
-                        <br /> Les formations proposées sont <strong>gratuites et intensives</strong>. Notre but : Former nos apprenants à <strong>la création de sites web, d'applications mobiles</strong> et en faire des professionnels. Nos apprenants sont pour l 'essentiel issus de milieux très peu présents dans les métiers techniques du numérique: personnes jeunes peu ou pas diplômées, demandeurs d 'emploi, allocataires de minima sociaux, séniors en reconversion, femmes et personnes porteuses de handicap.
+                        <br /> Les formations proposées sont <strong>gratuites et intensives</strong>. Notre but : Former nos apprenants à <strong>la création de sites web, d'applications mobiles</strong> et en faire des professionnels. Nos apprenants sont pour l'essentiel issus de milieux très peu présents dans les métiers techniques du numérique: personnes jeunes peu ou pas diplômées, demandeurs d 'emploi, allocataires de minima sociaux, séniors en reconversion, femmes et personnes porteuses de handicap.
                         <br/><strong>Notre école est ouverte à tous. Seule votre motivation nous importe !</strong>
                     </p>
                     <a class="btn btn-default" href="apropos.php" role="button">EN SAVOIR PLUS <i class="fa fa-plus-circle"></i></a>
