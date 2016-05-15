@@ -62,7 +62,6 @@
     <!-- fin nav -->
 
 
-
     <!-- debut carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -99,6 +98,7 @@
     </div>
     <!-- fin carousel -->
 
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -106,6 +106,7 @@
         </div>
     </div>
 
+    <!--description simplon reunion-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
@@ -113,8 +114,6 @@
             </div>
         </div>
     </div>
-
-    <!--description simplon reunion-->
     <section class="fond">
         <div class="container descriptionAccueil">
             <div class="row">
@@ -200,6 +199,7 @@
         </div>
     </section>
 
+    <!-- debut widget twitter et facebook -->
     <section>
         <div class="container">
             <div class="row">
@@ -231,11 +231,10 @@
             </div>
         </div>
     </section>
+    <!-- fin widget twitter et facebook -->
 
 
-
-
-    <!--début partenaires-->
+    <!--debut partenaires-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
