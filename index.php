@@ -248,38 +248,34 @@
     <section class="logo fond">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <img class="img-responsive center-block" id="logo4" src="images/partenaire/GEN.jpg" alt="logo GEN" />
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <img class="img-responsive center-block" id="logo5" src="images/partenaire/france sengage.png" alt="france sengage" />
                 </div>
 
-                <div class="col-md-3">
-                    <img class="img-responsive center-block" id="logo3" src="images/partenaire/ue.png" alt="logo eu " />
+                <div class="col-md-3 col-xs-6">
+                    <img class="img-responsive center-block" id="logo3" src="images/partenaire/ue.png" alt="logo eu" />
                 </div>
 
-                <div class="col-md-3">
-                    <img class="img-responsive center-block" id="logo8" src="images/partenaire/Logo-opcalia.jpg" alt="logo eu " />
+                <div class="col-md-3 col-xs-6">
+                    <img class="img-responsive center-block" id="logo8" src="images/partenaire/Logo-opcalia.jpg" alt="logo eu" />
                 </div>
 
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <img class="img-responsive center-block" id="logo9" src="images/partenaire/logo-region-reunion.jpg" alt="logo engage" />
+                <div class="col-md-3 col-xs-6">
+                    <img class="img-responsive center-block" id="logo9" src="images/partenaire/logo-region-reunion.jpg" alt="logo engage " />
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <img class="img-responsive center-block" id="logo1" src="images/partenaire/engage.png" alt="logo engage" />
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <img class="img-responsive center-block" id="logo2" src="images/partenaire/eu sengage.png" alt="logo eu sengage" />
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <img class="img-responsive center-block" id="logo7" src="images/partenaire/marianne.png" alt="marianne" />
                 </div>
             </div>
@@ -304,7 +300,7 @@
 
         <script src="app/public/libs/jquery/dist/jquery.min.js"></script>
         <script src="app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js "></script>
 
 </body>
 

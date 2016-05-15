@@ -150,7 +150,7 @@
                         </div>
 
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
+                            <li><a href="http://ashvinpainiaye.github.io" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
 
