@@ -140,7 +140,7 @@
                         <div class="col-sm-6">
                             <img src="images/lequipe/farid.jpg" alt="" class="img-responsive center-block">
                             <h4>Farid HUMBLOT</h4>
-                            <h5>Directeur Simplon Réunion</h5>
+                            <h5>Directeur</h5>
                             <div class="social">
                                 <ul class="list-inline">
                                     <li>

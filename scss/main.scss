@@ -131,6 +131,10 @@ strong {
             .dropdown-menu {
                 background-color: $couleur2;
                 border: none;
+                    .divider {
+             margin: 0;
+             height: 2px;
+         }
                 li {
                     a {
                         color: $couleur4;
@@ -168,11 +172,6 @@ strong {
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
     max-height: 800px;
-}
-
-.dropdown-menu .divider {
-    margin: 0;
-    height: 2px;
 }
 
 

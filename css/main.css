@@ -93,6 +93,9 @@ strong {
   .navbar-default .navbar-collapse .navbar-nav .dropdown-menu {
     background-color: #2a4789;
     border: none; }
+    .navbar-default .navbar-collapse .navbar-nav .dropdown-menu .divider {
+      margin: 0;
+      height: 2px; }
     .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a {
       color: #ffffff;
       padding-top: 20px;
@@ -119,10 +122,6 @@ strong {
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
   max-height: 800px; }
-
-.dropdown-menu .divider {
-  margin: 0;
-  height: 2px; }
 
 /*fin nav*/
 /*debut accueil*/
