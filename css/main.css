@@ -295,7 +295,8 @@ strong {
 /*debut footer*/
 footer {
   color: #ffffff;
-  background-color: #2a4789; }
+  background-color: #2a4789;
+  padding: 50px 0; }
   footer a {
     color: #ffffff; }
     footer a:hover {
@@ -334,7 +335,8 @@ footer {
   .navbar-default .navbar-brand {
     padding: 0 15px; }
     .navbar-default .navbar-brand img {
-      width: 140px; }
+      width: 100px;
+      margin-top: 5px; }
   .navbar-default .navbar-collapse {
     box-shadow: none;
     border: none; }

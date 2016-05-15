@@ -131,10 +131,10 @@ strong {
             .dropdown-menu {
                 background-color: $couleur2;
                 border: none;
-                    .divider {
-             margin: 0;
-             height: 2px;
-         }
+                .divider {
+                    margin: 0;
+                    height: 2px;
+                }
                 li {
                     a {
                         color: $couleur4;
@@ -421,6 +421,7 @@ strong {
 footer {
     color: $couleur4;
     background-color: $couleur2;
+    padding: 50px 0;
     a {
         color: $couleur4;
         &:hover {
@@ -481,7 +482,8 @@ footer {
         .navbar-brand {
             padding: 0 15px;
             img {
-                width: 140px;
+                width: 100px;
+                margin-top: 5px;
             }
         }
         .navbar-collapse {

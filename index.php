@@ -25,6 +25,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+
     <!-- debut nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -123,7 +124,7 @@
                         <br /> Les formations proposées sont <strong>gratuites et intensives</strong>. Notre but : Former nos apprenants à <strong>la création de sites web, d'applications mobiles</strong> et en faire des professionnels. Nos apprenants sont pour l 'essentiel issus de milieux très peu présents dans les métiers techniques du numérique: personnes jeunes peu ou pas diplômées, demandeurs d 'emploi, allocataires de minima sociaux, séniors en reconversion, femmes et personnes porteuses de handicap.
                         <br/><strong>Notre école est ouverte à tous. Seule votre motivation nous importe !</strong>
                     </p>
-                    <a class="btn btn-default" href="pages/apropos.php" role="button">EN SAVOIR PLUS <i class="fa fa-plus-circle"></i></a>
+                    <a class="btn btn-default" href="apropos.php" role="button">EN SAVOIR PLUS <i class="fa fa-plus-circle"></i></a>
 
                     <hr>
 
@@ -131,7 +132,7 @@
                     <p>
                         Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong>.
                     </p>
-                    <a class="btn btn-default" href="pages/formation.php" role="button">EN SAVOIR PLUS <i class="fa fa-plus-circle"></i></a>
+                    <a class="btn btn-default" href="formation.php" role="button">EN SAVOIR PLUS <i class="fa fa-plus-circle"></i></a>
 
                     <hr>
 
@@ -285,17 +286,6 @@
 
     <?php include("php/footer.php"); ?>
 
-        <div id="fb-root"></div>
-        <script>
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&amp;version=v2.3";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
 
         <script src="app/public/libs/jquery/dist/jquery.min.js"></script>
         <script src="app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>

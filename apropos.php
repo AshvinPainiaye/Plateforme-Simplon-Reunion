@@ -75,7 +75,7 @@
             <div class="row">
                 <article class="col-md-12 text-center">
                     <p class="intro">
-                        Créée à Montreuil (93) en avril 2013, Simplon.co est une entreprise sociale agréée solidaire labellisée <strong>French Tech</strong>,
+                        Créée à Montreuil (93) en avril 2013, <a href="http://simplon.co/" target="_blank"><strong>Simplon.co</strong></a> est une entreprise sociale agréée solidaire labellisée <strong>French Tech</strong>,
                         <strong>«La France S’Engage»</strong> et
                         <a href="http://www.economie.gouv.fr/grande-ecole-du-numerique/171-formations-labellisees" target="_blank">
                             <strong>Grande école du numérique.</strong></a>
@@ -83,7 +83,7 @@
                     </p>
 
                     <p class="intro">
-                        Enfin, toujours dans l’optique de créer des emplois, <strong>Simplon.co</strong> propose – au travers d’un réseau d’écoles – des formations <strong>gratuites et intensives</strong> pour apprendre à <strong>créer des sites web et des applications mobiles</strong>, et en faire son métier. La formation s’adresse prioritairement aux <strong>jeunes de moins de 25 ans</strong>, non diplômés ou peu diplômés, issus des quartiers populaires et des milieux ruraux, mais également aux <strong>demandeurs d’emploi</strong>, allocataires des minima sociaux, aux seniors en reconversion ainsi qu’aux femmes et personnes en situation de handicap, populations insuffisamment représentées dans les métiers techniques du numérique particulièrement recherchés. Les formations Simplon.co sont bien sûr <strong>ouvertes à tous</strong>, pourvu que la <strong>motivation</strong> soit au rendez-vous !
+                        Enfin, toujours dans l’optique de créer des emplois, Simplon.co propose – au travers d’un réseau d’écoles – des formations <strong>gratuites et intensives</strong> pour apprendre à <strong>créer des sites web et des applications mobiles</strong>, et en faire son métier. La formation s’adresse prioritairement aux <strong>jeunes de moins de 25 ans</strong>, non diplômés ou peu diplômés, issus des quartiers populaires et des milieux ruraux, mais également aux <strong>demandeurs d’emploi</strong>, allocataires des minima sociaux, aux seniors en reconversion ainsi qu’aux femmes et personnes en situation de handicap, populations insuffisamment représentées dans les métiers techniques du numérique particulièrement recherchés. Les formations Simplon.co sont bien sûr <strong>ouvertes à tous</strong>, pourvu que la <strong>motivation</strong> soit au rendez-vous !
                     </p>
                 </article>
             </div>
