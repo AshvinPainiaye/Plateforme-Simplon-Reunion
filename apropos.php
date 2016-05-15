@@ -34,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="../index.php" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <img src="images/logo.png" alt="" class="img-responsive" width="140px">
                 </a>
             </div>

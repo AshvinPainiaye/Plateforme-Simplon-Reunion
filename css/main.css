@@ -29,9 +29,9 @@ h2 {
   text-align: left;
   width: 80%;
   top: 200px;
-  transform: rotate(5.8deg);
   -ms-transform: rotate(5.8deg);
   -webkit-transform: rotate(5.8deg);
+  transform: rotate(5.8deg);
   font-size: 63px;
   color: #2a4789;
   left: 12px;
@@ -42,9 +42,9 @@ h2 {
   text-align: right;
   width: 95%;
   top: 70px;
-  transform: rotate(-5.8deg);
   -ms-transform: rotate(-5.8deg);
   -webkit-transform: rotate(-5.8deg);
+  transform: rotate(-5.8deg);
   font-size: 63px;
   color: #2a4789;
   font-family: 'Oswald', sans-serif; }
@@ -63,11 +63,38 @@ strong {
   .social .fa {
     color: #ffffff; }
   .social .github {
-    background-color: #333; }
+    background-color: #333333;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .social .github:hover {
+      border: 1px solid #333333;
+      background-color: #ffffff; }
+      .social .github:hover .fa {
+        color: #333; }
   .social .twitter {
-    background-color: #1da1f2; }
+    background-color: #1da1f2;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .social .twitter:hover {
+      background-color: #ffffff;
+      border: 1px solid #1da1f2; }
+      .social .twitter:hover .fa {
+        color: #1da1f2; }
   .social .linkedin {
-    background-color: #0177B5; }
+    background-color: #0177B5;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .social .linkedin:hover {
+      border: 1px solid #0177B5;
+      background-color: #ffffff; }
+      .social .linkedin:hover .fa {
+        color: #0177B5; }
 
 /*debut nav*/
 .navbar-default {
@@ -253,13 +280,13 @@ strong {
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
         #apprenants article .portfolio .btn:hover {
-          background-color: #777;
+          background-color: #777777;
           /*    background-color: $couleur1; */
           color: #ffffff; }
     #apprenants article .label {
       line-height: 2.2; }
     #apprenants article .contacter {
-      background-color: #777;
+      background-color: #777777;
       color: #ffffff;
       width: 100%;
       border-radius: 0;
@@ -307,7 +334,7 @@ footer {
 .fa-chevron-up {
   position: fixed;
   right: 10px;
-  color: white;
+  color: #ffffff;
   bottom: 20px;
   font-size: 25px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -352,12 +379,11 @@ footer {
     margin-top: 100px;
     position: static;
     text-align: center;
-    transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     width: 100%;
     font-size: 40px;
-    color: #2a4789;
     font-family: 'Oswald', sans-serif; }
 
   #myCarousel {

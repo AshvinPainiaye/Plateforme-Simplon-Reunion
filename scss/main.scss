@@ -13,6 +13,12 @@ $couleur6:#ed1450;
     transition: $transition;
 }
 
+@mixin transform($transform...) {
+    -ms-transform: $transform;
+    -webkit-transform: $transform;
+    transform: $transform;
+}
+
 .fond {
     background-color: $couleur5;
 }
@@ -49,9 +55,7 @@ h2 {
     text-align: left;
     width: 80%;
     top: 200px;
-    transform: rotate(5.8deg);
-    -ms-transform: rotate(5.8deg);
-    -webkit-transform: rotate(5.8deg);
+    @include transform(rotate(5.8deg));
     font-size: 63px;
     color: $couleur2;
     left: 12px;
@@ -63,9 +67,7 @@ h2 {
     text-align: right;
     width: 95%;
     top: 70px;
-    transform: rotate(-5.8deg);
-    -ms-transform: rotate(-5.8deg);
-    -webkit-transform: rotate(-5.8deg);
+    @include transform(rotate(-5.8deg));
     font-size: 63px;
     color: $couleur2;
     font-family: 'Oswald', sans-serif;
@@ -88,13 +90,37 @@ strong {
         color: $couleur4;
     }
     .github {
-        background-color: #333;
+        background-color: #333333;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            border: 1px solid #333333;
+            background-color: $couleur4;
+            .fa {
+                color: #333;
+            }
+        }
     }
     .twitter {
         background-color: #1da1f2;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            background-color: $couleur4;
+            border: 1px solid #1da1f2;
+            .fa {
+                color: #1da1f2;
+            }
+        }
     }
     .linkedin {
         background-color: #0177B5;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            border: 1px solid #0177B5;
+            background-color: $couleur4;
+            .fa {
+                color: #0177B5;
+            }
+        }
     }
 }
 
@@ -354,7 +380,7 @@ strong {
                 border: none;
                 @include transition(all 0.2s ease-in-out);
                 &:hover {
-                    background-color: #777;
+                    background-color: #777777;
                     /*    background-color: $couleur1; */
                     color: $couleur4
                 }
@@ -364,7 +390,7 @@ strong {
             line-height: 2.2;
         }
         .contacter {
-            background-color: #777;
+            background-color: #777777;
             color: $couleur4;
             width: 100%;
             border-radius: 0;
@@ -439,7 +465,7 @@ footer {
 .fa-chevron-up {
     position: fixed;
     right: 10px;
-    color: white;
+    color: $couleur4;
     bottom: 20px;
     font-size: 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -512,12 +538,9 @@ footer {
         margin-top: 100px;
         position: static;
         text-align: center;
-        transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
+        @include transform(rotate(0deg));
         width: 100%;
         font-size: 40px;
-        color: $couleur2;
         font-family: 'Oswald', sans-serif;
     }
     #myCarousel {
