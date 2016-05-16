@@ -35,7 +35,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php" class="navbar-brand">
-                    <img src="images/logo.png" alt="" class="img-responsive" width="140px">
+                    <img src="images/logo.png" alt="logo simplon reunion dans la navbar" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -66,14 +66,14 @@
         <div class="row">
             <div class="col-md-12 no-padding">
                 <h2>A PROPOS</h2>
-                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top center-block">
+                <img src="images/bande/bande1.png" alt="bande 1" class="img-responsive img-top center-block">
             </div>
         </div>
     </div>
     <section id="apropos" class="espace-bloc">
         <div class="container">
             <div class="row">
-                <article class="col-md-12 text-center">
+                <article class="col-md-12" style="margin-bottom:50px;">
                     <p class="intro">
                         Créée à Montreuil (93) en avril 2013, <a href="http://simplon.co/" target="_blank"><strong>Simplon.co</strong></a> est une entreprise sociale agréée solidaire labellisée <strong>French Tech</strong>,
                         <strong>«La France S’Engage»</strong> et
@@ -87,30 +87,27 @@
                     </p>
                 </article>
             </div>
+
             <div class="row">
                 <article class="col-md-4 text-center">
-
                     <i class="fa fa-eye fa-4x text-center" aria-hidden="true"></i>
-
                     <h4>NOTRE VISION</h4>
                     <p>
-                        Le numérique est un levier puissant d’inclusion, d’insertion, d’emploi et un catalyseur d’innovation et de mixité sociales. Entreprise sociale agréée solidaire et labellisée French Tech, La France S’Engage et Grande Ecole du Numérique : Simplon Réunion propose des formations gratuites au métiers numériques prioritairement aux publics et dans les territoires défavorisés. Simplon Réunion produit des services numériques et mène des actions au coeur de la transformation numérique, de l’open innovation et de la RSE.
+                        Le numérique est un levier puissant d’inclusion, d’insertion, d’emploi et un catalyseur d’innovation et de mixité sociales. Entreprise sociale agréée solidaire et labellisée French Tech, La France S’Engage et Grande Ecole du Numérique : Simplon Réunion propose des <strong>formations gratuites</strong> au métiers numériques prioritairement aux publics et dans les territoires défavorisés. Simplon Réunion produit des services numériques et mène des actions au coeur de la transformation numérique, de l’open innovation et de la RSE.
                     </p>
-
                 </article>
+
+
                 <article class="col-md-4 text-center">
-
                     <i class="fa fa-search fa-4x" aria-hidden="true"></i>
-
                     <h4>UN CONSTAT, DES BESOINS</h4>
                     <p>
                         Avec le numérique nous pouvons créer des emplois pour tous et partout, et reconvertir ceux dont l’emploi à disparu. Les métiers techniques du numérique sont en tension. Il y a des besoins de recrutement et des opportunités d’insertion ! Les réponses insuffisantes en recrutement, production, sous traitance, offshore. Nous estimons qu’il y aura <strong>36.700 postes</strong> à créer d’ici à 2018 dont 15000 développeurs web (chiffres du SYNTEC numérique) ; 900.000 en Europe. Par ailleurs, 140.000 jeunes quittent le système scolaire chaque année sans diplômes. Les reconversions et l’emploi des seniors sont préoccupants. Nous devons exploiter le potentiel et la richesse des zones prioritaires, enclavées, industrielles, et des milieux ruraux.</p>
                 </article>
 
+
                 <article class="col-md-4 text-center">
-
                     <i class="fa fa-child fa-4x" aria-hidden="true"></i>
-
                     <h4>SIMPLON.KIDS</h4>
                     <p>
                         Des ateliers pour toutes à la sensibilisation, lutte contre le décrochage et orientation. Ateliers, activités périscolaires ou en loisirs (vacances) et programmes à l’année en partenariat avec les établissements : le numérique comme levier d’ouverture vers le monde, comme outil de raccrochage scolaire et d’empowerment des jeunes. <strong>8000 enfants</strong> sensibilisés en France au travers de la Code Week Européenne et de Hour of Code 2015 <strong>88.763 jeunes</strong> sensibilisés dans 17 pays d’Afrique lors de la 1ère édition de l’Africa Code Week (2015) </p>
@@ -121,9 +118,7 @@
     <!-- fin a propos -->
 
 
-
     <?php include("php/footer.php"); ?>
-
 
 
 

@@ -168,7 +168,7 @@ strong {
   line-height: 30px;
   text-align: justify; }
 .descriptionAccueil hr {
-  margin: 50px 0; }
+  margin: 80px 0; }
 
 .logo {
   padding-bottom: 50px; }
@@ -226,7 +226,7 @@ strong {
   text-align: center;
   color: #2a4789;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   font-size: 25px;
   font-weight: bold; }
 #formation article .citation {
@@ -250,7 +250,7 @@ strong {
     height: 150px;
     width: 150px; }
   #apprenants article {
-    margin-bottom: 50px; }
+    margin-bottom: 100px; }
     #apprenants article .background {
       background-color: #ffffff;
       padding: 10px; }
@@ -269,7 +269,6 @@ strong {
       margin-top: 15px; }
       #apprenants article .portfolio .btn {
         background-color: #efdf31;
-        /*  padding: 12px; */
         border-radius: 100px;
         border: none;
         -moz-transition: all 0.2s ease-in-out;
@@ -278,7 +277,6 @@ strong {
         transition: all 0.2s ease-in-out; }
         #apprenants article .portfolio .btn:hover {
           background-color: #777777;
-          /*    background-color: $couleur1; */
           color: #ffffff; }
     #apprenants article .label {
       line-height: 2.2; }
@@ -289,7 +287,14 @@ strong {
       border-radius: 0;
       border: none;
       padding-top: 20px;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
+      #apprenants article .contacter:hover {
+        background-color: #ffffff;
+        color: #777777; }
 
 /*fin apprenant*/
 /*debut contact*/

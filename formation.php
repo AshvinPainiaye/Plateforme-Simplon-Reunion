@@ -35,7 +35,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php" class="navbar-brand">
-                    <img src="images/logo.png" alt="" class="img-responsive" width="140px">
+                    <img src="images/logo.png" alt="logo simplon reunion dans la navbar" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -65,7 +65,7 @@
         <div class="row">
             <div class="col-md-12 no-padding">
                 <h2>FORMATION</h2>
-                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top center-block">
+                <img src="images/bande/bande1.png" alt="Bande 1" class="img-responsive img-top center-block">
             </div>
         </div>
     </div>
@@ -110,13 +110,13 @@
                 </article>
 
                 <div class="col-md-6">
-                    <img src="images/formation/formation.jpg" alt="" class="img-responsive pull-left">
+                    <img src="images/formation/formation.jpg" alt="photo ou on voit un groupe travailler" class="img-responsive pull-left">
                 </div>
             </div>
 
             <div class="row espace-bloc">
                 <div class="col-md-6">
-                    <img src="images/formation/imageformation.jpg" alt="" class="img-responsive pull-left">
+                    <img src="images/formation/imageformation.jpg" alt="photo ou on voit des personne de dos travailler" class="img-responsive pull-left">
                 </div>
                 <article class="col-md-6 referentiel">
                     <h3>RÉFÉRENTIELS DE FORMATION</h3>

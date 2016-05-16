@@ -37,7 +37,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php" class="navbar-brand">
-                    <img src="images/logo.png" alt="" class="img-responsive" width="140px">
+                    <img src="images/logo.png" alt="logo simplon reunion dans la navbar" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,23 +77,23 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="images/carousel/1.jpg" alt="" class="img-responsive">
+                <img src="images/carousel/1.jpg" alt="image 1 du carousel" class="img-responsive">
             </div>
 
             <div class="item">
-                <img src="images/carousel/2.jpg" alt="" class="img-responsive">
+                <img src="images/carousel/2.jpg" alt="image 2 du carousel" class="img-responsive">
             </div>
 
             <div class="item">
-                <img src="images/carousel/3.jpg" alt="" class="img-responsive">
+                <img src="images/carousel/3.jpg" alt="image 3 du carousel" class="img-responsive">
             </div>
 
             <div class="item">
-                <img src="images/carousel/1.jpg" alt="" class="img-responsive">
+                <img src="images/carousel/1.jpg" alt="image 4 du carousel" class="img-responsive">
             </div>
 
             <div class="item">
-                <img src="images/carousel/5.jpg" alt="" class="img-responsive">
+                <img src="images/carousel/5.jpg" alt="image 5 du carousel" class="img-responsive">
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top1 center-block">
+                <img src="images/bande/bande1.png" alt="Bande 1" class="img-responsive img-top1 center-block">
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
                     <h3><i class="fa fa-thumbs-up"></i> L'EQUIPE</h3>
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="images/lequipe/farid.jpg" alt="" class="img-responsive center-block">
+                            <img src="images/lequipe/farid.jpg" alt="photo de Farid HUMBLOT" class="img-responsive center-block">
                             <h4>Farid HUMBLOT</h4>
                             <h5>Directeur</h5>
                             <div class="social">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img src="images/lequipe/nicolas.jpg" alt="" class="img-responsive center-block">
+                            <img src="images/lequipe/nicolas.jpg" alt="photo de Nicolas LUDOVIC" class="img-responsive center-block">
                             <h4>Nicolas LUDOVIC</h4>
                             <h5>Lead Formateur</h5>
                             <div class="social">
@@ -185,7 +185,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 no-padding">
-                <img src="images/bande/bande2.png" alt="" class="img-responsive center-block">
+                <img src="images/bande/bande2.png" alt="bande 2" class="img-responsive center-block">
             </div>
         </div>
     </div>

@@ -35,7 +35,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php" class="navbar-brand">
-                    <img src="images/logo.png" alt="" class="img-responsive" width="140px">
+                    <img src="images/logo.png" alt="logo simplon reunion dans la navbar" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -65,7 +65,7 @@
         <div class="row">
             <div class="col-md-12 no-padding">
                 <h2>LES APPRENANTS</h2>
-                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top center-block">
+                <img src="images/bande/bande1.png" alt="bande 1" class="img-responsive img-top center-block">
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
 
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/anais.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/anais.jpg" alt="photo profil de Anais MARIMOUTOU" class="img-circle center-block">
                         <h3 class="NP">Anais MARIMOUTOU</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -85,18 +85,15 @@
                                 <li>
                                     <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
                                     <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -105,13 +102,10 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
@@ -119,28 +113,25 @@
 
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/ashvin.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/ashvin.jpg" alt="photo profil de Ashvin PAINIAYE" class="img-circle center-block">
                         <h3>Ashvin PAÏNIAYE</h3>
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/AshvinPainiaye" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/AshvinPainiaye" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
                                     <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -149,20 +140,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="http://ashvinpainiaye.github.io" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/benoit.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/benoit.jpg" alt="photo profil de Benoit BOYER" class="img-circle center-block">
                         <h3 class="NP">Benoit BOYER</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -178,12 +167,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -192,20 +179,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/david.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/david.jpg" alt="photo profil de David ATCHIAMAN" class="img-circle center-block">
                         <h3 class="NP">David ATCHIAMAN</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -215,18 +200,15 @@
                                 <li>
                                     <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
                                     <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -235,20 +217,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/elliot.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/elliot.jpg" alt="photo profil de Elliot BOUVIER" class="img-circle center-block">
                         <h3 class="NP">Elliot BOUVIER</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -264,12 +244,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -283,15 +261,14 @@
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/faiza.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/faiza.jpg" alt="photo profil de Faïza MOUNIR" class="img-circle center-block">
                         <h3 class="NP">Faïza MOUNIR</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -307,12 +284,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -321,20 +296,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/frederic.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/frederic.jpg" alt="photo profil de Frederic BOYER" class="img-circle center-block">
                         <h3 class="NP">Frederic BOYER</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -350,12 +323,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -364,20 +335,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/fredericj.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/fredericj.jpg" alt="photo profil de Frederic JOUAN" class="img-circle center-block">
                         <h3 class="NP">Frederic JOUAN</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -387,18 +356,15 @@
                                 <li>
                                     <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
                                     <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -407,20 +373,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/guillaume.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/guillaume.jpg" alt="photo profil de Guillaume VACARME" class="img-circle center-block">
                         <h3 class="NP">Guillaume VACARME</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -436,12 +400,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -450,20 +412,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/kevin.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/kevin.jpg" alt="photo profil de Kevin NARSICADOU" class="img-circle center-block">
                         <h3 class="NP">Kevin NARSICADOU</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -479,12 +439,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -493,13 +451,10 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
@@ -507,7 +462,7 @@
 
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/lola.JPG" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/lola.JPG" alt="photo profil de Lola CADENA" class="img-circle center-block">
                         <h3 class="NP">Lola CADENA</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -523,12 +478,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -537,20 +490,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/lorenza.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/lorenza.jpg" alt="photo profil de Lorenza DAMOUR" class="img-circle center-block">
                         <h3 class="NP">Lorenza DAMOUR</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -566,12 +517,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -580,20 +529,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/lorenza.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/ludovic.jpg" alt="photo profil de Ludovic DIEUDONNE" class="img-circle center-block">
                         <h3 class="NP">Ludovic DIEUDONNE</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -609,12 +556,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -623,20 +568,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
+
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/mathieu.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/mathieu.jpg" alt="photo profil de Mathieu JULIE" class="img-circle center-block">
                         <h3 class="NP">Mathieu JULIE</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -652,12 +595,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -666,13 +607,10 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
@@ -680,7 +618,7 @@
 
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/petula.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/petula.jpg" alt="photo profil de Petula PUELLE" class="img-circle center-block">
                         <h3 class="NP">Petula PUELLE</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -696,12 +634,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -710,27 +646,18 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
 
-
-
-
-
-
-
                 <article class="col-md-3">
                     <div class="background">
-                        <img src="images/apprenants/philippe.jpg" alt="" class="img-circle center-block">
+                        <img src="images/apprenants/philippe.jpg" alt="photo profil de Philippe DEVEZEAUD" class="img-circle center-block">
                         <h3 class="NP">Philippe DEVEZEAUD</h3>
                         <div class="social">
                             <ul class="list-inline">
@@ -746,12 +673,10 @@
                                 </li>
                             </ul>
                         </div>
-
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
                             <br> Exemple , exemple , exemple , exemple.
                         </p>
-
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -760,19 +685,16 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
-
-
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
 
-            </div>
 
+            </div>
         </div>
     </section>
     <!-- fin apprenants -->

@@ -227,7 +227,7 @@ strong {
         text-align: justify;
     }
     hr {
-        margin: 50px 0;
+        margin: 80px 0;
     }
 }
 
@@ -313,7 +313,7 @@ strong {
             text-align: center;
             color: $couleur2;
             padding-top: 30px;
-            padding-bottom: 40px;
+            padding-bottom: 30px;
             font-size: 25px;
             font-weight: bold;
         }
@@ -350,7 +350,7 @@ strong {
         width: 150px;
     }
     article {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         .background {
             background-color: $couleur4;
             padding: 10px;
@@ -372,13 +372,11 @@ strong {
             margin-top: 15px;
             .btn {
                 background-color: $couleur1;
-                /*  padding: 12px; */
                 border-radius: 100px;
                 border: none;
                 @include transition(all 0.2s ease-in-out);
                 &:hover {
                     background-color: #777777;
-                    /*    background-color: $couleur1; */
                     color: $couleur4
                 }
             }
@@ -394,6 +392,11 @@ strong {
             border: none;
             padding-top: 20px;
             padding-bottom: 20px;
+            @include transition(all 0.4s ease-in-out);
+            &:hover {
+                background-color: $couleur4;
+                color: #777777;
+            }
         }
     }
 }

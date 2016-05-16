@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php" class="navbar-brand">
-                    <img src="images/logo.png" alt="" class="img-responsive" width="140px">
+                    <img src="images/logo.png" alt="logo simplon reunion dans la navbar" class="img-responsive" width="140px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,7 +69,7 @@
         <div class="row">
             <div class="col-md-12 no-padding">
                 <h2>CANDIDATER</h2>
-                <img src="images/bande/bande1.png" alt="" class="img-responsive img-top center-block">
+                <img src="images/bande/bande1.png" alt="bande 1" class="img-responsive img-top center-block">
             </div>
         </div>
     </div>
