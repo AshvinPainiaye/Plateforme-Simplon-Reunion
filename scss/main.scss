@@ -13,6 +13,12 @@ $couleur6:#ed1450;
     transition: $transition;
 }
 
+@mixin transform($transform...) {
+    -ms-transform: $transform;
+    -webkit-transform: $transform;
+    transform: $transform;
+}
+
 .fond {
     background-color: $couleur5;
 }
@@ -49,9 +55,7 @@ h2 {
     text-align: left;
     width: 80%;
     top: 200px;
-    transform: rotate(5.8deg);
-    -ms-transform: rotate(5.8deg);
-    -webkit-transform: rotate(5.8deg);
+    @include transform(rotate(5.8deg));
     font-size: 63px;
     color: $couleur2;
     left: 12px;
@@ -63,9 +67,7 @@ h2 {
     text-align: right;
     width: 95%;
     top: 70px;
-    transform: rotate(-5.8deg);
-    -ms-transform: rotate(-5.8deg);
-    -webkit-transform: rotate(-5.8deg);
+    @include transform(rotate(-5.8deg));
     font-size: 63px;
     color: $couleur2;
     font-family: 'Oswald', sans-serif;
@@ -81,18 +83,44 @@ strong {
         border-radius: 100px;
         padding: 8px 8px;
         border: none;
+        height: 36px;
+        width: 36px;
     }
     .fa {
         color: $couleur4;
     }
     .github {
-        background-color: #333;
+        background-color: #333333;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            border: 1px solid #333333;
+            background-color: $couleur4;
+            .fa {
+                color: #333;
+            }
+        }
     }
     .twitter {
         background-color: #1da1f2;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            background-color: $couleur4;
+            border: 1px solid #1da1f2;
+            .fa {
+                color: #1da1f2;
+            }
+        }
     }
     .linkedin {
         background-color: #0177B5;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            border: 1px solid #0177B5;
+            background-color: $couleur4;
+            .fa {
+                color: #0177B5;
+            }
+        }
     }
 }
 
@@ -129,6 +157,10 @@ strong {
             .dropdown-menu {
                 background-color: $couleur2;
                 border: none;
+                .divider {
+                    margin: 0;
+                    height: 2px;
+                }
                 li {
                     a {
                         color: $couleur4;
@@ -168,11 +200,6 @@ strong {
     max-height: 800px;
 }
 
-.dropdown-menu .divider {
-    margin: 0;
-    height: 2px;
-}
-
 
 /*fin nav*/
 
@@ -200,7 +227,7 @@ strong {
         text-align: justify;
     }
     hr {
-        margin: 50px 0;
+        margin: 80px 0;
     }
 }
 
@@ -208,37 +235,8 @@ strong {
     padding-bottom: 50px;
     .row {
         padding-bottom: 80px;
-        #logo1 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo2 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo3 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo4 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo5 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo7 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo8 {
-            margin-top: 50px;
-            max-width: 250px;
-        }
-        #logo9 {
-            margin-top: 30px;
-            max-width: 250px;
+        img {
+            margin-top: 80px;
         }
     }
 }
@@ -307,18 +305,15 @@ strong {
 /*debut formation*/
 
 #formation {
-    .imagform {
-        margin-top: 50px;
-    }
-    .imagform2 {
-        padding-top: 70px;
+    img {
+        padding-top: 50px;
     }
     article {
         h3 {
             text-align: center;
             color: $couleur2;
-            padding-top: 45px;
-            padding-bottom: 45px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             font-size: 25px;
             font-weight: bold;
         }
@@ -331,10 +326,10 @@ strong {
         }
         li {
             list-style-type: square;
+            margin: 8px auto;
         }
     }
     .referentiel {
-        padding-top: 50px;
         p {
             line-height: 30px;
             margin-bottom: 20px;
@@ -355,7 +350,7 @@ strong {
         width: 150px;
     }
     article {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         .background {
             background-color: $couleur4;
             padding: 10px;
@@ -371,38 +366,17 @@ strong {
             font-size: 15px;
             font-weight: bold;
         }
-        /*     .social {
-            text-align: center;
-            .btn {
-                border-radius: 100px;
-                padding: 8px 8px;
-                border: none;
-            }
-            .fa {
-                color: $couleur4;
-            }
-            .github {
-                background-color: #333;
-            }
-            .twitter {
-                background-color: #1da1f2;
-            }
-            .linkedin {
-                background-color: #0177B5;
-            }
-        } */
         .portfolio {
             margin-bottom: 15px;
             text-align: center;
             margin-top: 15px;
             .btn {
                 background-color: $couleur1;
-                /*  padding: 12px; */
                 border-radius: 100px;
                 border: none;
+                @include transition(all 0.2s ease-in-out);
                 &:hover {
-                    background-color: #777;
-                    /*    background-color: $couleur1; */
+                    background-color: #777777;
                     color: $couleur4
                 }
             }
@@ -411,12 +385,18 @@ strong {
             line-height: 2.2;
         }
         .contacter {
-            background-color: #777;
+            background-color: #777777;
             color: $couleur4;
             width: 100%;
             border-radius: 0;
             border: none;
-            height: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            @include transition(all 0.4s ease-in-out);
+            &:hover {
+                background-color: $couleur4;
+                color: #777777;
+            }
         }
     }
 }
@@ -446,10 +426,15 @@ strong {
     h3 {
         color: $couleur2;
         text-align: center;
+        margin-bottom: 30px;
+    }
+    li {
         margin-bottom: 20px;
     }
-    h4 {
+    .fa {
         color: $couleur2;
+        font-size: 20px;
+        margin-right: 10px;
     }
 }
 
@@ -462,6 +447,7 @@ strong {
 footer {
     color: $couleur4;
     background-color: $couleur2;
+    padding: 50px 0;
     a {
         color: $couleur4;
         &:hover {
@@ -479,7 +465,7 @@ footer {
 .fa-chevron-up {
     position: fixed;
     right: 10px;
-    color: white;
+    color: $couleur4;
     bottom: 20px;
     font-size: 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -487,6 +473,7 @@ footer {
     border-radius: 100px;
     visibility: hidden;
     z-index: 99;
+    @include transition(all 0.2s ease-in-out);
     &:hover {
         background-color: $couleur1;
         color: $couleur3;
@@ -522,7 +509,8 @@ footer {
         .navbar-brand {
             padding: 0 15px;
             img {
-                width: 140px;
+                width: 100px;
+                margin-top: 5px;
             }
         }
         .navbar-collapse {
@@ -551,12 +539,9 @@ footer {
         margin-top: 100px;
         position: static;
         text-align: center;
-        transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
+        @include transform(rotate(0deg));
         width: 100%;
         font-size: 40px;
-        color: $couleur2;
         font-family: 'Oswald', sans-serif;
     }
     #myCarousel {

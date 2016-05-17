@@ -1,1 +1,1 @@
-# Plateforme-apprenants
+Les apprenants de Simplon Réunion ont du talent, mais peu de gens sont au courant. Afin de le faire connaître, nous avons mis en place une plateforme qui apportera de la visibilité. Cela permettra aux professionnels du secteur d’avoir un aperçu de ces talents. Cette plateforme est un site internet qui permettra aussi au professionnel de prendre contact pour proposer des projets concrets, donner une master class ou recruter un apprenant.
