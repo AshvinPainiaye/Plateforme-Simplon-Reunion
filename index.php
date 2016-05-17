@@ -177,7 +177,30 @@
                             </div>
                         </div>
                     </div>
+                    <hr>
 
+                    <h3><i class="fa fa-envelope"></i> NOUS CONTACTER</h3>
+                    <div class="row contactAccueil">
+                        <div class="col-sm-3">
+                            <a href="contact-projet.php" target="_blank"><h4 class="center-block"> <i class="fa fa-suitcase"></i>
+                            <br>SOUMETTRE UN PROJET</h4></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="contact-apprenant.php" target="_blank">
+                                <h4 class="center-block"> <i class="fa fa-user-plus"></i>
+                            <br>RECRUTER UN APPRENANT</h4></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="contact-animer.php" target="_blank">
+                                <h4 class="center-block">  <i class="fa fa-share-alt"></i>
+                            <br>ANIMER UNE MASTER-CLASS</h4></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="contact-candidater.php" target="_blank">
+                                <h4 class="center-block">  <i class="fa fa-file"></i>
+                            <br>CANDIDATER</h4></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

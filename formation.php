@@ -102,29 +102,30 @@
                     </ul>
 
                     <p class="text-center citation">
-                        Tu me dis, j'oublie.
+                        " Tu me dis, j'oublie.
                         <br /> Tu m'enseignes, je me souviens.
-                        <br /> Tu m'impliques, j'apprends.
+                        <br /> Tu m'impliques, j'apprends. "
                         <br /> Benjamin Franklin
                     </p>
                 </article>
 
                 <div class="col-md-6">
-                    <img src="images/formation/formation.jpg" alt="photo ou on voit un groupe travailler" class="img-responsive pull-left">
+                    <img src="images/formation/formation.jpg" alt="photo ou on voit un groupe travailler" class="img-responsive center-block">
                 </div>
             </div>
 
             <div class="row espace-bloc">
                 <div class="col-md-6">
-                    <img src="images/formation/imageformation.jpg" alt="photo ou on voit des personne de dos travailler" class="img-responsive pull-left">
+                    <img src="images/formation/imageformation.jpg" alt="photo ou on voit des personne de dos travailler" class="img-responsive center-block">
                 </div>
                 <article class="col-md-6 referentiel">
                     <h3>RÉFÉRENTIELS DE FORMATION</h3>
-                    <p>
-                        Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong>
-                        <br/> Référent numérique Formation à la gestion de projet numérique via les méthodes agiles. Administration systèmes et réseaux, webmastering, web marketing et communication digitale, support utilisateur, outils de productivité, BDD et GED. <strong>Formation qualifiante / 3 mois</strong>
-                        <br/> Autres référentiels en cours de création : FTTH/fibre, cybersécurité, 3D (Dassault Systèmes : Catia et Solidworks), Analytics et prédictif (IBM Watson), technico commercial IT
-                    </p>
+                    <ul>
+                        <li> Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong></li>
+                        <li> Référent numérique Formation à la gestion de projet numérique via les méthodes agiles. Administration systèmes et réseaux, webmastering, web marketing et communication digitale, support utilisateur, outils de productivité, BDD et GED. <strong>Formation qualifiante / 3 mois</strong></li>
+                        <li> Autres référentiels <strong>en cours de création</strong> : FTTH/fibre, cybersécurité, 3D (Dassault Systèmes : Catia et Solidworks), Analytics et prédictif (IBM Watson), technico commercial IT</li>
+                    </ul>
+
                 </article>
             </div>
         </div>

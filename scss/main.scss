@@ -220,6 +220,11 @@ strong {
         color: $couleur2;
         font-size: 35px;
         margin-bottom: 40px;
+        font-family: 'Oswald', sans-serif;
+        .fa {
+            position: relative;
+            bottom: 3px;
+        }
     }
     p {
         font-size: 17px;
@@ -246,13 +251,37 @@ strong {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-top: 90px;
     p {
         color: $couleur4;
         font-size: 50px;
         text-align: center;
         font-family: 'Oswald', sans-serif;
+    }
+}
+
+.contactAccueil {
+    a {
+        text-decoration: none;
+    }
+    h4 {
+        background-color: $couleur4;
+        color: $couleur2;
+        width: 10em;
+        height: 10em;
+        padding-top: 35px;
+        border-radius: 100%;
+        margin: 40px auto;
+        @include transition(all 0.3s ease-in-out);
+        &:hover {
+            background-color: $couleur2;
+            color: $couleur4;
+        }
+        .fa {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
     }
 }
 
@@ -294,6 +323,7 @@ strong {
             text-align: center;
             color: $couleur2;
             margin: 20px 0 25px 0;
+            font-family: 'Oswald', sans-serif;
         }
     }
 }
@@ -329,12 +359,12 @@ strong {
             margin: 8px auto;
         }
     }
-    .referentiel {
+    /*  .referentiel {
         p {
             line-height: 30px;
             margin-bottom: 20px;
-        }
-    }
+        } */
+    /* } */
 }
 
 
