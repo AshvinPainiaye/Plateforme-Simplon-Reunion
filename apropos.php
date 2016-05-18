@@ -73,7 +73,12 @@
     <section id="apropos" class="espace-bloc">
         <div class="container">
             <div class="row">
-                <article class="col-md-12" style="margin-bottom:50px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="images/logo-simplon.png" alt="" class="img-responsive center-block">
+                </div>
+            </div>
+            <div class="row">
+                <article class="col-md-12" style="margin:50px auto;">
                     <p class="intro">
                         Créée à Montreuil (93) en avril 2013, <a href="http://simplon.co/" target="_blank"><strong>Simplon.co</strong></a> est une entreprise sociale agréée solidaire labellisée <strong>French Tech</strong>,
                         <strong>«La France S’Engage»</strong> et

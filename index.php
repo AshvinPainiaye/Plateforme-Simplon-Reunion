@@ -103,7 +103,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center">Bienvenue sur Simplon Réunion</h1></div>
+                <h1 class="text-center">Bienvenue sur le site de<br>Simplon Réunion</h1></div>
         </div>
     </div>
 

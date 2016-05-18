@@ -73,18 +73,20 @@
     <section id="formation" class="fond">
         <div class="container">
             <div class="row">
-                <article class="col-md-12 espace-bloc">
-                    <p>
-                        Révéler les <strong>talents</strong> à travers l’innovation numérique, pédagogique et sociale:
-                    </p>
-                    <ul>
-                        <li>Des formations <strong>intensives</strong> et ouvertes à tous <strong>gratuites, qualifiantes (6 mois) ou certifiantes et rémunérées</strong> (CQP, titres professionnels entre 9 et 12 mois).</li>
+                <article class="col-md-12">
+                    <div class="espace-bloc">
+                        <p>
+                            Révéler les <strong>talents</strong> à travers l’innovation numérique, pédagogique et sociale:
+                        </p>
+                        <ul>
+                            <li>Des formations <strong>intensives</strong> et ouvertes à tous <strong>gratuites, qualifiantes (6 mois) ou certifiantes et rémunérées</strong> (CQP, titres professionnels entre 9 et 12 mois).</li>
 
-                        <li>Et <strong>prioritairement</strong> ouvertes aux décrocheurs/NEETs, demandeurs d’emplois, allocataires de minimas sociaux et les profils sous représentés dans les métiers techniques numérique.</li>
+                            <li>Et <strong>prioritairement</strong> ouvertes aux décrocheurs/NEETs, demandeurs d’emplois, allocataires de minimas sociaux et les profils sous représentés dans les métiers techniques numérique.</li>
 
-                        <li>Pour des métiers en tension développement web, référents numériques (admin sys, webmaster, CM...), datartisan...</li>
-                    </ul>
-                    En proposant ces formations nous voulons <strong>créer des emplois durables et non délocalisables, encourager l’initiative et la création d’entreprises.</strong>
+                            <li>Pour des métiers en tension développement web, référents numériques (admin sys, webmaster, CM...), datartisan...</li>
+                        </ul>
+                        En proposant ces formations nous voulons <strong>créer des emplois durables et non délocalisables, encourager l’initiative et la création d’entreprises.</strong>
+                    </div>
                 </article>
             </div>
 
