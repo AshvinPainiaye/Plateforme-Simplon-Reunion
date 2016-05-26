@@ -468,7 +468,7 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="https://github.com/LorenzaDamour/portfolio" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
