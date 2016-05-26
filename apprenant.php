@@ -84,9 +84,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            marimoutou.anais@gmail.com
-                        </p>
+                        <p>marimoutou.anais@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -121,9 +119,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            contact@ashvinpainiaye.com
-                        </p>
+                        <p>contact@ashvinpainiaye.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -150,11 +146,12 @@
                                 <li>
                                     <a href="https://github.com/NonaGemini" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
+                                <li>
+                                    <a href="https://twitter.com/iNonaGemini" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                </li>
                             </ul>
                         </div>
-                        <p>
-                            b.boyer974@orange.fr
-                        </p>
+                        <p>b.boyer974@orange.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -183,9 +180,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            atchiaman.david@hotmail.fr
-                        </p>
+                        <p>atchiaman.david@hotmail.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -221,9 +216,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            elliotbouvier@yahoo.fr
-                        </p>
+                        <p>elliotbouvier@yahoo.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -253,9 +246,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            mounir.faiza@gmail.com
-                        </p>
+                        <p>mounir.faiza@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -284,9 +275,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            frederic-boyer@live.fr
-                        </p>
+                        <p>frederic-boyer@live.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -318,9 +307,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            frederic-jouan97440@outlook.fr
-                        </p>
+                        <p>frederic-jouan97440@outlook.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -356,9 +343,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            vggui974@gmail.com
-                        </p>
+                        <p>vggui974@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -387,9 +372,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            keran29@hotmail.fr
-                        </p>
+                        <p>keran29@hotmail.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -425,9 +408,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            cadena.lola@gmail.com
-                        </p>
+                        <p>cadena.lola@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -456,9 +437,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            lorenzadamour@gmail.com
-                        </p>
+                        <p>lorenzadamour@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -490,9 +469,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            ludovic.dieudonne@hotmail.com
-                        </p>
+                        <p>ludovic.dieudonne@hotmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -524,9 +501,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            mathieujulie974@hotmail.com
-                        </p>
+                        <p>mathieujulie974@hotmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -555,9 +530,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            marie.petula@orange.fr
-                        </p>
+                        <p>marie.petula@orange.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -584,11 +557,15 @@
                                 <li>
                                     <a href="https://github.com/pdevezeaud" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
+                                <li>
+                                    <a href="https://twitter.com/zore974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/philippe-devezeaud-6107402b" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                </li>
                             </ul>
                         </div>
-                        <p>
-                            pdevezeaud@yahoo.fr
-                        </p>
+                        <p>pdevezeaud@yahoo.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
