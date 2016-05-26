@@ -96,8 +96,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -148,14 +148,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/NonaGemini" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -171,8 +164,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -202,8 +195,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -241,7 +234,7 @@
                         </div>
 
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
                             <li><a href="elliotbouvier.com" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
@@ -272,8 +265,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -303,8 +296,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -337,8 +330,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -375,8 +368,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -406,8 +399,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -444,8 +437,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -475,8 +468,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -509,8 +502,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -543,8 +536,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -574,8 +567,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -605,8 +598,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
