@@ -142,39 +142,11 @@
                             <img src="images/lequipe/farid.jpg" alt="photo de Farid HUMBLOT" class="img-responsive center-block">
                             <h4>Farid HUMBLOT</h4>
                             <h5>Directeur</h5>
-                            <div class="social">
-                                <ul class="list-inline">
-                                    <li>
-                                        <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="col-sm-6">
                             <img src="images/lequipe/nicolas.jpg" alt="photo de Nicolas LUDOVIC" class="img-responsive center-block">
                             <h4>Nicolas LUDOVIC</h4>
                             <h5>Lead Formateur</h5>
-                            <div class="social">
-                                <ul class="list-inline">
-                                    <li>
-                                        <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                     <hr>

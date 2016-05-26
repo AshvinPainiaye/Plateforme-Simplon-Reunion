@@ -80,7 +80,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/Anais02" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Anais02" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -96,8 +96,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -117,7 +117,7 @@
                                     <a href="https://twitter.com/AshvinPainiaye" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ashvin-painiaye-29b091118" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/ashvin-painiaye-29b091118" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -134,7 +134,7 @@
                         </div>
                         <ul class="list-inline portfolio">
                             <li><a href="http://ashvinpainiaye.com" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -148,7 +148,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/NonaGemini" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/NonaGemini" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -164,8 +164,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -179,7 +179,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/davidatc" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/davidatc" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -195,8 +195,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -210,14 +210,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/zneel/" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/zneel/" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/elliot_bouvier" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/elliot_bouvier" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="https://www.linkedin.com/in/elliotbouvier" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/elliotbouvier" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -234,8 +234,8 @@
                         </div>
 
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="elliotbouvier.com" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="http://elliotbouvier.com" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -249,7 +249,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/FaizaM" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/FaizaM" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -265,8 +265,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -296,8 +296,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -311,10 +311,10 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/JFrederic" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/JFrederic" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/jouan97440" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/jouan97440" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -330,8 +330,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -345,14 +345,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/CroOn974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/CroOn974" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/CroOn974" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/CroOn974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="https://www.linkedin.com/in/guillaume-vacarme-150827121" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/guillaume-vacarme-150827121" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -368,8 +368,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -383,7 +383,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/keran29" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/keran29" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -399,8 +399,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -414,14 +414,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/Grenouille974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Grenouille974" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/N1Grenouille" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/N1Grenouille" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="www.linkedin.com/in/lolacadena" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="www.linkedin.com/in/lolacadena" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -437,8 +437,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -452,7 +452,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/LorenzaDamour" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/LorenzaDamour" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -468,8 +468,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -483,10 +483,10 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/Iudo" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Iudo" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/Ludovic974" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/Ludovic974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -502,8 +502,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -517,10 +517,10 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/Dipsy974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Dipsy974" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/Dipsy974" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/Dipsy974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -536,8 +536,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -551,7 +551,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/petula" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/petula" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -567,8 +567,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -582,7 +582,7 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="https://github.com/pdevezeaud" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/pdevezeaud" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -598,8 +598,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
