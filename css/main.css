@@ -285,9 +285,10 @@ strong {
       background-color: #ffffff;
       padding: 10px; }
     #apprenants article p {
-      margin-top: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       color: #222222;
-      text-align: left; }
+      text-align: center; }
     #apprenants article h3 {
       text-align: center;
       color: #2a4789;

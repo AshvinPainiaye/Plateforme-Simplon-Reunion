@@ -80,19 +80,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/Anais02" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            marimoutou.anais@gmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -124,13 +117,12 @@
                                     <a href="https://twitter.com/AshvinPainiaye" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/ashvin-painiaye-29b091118" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            contact@ashvinpainiaye.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -141,7 +133,7 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="http://ashvinpainiaye.github.io" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
+                            <li><a href="http://ashvinpainiaye.com" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
@@ -168,8 +160,7 @@
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            b.boyer974@orange.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -195,19 +186,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/davidatc" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            atchiaman.david@hotmail.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -233,20 +217,19 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/zneel/" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/elliot_bouvier" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/elliotbouvier" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            elliotbouvier@yahoo.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -259,7 +242,7 @@
 
                         <ul class="list-inline portfolio">
                             <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="elliotbouvier.com" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -273,20 +256,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/FaizaM" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            mounir.faiza@gmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -312,20 +287,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/Sweezy974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            frederic-boyer@live.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -351,19 +318,15 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/JFrederic" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/jouan97440" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            frederic-jouan97440@outlook.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -389,20 +352,19 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/CroOn974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/CroOn974" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/guillaume-vacarme-150827121" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            vggui974@gmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -428,20 +390,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/keran29" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            keran29@hotmail.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -467,20 +421,19 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Grenouille974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/N1Grenouille" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="www.linkedin.com/in/lolacadena" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            cadena.lola@gmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -506,20 +459,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/LorenzaDamour" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            lorenzadamour@gmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -545,20 +490,15 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Iudo" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/Ludovic974" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            ludovic.dieudonne@hotmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -584,20 +524,15 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Dipsy974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/Dipsy974" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            mathieujulie974@hotmail.com
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -623,20 +558,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/petula" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            marie.petula@orange.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -662,20 +589,12 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/pdevezeaud" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
+                            pdevezeaud@yahoo.fr
                         </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
