@@ -103,7 +103,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center">Bienvenue sur Simplon Réunion</h1></div>
+                <h1 class="text-center">Bienvenue sur le site de<br>Simplon Réunion</h1></div>
         </div>
     </div>
 
@@ -142,42 +142,37 @@
                             <img src="images/lequipe/farid.jpg" alt="photo de Farid HUMBLOT" class="img-responsive center-block">
                             <h4>Farid HUMBLOT</h4>
                             <h5>Directeur</h5>
-                            <div class="social">
-                                <ul class="list-inline">
-                                    <li>
-                                        <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="col-sm-6">
                             <img src="images/lequipe/nicolas.jpg" alt="photo de Nicolas LUDOVIC" class="img-responsive center-block">
                             <h4>Nicolas LUDOVIC</h4>
                             <h5>Lead Formateur</h5>
-                            <div class="social">
-                                <ul class="list-inline">
-                                    <li>
-                                        <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
+                    <hr>
 
+                    <h3><i class="fa fa-envelope"></i> NOUS CONTACTER</h3>
+                    <div class="row contactAccueil">
+                        <div class="col-sm-3">
+                            <a href="contact-projet.php" target="_blank"><h4 class="center-block"> <i class="fa fa-suitcase"></i>
+                            <br>SOUMETTRE UN PROJET</h4></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="contact-apprenant.php" target="_blank">
+                                <h4 class="center-block"> <i class="fa fa-user-plus"></i>
+                            <br>RECRUTER UN APPRENANT</h4></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="contact-animer.php" target="_blank">
+                                <h4 class="center-block">  <i class="fa fa-share-alt"></i>
+                            <br>ANIMER UNE MASTER-CLASS</h4></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="contact-candidater.php" target="_blank">
+                                <h4 class="center-block">  <i class="fa fa-file"></i>
+                            <br>CANDIDATER</h4></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -73,18 +73,20 @@
     <section id="formation" class="fond">
         <div class="container">
             <div class="row">
-                <article class="col-md-12 espace-bloc">
-                    <p>
-                        Révéler les <strong>talents</strong> à travers l’innovation numérique, pédagogique et sociale:
-                    </p>
-                    <ul>
-                        <li>Des formations <strong>intensives</strong> et ouvertes à tous <strong>gratuites, qualifiantes (6 mois) ou certifiantes et rémunérées</strong> (CQP, titres professionnels entre 9 et 12 mois).</li>
+                <article class="col-md-12">
+                    <div class="espace-bloc">
+                        <p>
+                            Révéler les <strong>talents</strong> à travers l’innovation numérique, pédagogique et sociale:
+                        </p>
+                        <ul>
+                            <li>Des formations <strong>intensives</strong> et ouvertes à tous <strong>gratuites, qualifiantes (6 mois) ou certifiantes et rémunérées</strong> (CQP, titres professionnels entre 9 et 12 mois).</li>
 
-                        <li>Et <strong>prioritairement</strong> ouvertes aux décrocheurs/NEETs, demandeurs d’emplois, allocataires de minimas sociaux et les profils sous représentés dans les métiers techniques numérique.</li>
+                            <li>Et <strong>prioritairement</strong> ouvertes aux décrocheurs/NEETs, demandeurs d’emplois, allocataires de minimas sociaux et les profils sous représentés dans les métiers techniques numérique.</li>
 
-                        <li>Pour des métiers en tension développement web, référents numériques (admin sys, webmaster, CM...), datartisan...</li>
-                    </ul>
-                    En proposant ces formations nous voulons <strong>créer des emplois durables et non délocalisables, encourager l’initiative et la création d’entreprises.</strong>
+                            <li>Pour des métiers en tension développement web, référents numériques (admin sys, webmaster, CM...), datartisan...</li>
+                        </ul>
+                        En proposant ces formations nous voulons <strong>créer des emplois durables et non délocalisables, encourager l’initiative et la création d’entreprises.</strong>
+                    </div>
                 </article>
             </div>
 
@@ -102,29 +104,30 @@
                     </ul>
 
                     <p class="text-center citation">
-                        Tu me dis, j'oublie.
+                        " Tu me dis, j'oublie.
                         <br /> Tu m'enseignes, je me souviens.
-                        <br /> Tu m'impliques, j'apprends.
+                        <br /> Tu m'impliques, j'apprends. "
                         <br /> Benjamin Franklin
                     </p>
                 </article>
 
                 <div class="col-md-6">
-                    <img src="images/formation/formation.jpg" alt="photo ou on voit un groupe travailler" class="img-responsive pull-left">
+                    <img src="images/formation/formation.jpg" alt="photo ou on voit un groupe travailler" class="img-responsive center-block">
                 </div>
             </div>
 
             <div class="row espace-bloc">
                 <div class="col-md-6">
-                    <img src="images/formation/imageformation.jpg" alt="photo ou on voit des personne de dos travailler" class="img-responsive pull-left">
+                    <img src="images/formation/imageformation.jpg" alt="photo ou on voit des personne de dos travailler" class="img-responsive center-block">
                 </div>
                 <article class="col-md-6 referentiel">
                     <h3>RÉFÉRENTIELS DE FORMATION</h3>
-                    <p>
-                        Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong>
-                        <br/> Référent numérique Formation à la gestion de projet numérique via les méthodes agiles. Administration systèmes et réseaux, webmastering, web marketing et communication digitale, support utilisateur, outils de productivité, BDD et GED. <strong>Formation qualifiante / 3 mois</strong>
-                        <br/> Autres référentiels en cours de création : FTTH/fibre, cybersécurité, 3D (Dassault Systèmes : Catia et Solidworks), Analytics et prédictif (IBM Watson), technico commercial IT
-                    </p>
+                    <ul>
+                        <li> Développeur.se web créer en <strong>autonomie</strong> des sites web et des applications web/mobile. Maîtriser certaines méthodes : agile, Test Driven Development, pair programming… Se servir d’outils tels que: Git, Github, etc... <strong>Formation qualifiante / 6 mois</strong></li>
+                        <li> Référent numérique Formation à la gestion de projet numérique via les méthodes agiles. Administration systèmes et réseaux, webmastering, web marketing et communication digitale, support utilisateur, outils de productivité, BDD et GED. <strong>Formation qualifiante / 3 mois</strong></li>
+                        <li> Autres référentiels <strong>en cours de création</strong> : FTTH/fibre, cybersécurité, 3D (Dassault Systèmes : Catia et Solidworks), Analytics et prédictif (IBM Watson), technico commercial IT</li>
+                    </ul>
+
                 </article>
             </div>
         </div>

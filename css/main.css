@@ -162,7 +162,11 @@ strong {
 .descriptionAccueil h3 {
   color: #2a4789;
   font-size: 35px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif; }
+  .descriptionAccueil h3 .fa {
+    position: relative;
+    bottom: 3px; }
 .descriptionAccueil p {
   font-size: 17px;
   line-height: 30px;
@@ -182,13 +186,34 @@ strong {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   margin-top: 90px; }
   .devise p {
     color: #ffffff;
     font-size: 50px;
     text-align: center;
     font-family: 'Oswald', sans-serif; }
+
+.contactAccueil a {
+  text-decoration: none; }
+.contactAccueil h4 {
+  background-color: #ffffff;
+  color: #2a4789;
+  width: 10em;
+  height: 10em;
+  padding-top: 35px;
+  border-radius: 100%;
+  margin: 40px auto;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .contactAccueil h4:hover {
+    background-color: #2a4789;
+    color: #ffffff; }
+  .contactAccueil h4 .fa {
+    font-size: 30px;
+    margin-bottom: 15px; }
 
 /*fin accueil*/
 /*debut a propos*/
@@ -216,31 +241,36 @@ strong {
     #apropos article h4 {
       text-align: center;
       color: #2a4789;
-      margin: 20px 0 25px 0; }
+      margin: 20px 0 25px 0;
+      font-family: 'Oswald', sans-serif; }
 
 /*fin a propos*/
 /*debut formation*/
-#formation img {
-  padding-top: 50px; }
-#formation article h3 {
-  text-align: center;
-  color: #2a4789;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 25px;
-  font-weight: bold; }
-#formation article .citation {
-  color: #808080;
-  font-size: 15px;
-  font-style: italic;
-  font-weight: bold;
-  padding-top: 20px; }
-#formation article li {
-  list-style-type: square;
-  margin: 8px auto; }
-#formation .referentiel p {
-  line-height: 30px;
-  margin-bottom: 20px; }
+#formation {
+  /*  .referentiel {
+      p {
+          line-height: 30px;
+          margin-bottom: 20px;
+      } */
+  /* } */ }
+  #formation img {
+    padding-top: 50px; }
+  #formation article h3 {
+    text-align: center;
+    color: #2a4789;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold; }
+  #formation article .citation {
+    color: #808080;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px; }
+  #formation article li {
+    list-style-type: square;
+    margin: 8px auto; }
 
 /*fin formation*/
 /*debut apprenant*/
@@ -255,9 +285,10 @@ strong {
       background-color: #ffffff;
       padding: 10px; }
     #apprenants article p {
-      margin-top: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       color: #222222;
-      text-align: left; }
+      text-align: center; }
     #apprenants article h3 {
       text-align: center;
       color: #2a4789;

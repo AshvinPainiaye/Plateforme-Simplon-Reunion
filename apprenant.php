@@ -80,20 +80,11 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/Anais02" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>marimoutou.anais@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -103,8 +94,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -124,14 +115,11 @@
                                     <a href="https://twitter.com/AshvinPainiaye" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/ashvin-painiaye-29b091118" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>contact@ashvinpainiaye.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -141,8 +129,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="http://ashvinpainiaye.github.io" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="http://ashvinpainiaye.com" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -156,21 +144,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/NonaGemini" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/iNonaGemini" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>b.boyer974@orange.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -180,8 +161,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -195,20 +176,11 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/davidatc" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>atchiaman.david@hotmail.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -218,8 +190,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -233,21 +205,18 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/zneel/" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/elliot_bouvier" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/elliotbouvier" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>elliotbouvier@yahoo.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -258,8 +227,8 @@
                         </div>
 
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="http://elliotbouvier.com" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -273,21 +242,11 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/FaizaM" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>mounir.faiza@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -297,8 +256,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -312,21 +271,11 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/Sweezy974" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>frederic-boyer@live.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -336,8 +285,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -351,20 +300,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/JFrederic" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/jouan97440" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>frederic-jouan97440@outlook.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -374,8 +317,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -389,21 +332,18 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/CroOn974" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/CroOn974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/guillaume-vacarme-150827121" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>vggui974@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -413,8 +353,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -428,21 +368,17 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/keran29" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/kevin_nars" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/kevin-narsicadou-769867120" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>keran29@hotmail.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -452,8 +388,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -467,21 +403,18 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Grenouille974" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/N1Grenouille" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="www.linkedin.com/in/lolacadena" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>cadena.lola@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -491,8 +424,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -506,21 +439,11 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/LorenzaDamour" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>lorenzadamour@gmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -530,8 +453,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="https://github.com/LorenzaDamour/portfolio" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -545,21 +468,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Iudo" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/Ludovic974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>ludovic.dieudonne@hotmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -569,8 +485,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -584,21 +500,14 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/Dipsy974" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://twitter.com/Dipsy974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>mathieujulie974@hotmail.com</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -608,8 +517,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -623,21 +532,11 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/petula" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>marie.petula@orange.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -647,8 +546,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -662,21 +561,17 @@
                         <div class="social">
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                    <a href="https://github.com/pdevezeaud" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="https://twitter.com/zore974" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
-                                    <a href="#" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/philippe-devezeaud-6107402b" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente.
-                            <br> Exemple , exemple , exemple , exemple.
-                        </p>
+                        <p>pdevezeaud@yahoo.fr</p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -686,8 +581,8 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" class="btn btn-default btn-md">CV</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>

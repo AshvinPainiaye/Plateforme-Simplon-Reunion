@@ -174,7 +174,7 @@
                         <div class="col-xs-offset-8 col-xs-4 text-right">
                             <div class="form-group">
                                 <button type="submit" name="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
-                                <p style="opacity:0.4; margin-top:10px;">* Champ obligatoire</p>
+                                <p style="opacity:0.4; margin-top:10px;">* Champs obligatoires</p>
                             </div>
                         </div>
 
