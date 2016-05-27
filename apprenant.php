@@ -370,6 +370,12 @@
                                 <li>
                                     <a href="https://github.com/keran29" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
+                                <li>
+                                    <a href="https://twitter.com/kevin_nars" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/kevin-narsicadou-769867120" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                </li>
                             </ul>
                         </div>
                         <p>keran29@hotmail.fr</p>
