@@ -13,6 +13,12 @@ $couleur6:#ed1450;
     transition: $transition;
 }
 
+@mixin transform($transform...) {
+    -ms-transform: $transform;
+    -webkit-transform: $transform;
+    transform: $transform;
+}
+
 .fond {
     background-color: $couleur5;
 }
@@ -49,9 +55,7 @@ h2 {
     text-align: left;
     width: 80%;
     top: 200px;
-    transform: rotate(5.8deg);
-    -ms-transform: rotate(5.8deg);
-    -webkit-transform: rotate(5.8deg);
+    @include transform(rotate(5.8deg));
     font-size: 63px;
     color: $couleur2;
     left: 12px;
@@ -63,9 +67,7 @@ h2 {
     text-align: right;
     width: 95%;
     top: 70px;
-    transform: rotate(-5.8deg);
-    -ms-transform: rotate(-5.8deg);
-    -webkit-transform: rotate(-5.8deg);
+    @include transform(rotate(-5.8deg));
     font-size: 63px;
     color: $couleur2;
     font-family: 'Oswald', sans-serif;
@@ -73,6 +75,53 @@ h2 {
 
 strong {
     color: $couleur6;
+}
+
+.social {
+    text-align: center;
+    .btn {
+        border-radius: 100px;
+        padding: 8px 8px;
+        border: none;
+        height: 36px;
+        width: 36px;
+    }
+    .fa {
+        color: $couleur4;
+    }
+    .github {
+        background-color: #333333;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            border: 1px solid #333333;
+            background-color: $couleur4;
+            .fa {
+                color: #333;
+            }
+        }
+    }
+    .twitter {
+        background-color: #1da1f2;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            background-color: $couleur4;
+            border: 1px solid #1da1f2;
+            .fa {
+                color: #1da1f2;
+            }
+        }
+    }
+    .linkedin {
+        background-color: #0177B5;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            border: 1px solid #0177B5;
+            background-color: $couleur4;
+            .fa {
+                color: #0177B5;
+            }
+        }
+    }
 }
 
 
@@ -108,6 +157,10 @@ strong {
             .dropdown-menu {
                 background-color: $couleur2;
                 border: none;
+                .divider {
+                    margin: 0;
+                    height: 2px;
+                }
                 li {
                     a {
                         color: $couleur4;
@@ -147,10 +200,7 @@ strong {
     max-height: 800px;
 }
 
-.dropdown-menu .divider{
-    margin:0;
-    height: 2px;
-}
+
 /*fin nav*/
 
 
@@ -166,10 +216,23 @@ strong {
 }
 
 .descriptionAccueil {
+    h3 {
+        color: $couleur2;
+        font-size: 35px;
+        margin-bottom: 40px;
+        font-family: 'Oswald', sans-serif;
+        .fa {
+            position: relative;
+            bottom: 3px;
+        }
+    }
     p {
-        padding: 30px 0;
-        font-size: 20px;
-        line-height: 40px;
+        font-size: 17px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    hr {
+        margin: 80px 0;
     }
 }
 
@@ -177,29 +240,47 @@ strong {
     padding-bottom: 50px;
     .row {
         padding-bottom: 80px;
-        #logo1 {
-            margin-top: 30px;
-            max-width: 250px;
+        img {
+            margin-top: 80px;
         }
-        #logo2 {
-            margin-top: 30px;
-            max-width: 250px;
+    }
+}
+
+.devise {
+    background: url(../images/devise.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 70px;
+    margin-top: 90px;
+    p {
+        color: $couleur4;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+.contactAccueil {
+    a {
+        text-decoration: none;
+    }
+    h4 {
+        background-color: $couleur4;
+        color: $couleur2;
+        width: 10em;
+        height: 10em;
+        padding-top: 35px;
+        border-radius: 100%;
+        margin: 40px auto;
+        @include transition(all 0.3s ease-in-out);
+        &:hover {
+            background-color: $couleur2;
+            color: $couleur4;
         }
-        #logo3 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo4 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo5 {
-            margin-top: 30px;
-            max-width: 250px;
-        }
-        #logo7 {
-            margin-top: 30px;
-            max-width: 250px;
+        .fa {
+            font-size: 30px;
+            margin-bottom: 15px;
         }
     }
 }
@@ -242,6 +323,7 @@ strong {
             text-align: center;
             color: $couleur2;
             margin: 20px 0 25px 0;
+            font-family: 'Oswald', sans-serif;
         }
     }
 }
@@ -253,15 +335,15 @@ strong {
 /*debut formation*/
 
 #formation {
-    .imagform {
-        margin-top: 50px;
+    img {
+        padding-top: 50px;
     }
     article {
         h3 {
             text-align: center;
             color: $couleur2;
-            padding-top: 45px;
-            padding-bottom: 45px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             font-size: 25px;
             font-weight: bold;
         }
@@ -274,15 +356,15 @@ strong {
         }
         li {
             list-style-type: square;
+            margin: 8px auto;
         }
     }
-    .referentiel {
+    /*  .referentiel {
         p {
             line-height: 30px;
-            font-size: 16px;
             margin-bottom: 20px;
-        }
-    }
+        } */
+    /* } */
 }
 
 
@@ -298,15 +380,16 @@ strong {
         width: 150px;
     }
     article {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         .background {
             background-color: $couleur4;
             padding: 10px;
         }
         p {
-            margin-top: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
             color: $couleur3;
-            text-align: left;
+            text-align: center;
         }
         h3 {
             text-align: center;
@@ -314,38 +397,17 @@ strong {
             font-size: 15px;
             font-weight: bold;
         }
-        .social {
-            text-align: center;
-            .btn {
-                border-radius: 100px;
-                padding: 8px 8px;
-                border: none;
-            }
-            .fa {
-                color: $couleur4;
-            }
-            .github {
-                background-color: #333;
-            }
-            .twitter {
-                background-color: #1da1f2;
-            }
-            .linkedin {
-                background-color: #0177B5;
-            }
-        }
         .portfolio {
             margin-bottom: 15px;
             text-align: center;
             margin-top: 15px;
             .btn {
                 background-color: $couleur1;
-                /*  padding: 12px; */
                 border-radius: 100px;
                 border: none;
+                @include transition(all 0.2s ease-in-out);
                 &:hover {
-                    background-color: #777;
-                    /*    background-color: $couleur1; */
+                    background-color: #777777;
                     color: $couleur4
                 }
             }
@@ -354,12 +416,18 @@ strong {
             line-height: 2.2;
         }
         .contacter {
-            background-color: #777;
+            background-color: #777777;
             color: $couleur4;
             width: 100%;
             border-radius: 0;
             border: none;
-            height: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            @include transition(all 0.4s ease-in-out);
+            &:hover {
+                background-color: $couleur4;
+                color: #777777;
+            }
         }
     }
 }
@@ -389,10 +457,15 @@ strong {
     h3 {
         color: $couleur2;
         text-align: center;
+        margin-bottom: 30px;
+    }
+    li {
         margin-bottom: 20px;
     }
-    h4 {
+    .fa {
         color: $couleur2;
+        font-size: 20px;
+        margin-right: 10px;
     }
 }
 
@@ -405,6 +478,7 @@ strong {
 footer {
     color: $couleur4;
     background-color: $couleur2;
+    padding: 50px 0;
     a {
         color: $couleur4;
         &:hover {
@@ -422,7 +496,7 @@ footer {
 .fa-chevron-up {
     position: fixed;
     right: 10px;
-    color: white;
+    color: $couleur4;
     bottom: 20px;
     font-size: 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -430,6 +504,7 @@ footer {
     border-radius: 100px;
     visibility: hidden;
     z-index: 99;
+    @include transition(all 0.2s ease-in-out);
     &:hover {
         background-color: $couleur1;
         color: $couleur3;
@@ -458,27 +533,46 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar-brand {
-        padding: 0 15px;
-        img {
-            width: 140px;
+    .navbar-default {
+        .navbar-toggle {
+            float: left;
         }
-    }
-    .navbar-collapse {
-        box-shadow: none;
-        border: none;
+        .navbar-brand {
+            padding: 0 15px;
+            img {
+                width: 100px;
+                margin-top: 5px;
+            }
+        }
+        .navbar-collapse {
+            box-shadow: none;
+            border: none;
+            .navbar-nav {
+                li {
+                    a {
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                    }
+                }
+                .dropdown-menu {
+                    li {
+                        a {
+                            padding-top: 18px;
+                            padding-bottom: 18px;
+                        }
+                    }
+                }
+            }
+        }
     }
     h2,
     .h2 {
         margin-top: 100px;
         position: static;
         text-align: center;
-        transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
+        @include transform(rotate(0deg));
         width: 100%;
         font-size: 40px;
-        color: $couleur2;
         font-family: 'Oswald', sans-serif;
     }
     #myCarousel {

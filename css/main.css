@@ -29,9 +29,9 @@ h2 {
   text-align: left;
   width: 80%;
   top: 200px;
-  transform: rotate(5.8deg);
   -ms-transform: rotate(5.8deg);
   -webkit-transform: rotate(5.8deg);
+  transform: rotate(5.8deg);
   font-size: 63px;
   color: #2a4789;
   left: 12px;
@@ -42,15 +42,59 @@ h2 {
   text-align: right;
   width: 95%;
   top: 70px;
-  transform: rotate(-5.8deg);
   -ms-transform: rotate(-5.8deg);
   -webkit-transform: rotate(-5.8deg);
+  transform: rotate(-5.8deg);
   font-size: 63px;
   color: #2a4789;
   font-family: 'Oswald', sans-serif; }
 
 strong {
   color: #ed1450; }
+
+.social {
+  text-align: center; }
+  .social .btn {
+    border-radius: 100px;
+    padding: 8px 8px;
+    border: none;
+    height: 36px;
+    width: 36px; }
+  .social .fa {
+    color: #ffffff; }
+  .social .github {
+    background-color: #333333;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .social .github:hover {
+      border: 1px solid #333333;
+      background-color: #ffffff; }
+      .social .github:hover .fa {
+        color: #333; }
+  .social .twitter {
+    background-color: #1da1f2;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .social .twitter:hover {
+      background-color: #ffffff;
+      border: 1px solid #1da1f2; }
+      .social .twitter:hover .fa {
+        color: #1da1f2; }
+  .social .linkedin {
+    background-color: #0177B5;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+    .social .linkedin:hover {
+      border: 1px solid #0177B5;
+      background-color: #ffffff; }
+      .social .linkedin:hover .fa {
+        color: #0177B5; }
 
 /*debut nav*/
 .navbar-default {
@@ -76,6 +120,9 @@ strong {
   .navbar-default .navbar-collapse .navbar-nav .dropdown-menu {
     background-color: #2a4789;
     border: none; }
+    .navbar-default .navbar-collapse .navbar-nav .dropdown-menu .divider {
+      margin: 0;
+      height: 2px; }
     .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a {
       color: #ffffff;
       padding-top: 20px;
@@ -103,10 +150,6 @@ strong {
 .navbar-fixed-top .navbar-collapse {
   max-height: 800px; }
 
-.dropdown-menu .divider {
-  margin: 0;
-  height: 2px; }
-
 /*fin nav*/
 /*debut accueil*/
 #myCarousel {
@@ -116,33 +159,61 @@ strong {
   #myCarousel .carousel-indicators {
     text-align: right; }
 
+.descriptionAccueil h3 {
+  color: #2a4789;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif; }
+  .descriptionAccueil h3 .fa {
+    position: relative;
+    bottom: 3px; }
 .descriptionAccueil p {
-  padding: 30px 0;
-  font-size: 20px;
-  line-height: 40px; }
+  font-size: 17px;
+  line-height: 30px;
+  text-align: justify; }
+.descriptionAccueil hr {
+  margin: 80px 0; }
 
 .logo {
   padding-bottom: 50px; }
   .logo .row {
     padding-bottom: 80px; }
-    .logo .row #logo1 {
-      margin-top: 30px;
-      max-width: 250px; }
-    .logo .row #logo2 {
-      margin-top: 30px;
-      max-width: 250px; }
-    .logo .row #logo3 {
-      margin-top: 30px;
-      max-width: 250px; }
-    .logo .row #logo4 {
-      margin-top: 30px;
-      max-width: 250px; }
-    .logo .row #logo5 {
-      margin-top: 30px;
-      max-width: 250px; }
-    .logo .row #logo7 {
-      margin-top: 30px;
-      max-width: 250px; }
+    .logo .row img {
+      margin-top: 80px; }
+
+.devise {
+  background: url(../images/devise.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 70px;
+  margin-top: 90px; }
+  .devise p {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif; }
+
+.contactAccueil a {
+  text-decoration: none; }
+.contactAccueil h4 {
+  background-color: #ffffff;
+  color: #2a4789;
+  width: 10em;
+  height: 10em;
+  padding-top: 35px;
+  border-radius: 100%;
+  margin: 40px auto;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .contactAccueil h4:hover {
+    background-color: #2a4789;
+    color: #ffffff; }
+  .contactAccueil h4 .fa {
+    font-size: 30px;
+    margin-bottom: 15px; }
 
 /*fin accueil*/
 /*debut a propos*/
@@ -170,31 +241,36 @@ strong {
     #apropos article h4 {
       text-align: center;
       color: #2a4789;
-      margin: 20px 0 25px 0; }
+      margin: 20px 0 25px 0;
+      font-family: 'Oswald', sans-serif; }
 
 /*fin a propos*/
 /*debut formation*/
-#formation .imagform {
-  margin-top: 50px; }
-#formation article h3 {
-  text-align: center;
-  color: #2a4789;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  font-size: 25px;
-  font-weight: bold; }
-#formation article .citation {
-  color: #808080;
-  font-size: 15px;
-  font-style: italic;
-  font-weight: bold;
-  padding-top: 20px; }
-#formation article li {
-  list-style-type: square; }
-#formation .referentiel p {
-  line-height: 30px;
-  font-size: 16px;
-  margin-bottom: 20px; }
+#formation {
+  /*  .referentiel {
+      p {
+          line-height: 30px;
+          margin-bottom: 20px;
+      } */
+  /* } */ }
+  #formation img {
+    padding-top: 50px; }
+  #formation article h3 {
+    text-align: center;
+    color: #2a4789;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold; }
+  #formation article .citation {
+    color: #808080;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px; }
+  #formation article li {
+    list-style-type: square;
+    margin: 8px auto; }
 
 /*fin formation*/
 /*debut apprenant*/
@@ -204,55 +280,52 @@ strong {
     height: 150px;
     width: 150px; }
   #apprenants article {
-    margin-bottom: 50px; }
+    margin-bottom: 100px; }
     #apprenants article .background {
       background-color: #ffffff;
       padding: 10px; }
     #apprenants article p {
-      margin-top: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       color: #222222;
-      text-align: left; }
+      text-align: center; }
     #apprenants article h3 {
       text-align: center;
       color: #2a4789;
       font-size: 15px;
       font-weight: bold; }
-    #apprenants article .social {
-      text-align: center; }
-      #apprenants article .social .btn {
-        border-radius: 100px;
-        padding: 8px 8px;
-        border: none; }
-      #apprenants article .social .fa {
-        color: #ffffff; }
-      #apprenants article .social .github {
-        background-color: #333; }
-      #apprenants article .social .twitter {
-        background-color: #1da1f2; }
-      #apprenants article .social .linkedin {
-        background-color: #0177B5; }
     #apprenants article .portfolio {
       margin-bottom: 15px;
       text-align: center;
       margin-top: 15px; }
       #apprenants article .portfolio .btn {
         background-color: #efdf31;
-        /*  padding: 12px; */
         border-radius: 100px;
-        border: none; }
+        border: none;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
         #apprenants article .portfolio .btn:hover {
-          background-color: #777;
-          /*    background-color: $couleur1; */
+          background-color: #777777;
           color: #ffffff; }
     #apprenants article .label {
       line-height: 2.2; }
     #apprenants article .contacter {
-      background-color: #777;
+      background-color: #777777;
       color: #ffffff;
       width: 100%;
       border-radius: 0;
       border: none;
-      height: 50px; }
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
+      #apprenants article .contacter:hover {
+        background-color: #ffffff;
+        color: #777777; }
 
 /*fin apprenant*/
 /*debut contact*/
@@ -270,15 +343,20 @@ strong {
   .contact h3 {
     color: #2a4789;
     text-align: center;
+    margin-bottom: 30px; }
+  .contact li {
     margin-bottom: 20px; }
-  .contact h4 {
-    color: #2a4789; }
+  .contact .fa {
+    color: #2a4789;
+    font-size: 20px;
+    margin-right: 10px; }
 
 /*fin contact*/
 /*debut footer*/
 footer {
   color: #ffffff;
-  background-color: #2a4789; }
+  background-color: #2a4789;
+  padding: 50px 0; }
   footer a {
     color: #ffffff; }
     footer a:hover {
@@ -289,14 +367,18 @@ footer {
 .fa-chevron-up {
   position: fixed;
   right: 10px;
-  color: white;
+  color: #ffffff;
   bottom: 20px;
   font-size: 25px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 100px;
   visibility: hidden;
-  z-index: 99; }
+  z-index: 99;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   .fa-chevron-up:hover {
     background-color: #efdf31;
     color: #222222; }
@@ -312,26 +394,33 @@ footer {
   .navbar-brand img {
     width: 83px; } }
 @media screen and (max-width: 768px) {
-  .navbar-brand {
+  .navbar-default .navbar-toggle {
+    float: left; }
+  .navbar-default .navbar-brand {
     padding: 0 15px; }
-    .navbar-brand img {
-      width: 140px; }
-
-  .navbar-collapse {
+    .navbar-default .navbar-brand img {
+      width: 100px;
+      margin-top: 5px; }
+  .navbar-default .navbar-collapse {
     box-shadow: none;
     border: none; }
+    .navbar-default .navbar-collapse .navbar-nav li a {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .navbar-default .navbar-collapse .navbar-nav .dropdown-menu li a {
+      padding-top: 18px;
+      padding-bottom: 18px; }
 
   h2,
   .h2 {
     margin-top: 100px;
     position: static;
     text-align: center;
-    transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     width: 100%;
     font-size: 40px;
-    color: #2a4789;
     font-family: 'Oswald', sans-serif; }
 
   #myCarousel {
