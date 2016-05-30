@@ -115,7 +115,7 @@
                                     <a href="https://twitter.com/AshvinPainiaye" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ashvin-painiaye-29b091118" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/ashvinpainiaye" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -388,7 +388,7 @@
                             <span class="label label-default">Javascript</span>
                         </div>
                         <ul class="list-inline portfolio">
-                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
+                            <li><a href="http://kevinnarsicadou.com/" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
                             <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
                         </ul>
                     </div>
