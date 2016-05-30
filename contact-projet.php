@@ -95,7 +95,7 @@
       {
         $msg_ok = "Votre demande a bien été prise en compte.";
         $msg_erreur ="Une erreur est survenue lors de l'envoi du formulaire.";
-        define('MAIL_DESTINATAIRE','simploners974@gmail.com');
+        define('MAIL_DESTINATAIRE','farid@simplon.co , nludovic@simplon.co');
         define('MAIL_SUJET','Message du formulaire : Projet ');
 
         foreach($_POST as $index => $valeur) {
