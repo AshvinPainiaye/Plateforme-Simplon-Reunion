@@ -84,7 +84,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>marimoutou.anais@gmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:marimoutou.anais@gmail.com">marimoutou.anais@gmail.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -119,7 +119,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>contact@ashvinpainiaye.com</p>
+                        <p style="text-align:center;"><a href="mailto:contact@ashvinpainiaye.com">contact@ashvinpainiaye.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -151,7 +151,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>b.boyer974@orange.fr</p>
+                        <p style="text-align:center;"><a href="mailto:b.boyer974@orange.fr">b.boyer974@orange.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -180,7 +180,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>atchiaman.david@hotmail.fr</p>
+                        <p style="text-align:center;"><a href="mailto:atchiaman.david@hotmail.fr">atchiaman.david@hotmail.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -216,7 +216,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>elliotbouvier@yahoo.fr</p>
+                        <p style="text-align:center;"><a href="mailto:elliotbouvier@yahoo.fr">elliotbouvier@yahoo.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -225,7 +225,6 @@
                             <span class="label label-default">PHP</span>
                             <span class="label label-default">Javascript</span>
                         </div>
-
                         <ul class="list-inline portfolio">
                             <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
                             <li><a href="http://elliotbouvier.com" target="_blank" class="btn btn-default btn-md">CV</a></li>
@@ -246,7 +245,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>mounir.faiza@gmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:mounir.faiza@gmail.com">mounir.faiza@gmail.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -275,7 +274,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>frederic-boyer@live.fr</p>
+                        <p style="text-align:center;"><a href="mailto:frederic-boyer@live.fr">frederic-boyer@live.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -307,7 +306,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>frederic-jouan97440@outlook.fr</p>
+                        <p style="text-align:center;"><a href="mailto:frederic-jouan97440@outlook.fr">frederic-jouan97440@outlook.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -343,7 +342,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>vggui974@gmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:vggui974@gmail.com">vggui974@gmail.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -378,7 +377,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>keran29@hotmail.fr</p>
+                        <p style="text-align:center;"><a href="mailto:keran29@hotmail.fr">keran29@hotmail.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -414,7 +413,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>cadena.lola@gmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:cadena.lola@gmail.com">cadena.lola@gmail.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -443,7 +442,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>lorenzadamour@gmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:lorenzadamour@gmail.com">lorenzadamour@gmail.com</a></p>
+                        <p></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -475,7 +475,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>ludovic.dieudonne@hotmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:ludovic.dieudonne@hotmail.com">ludovic.dieudonne@hotmail.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -507,7 +507,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>mathieujulie974@hotmail.com</p>
+                        <p style="text-align:center;"><a href="mailto:mathieujulie974@hotmail.com">mathieujulie974@hotmail.com</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -536,7 +536,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>marie.petula@orange.fr</p>
+                        <p style="text-align:center;"><a href="mailto:marie.petula@orange.fr">marie.petula@orange.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -571,7 +571,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p>pdevezeaud@yahoo.fr</p>
+                        <p style="text-align:center;"><a href="mailto:pdevezeaud@yahoo.fr">pdevezeaud@yahoo.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
