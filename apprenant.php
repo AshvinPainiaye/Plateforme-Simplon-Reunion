@@ -82,6 +82,9 @@
                                 <li>
                                     <a href="https://github.com/Anais02" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/anais-marimoutou-7a0865120" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                </li>
                             </ul>
                         </div>
                         <p style="text-align:center;"><a href="mailto:marimoutou.anais@gmail.com">marimoutou.anais@gmail.com</a></p>
