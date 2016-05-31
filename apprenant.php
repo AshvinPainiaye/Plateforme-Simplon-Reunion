@@ -181,6 +181,9 @@
                                 <li>
                                     <a href="https://github.com/davidatc" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
                                 </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/david-atc-aab902b8" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                </li>
                             </ul>
                         </div>
                         <p style="text-align:center;"><a href="mailto:atchiaman.david@hotmail.fr">atchiaman.david@hotmail.fr</a></p>
