@@ -409,7 +409,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="www.linkedin.com/in/lolacadena" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                    <a href="https://www.linkedin.com/in/lola-cadena-961048118" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
