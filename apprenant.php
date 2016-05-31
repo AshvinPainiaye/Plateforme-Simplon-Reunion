@@ -413,7 +413,6 @@
                                 <li>
                                     <a href="https://twitter.com/N1Grenouille" target="_blank" class="btn btn-default twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                 </li>
-
                                 <li>
                                     <a href="https://www.linkedin.com/in/lola-cadena-961048118" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
@@ -445,6 +444,9 @@
                             <ul class="list-inline">
                                 <li>
                                     <a href="https://github.com/LorenzaDamour" target="_blank" class="btn btn-default github"><i class="fa fa-github fa-fw"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/lorenza-damour-870b92121" target="_blank" class="btn btn-default linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
