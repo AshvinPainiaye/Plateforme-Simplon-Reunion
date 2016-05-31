@@ -130,7 +130,7 @@
                         </div>
                         <ul class="list-inline portfolio">
                             <li><a href="http://ashvinpainiaye.com" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="http://www.ashvinpainiaye.com/CV.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
