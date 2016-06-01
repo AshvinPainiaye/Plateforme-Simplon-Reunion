@@ -186,7 +186,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:atchiaman.david@hotmail.fr">atchiaman.david@hotmail.fr</a></p>
+                        <p style="text-align:center;"><a href="mailto:atc.david@outlook.fr">atc.david@outlook.fr</a></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
