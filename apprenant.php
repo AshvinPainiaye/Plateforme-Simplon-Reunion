@@ -293,7 +293,7 @@
                         </div>
                         <ul class="list-inline portfolio">
                             <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="cv/boyer-frederic.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -464,7 +464,7 @@
                         </div>
                         <ul class="list-inline portfolio">
                             <li><a href="https://github.com/LorenzaDamour/portfolio" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="cv/damour-lorenza.pdf" target="_blank" class="btn btn-default btn-md" download="cv-damour-lorenza">CV</a></li>
+                            <li><a href="cv/damour-lorenza.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
