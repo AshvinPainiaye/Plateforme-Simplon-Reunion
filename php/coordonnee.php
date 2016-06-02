@@ -1,7 +1,7 @@
 <div class="row contact">
     <div class="col-md-4">
         <div>
-            <h3>COORDONNEE</h3>
+            <h3>COORDONNEES</h3>
 
             <ul class="list-unstyled text-left">
                 <li><i class="fa fa-map-marker"></i> Espace culturel et éducatif Pierre Roselli,

@@ -229,7 +229,7 @@ strong {
       border-left: 20px solid #f7f7f7;
       border-right: 20px solid #f7f7f7; }
     #apropos article .intro {
-      text-align: center; }
+      text-align: justify; }
     #apropos article a:hover {
       color: #ed1450; }
     #apropos article p {
@@ -246,31 +246,24 @@ strong {
 
 /*fin a propos*/
 /*debut formation*/
-#formation {
-  /*  .referentiel {
-      p {
-          line-height: 30px;
-          margin-bottom: 20px;
-      } */
-  /* } */ }
-  #formation img {
-    padding-top: 50px; }
-  #formation article h3 {
-    text-align: center;
-    color: #2a4789;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 25px;
-    font-weight: bold; }
-  #formation article .citation {
-    color: #808080;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: bold;
-    padding-top: 20px; }
-  #formation article li {
-    list-style-type: square;
-    margin: 8px auto; }
+#formation img {
+  padding-top: 50px; }
+#formation article h3 {
+  text-align: center;
+  color: #2a4789;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold; }
+#formation article .citation {
+  color: #808080;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 20px; }
+#formation article li {
+  list-style-type: square;
+  margin: 8px auto; }
 
 /*fin formation*/
 /*debut apprenant*/
