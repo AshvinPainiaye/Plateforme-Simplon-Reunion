@@ -109,7 +109,7 @@
                     <i class="fa fa-search fa-4x" aria-hidden="true"></i>
                     <h4>UN CONSTAT, DES BESOINS</h4>
                     <p>
-                        Avec le numérique nous pouvons créer des emplois pour tous et partout, et reconvertir ceux dont l’emploi à disparu. Les métiers techniques du numérique sont en tension. Il y a des besoins de recrutement et des opportunités d’insertion ! Les réponses insuffisantes en recrutement, production, sous traitance, offshore. Nous estimons qu’il y aura <strong>36.700 postes</strong> à créer d’ici à 2018 dont 15000 développeurs web (chiffres du SYNTEC numérique) ; 900.000 en Europe. Par ailleurs, 140.000 jeunes quittent le système scolaire chaque année sans diplômes. Les reconversions et l’emploi des seniors sont préoccupants. Nous devons exploiter le potentiel et la richesse des zones prioritaires, enclavées, industrielles, et des milieux ruraux.</p>
+                        Avec le numérique nous pouvons créer des emplois pour tous et partout, et reconvertir ceux dont l’emploi à disparu. Les métiers techniques du numérique sont en tension. Il y a des besoins de recrutement et des opportunités d’insertion ! Les réponses insuffisantes en recrutement, production, sous traitance, offshore. Nous estimons qu’il y aura <strong>36 700 postes</strong> à créer d’ici à 2018 dont 15 000 développeurs web (chiffres du SYNTEC numérique) ; 900 000 en Europe. Par ailleurs, 140 000 jeunes quittent le système scolaire chaque année sans diplômes. Les reconversions et l’emploi des seniors sont préoccupants. Nous devons exploiter le potentiel et la richesse des zones prioritaires, enclavées, industrielles, et des milieux ruraux.</p>
                 </article>
 
 
@@ -117,7 +117,7 @@
                     <i class="fa fa-child fa-4x" aria-hidden="true"></i>
                     <h4>SIMPLON.KIDS</h4>
                     <p>
-                        Des ateliers pour toutes à la sensibilisation, lutte contre le décrochage et orientation. Ateliers, activités périscolaires ou en loisirs (vacances) et programmes à l’année en partenariat avec les établissements : le numérique comme levier d’ouverture vers le monde, comme outil de raccrochage scolaire et d’empowerment des jeunes. <strong>8000 enfants</strong> sensibilisés en France au travers de la Code Week Européenne et de Hour of Code 2015 <strong>88.763 jeunes</strong> sensibilisés dans 17 pays d’Afrique lors de la 1ère édition de l’Africa Code Week (2015) </p>
+                        Des ateliers pour toutes à la sensibilisation, lutte contre le décrochage et orientation. Ateliers, activités périscolaires ou en loisirs (vacances) et programmes à l’année en partenariat avec les établissements : le numérique comme levier d’ouverture vers le monde, comme outil de raccrochage scolaire et d’empowerment des jeunes. <strong>8000 enfants</strong> sensibilisés en France au travers de la Code Week Européenne et de Hour of Code 2015 <strong>88 763 jeunes</strong> sensibilisés dans 17 pays d’Afrique lors de la 1ère édition de l’Africa Code Week (2015) </p>
                 </article>
             </div>
         </div>
