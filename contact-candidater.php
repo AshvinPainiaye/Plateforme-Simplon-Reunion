@@ -6,6 +6,8 @@
 <html class="no-js" lang="fr">
 <!--<![endif]-->
 
+<!-- CE SITE A ETE CREE PAR ASHVIN PAINIAYE, FREDERIC BOYER, GUILLAUME VACARME, LOLA CADENA, PETULA PUELLE -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,7 +18,6 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="app/public/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/main.css" type="text/css" />
 </head>

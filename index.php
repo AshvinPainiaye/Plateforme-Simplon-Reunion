@@ -6,6 +6,8 @@
 <html class="no-js" lang="fr">
 <!--<![endif]-->
 
+<!-- CE SITE A ETE CREE PAR ASHVIN PAINIAYE, FREDERIC BOYER, GUILLAUME VACARME, LOLA CADENA, PETULA PUELLE -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -71,7 +73,7 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
+         
         </ol>
 
         <!-- Wrapper for slides -->
@@ -87,11 +89,6 @@
             <div class="item">
                 <img src="images/carousel/3.jpg" alt="image 3 du carousel" class="img-responsive">
             </div>
-
-            <div class="item">
-                <img src="images/carousel/1.jpg" alt="image 4 du carousel" class="img-responsive">
-            </div>
-
             <div class="item">
                 <img src="images/carousel/5.jpg" alt="image 5 du carousel" class="img-responsive">
             </div>
@@ -100,12 +97,7 @@
     <!-- fin carousel -->
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="text-center">Bienvenue sur le site de<br>Simplon Réunion</h1></div>
-        </div>
-    </div>
+  
 
     <!--description simplon reunion-->
     <div class="container-fluid">
