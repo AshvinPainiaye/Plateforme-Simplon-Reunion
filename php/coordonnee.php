@@ -11,7 +11,8 @@
                     <i class="fa fa-envelope"></i> farid@simplon.co | nludovic@simplon.co
                 </li>
                 <li>
-                    <i class="fa fa-phone"></i> + 262 XXX XXX | + 692 XXX XXX</li>
+                    <i class="fa fa-phone"></i> 0692 22 82 61
+                </li>
             </ul>
         </div>
     </div>
