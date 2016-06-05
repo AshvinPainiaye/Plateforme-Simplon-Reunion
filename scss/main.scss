@@ -412,7 +412,7 @@ strong {
             line-height: 2.2;
         }
         .contacter {
-            background-color: #777777;
+            background-color: $couleur2;
             color: $couleur4;
             width: 100%;
             border-radius: 0;
@@ -422,7 +422,7 @@ strong {
             @include transition(all 0.4s ease-in-out);
             &:hover {
                 background-color: $couleur4;
-                color: #777777;
+                color: $couleur2;
             }
         }
     }
