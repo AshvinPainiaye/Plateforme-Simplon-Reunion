@@ -457,6 +457,10 @@ strong {
     }
     li {
         margin-bottom: 20px;
+        a {
+            text-decoration: none;
+            color: $couleur3;
+        }
     }
     .fa {
         color: $couleur2;

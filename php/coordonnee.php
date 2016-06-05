@@ -8,7 +8,19 @@
                     <br>Rue des Longains, 97440 St André
                 </li>
                 <li>
-                    <i class="fa fa-envelope"></i> farid@simplon.co | nludovic@simplon.co
+                    <i class="fa fa-envelope"></i>
+                    <script type='text/javascript'>
+                        a = 'farid';
+                        b = 'simplon.co'
+                        document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                        document.write(a + '@' + b + '</a>');
+                    </script> |
+                    <script type='text/javascript'>
+                        a = 'nludovic';
+                        b = 'simplon.co'
+                        document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                        document.write(a + '@' + b + '</a>');
+                    </script>
                 </li>
                 <li>
                     <i class="fa fa-phone"></i> 0692 22 82 61
