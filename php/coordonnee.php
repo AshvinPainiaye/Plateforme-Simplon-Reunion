@@ -1,14 +1,26 @@
 <div class="row contact">
     <div class="col-md-4">
         <div>
-            <h3>COORDONNEE</h3>
+            <h3>COORDONNEES</h3>
 
             <ul class="list-unstyled text-left">
                 <li><i class="fa fa-map-marker"></i> Espace culturel et éducatif Pierre Roselli,
                     <br>Rue des Longains, 97440 St André
                 </li>
                 <li>
-                    <i class="fa fa-envelope"></i> farid@simplon.co | nludovic@simplon.co
+                    <i class="fa fa-envelope"></i>
+                    <script type='text/javascript'>
+                        a = 'farid';
+                        b = 'simplon.co'
+                        document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                        document.write(a + '@' + b + '</a>');
+                    </script> |
+                    <script type='text/javascript'>
+                        a = 'nludovic';
+                        b = 'simplon.co'
+                        document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                        document.write(a + '@' + b + '</a>');
+                    </script>
                 </li>
                 <li>
                     <i class="fa fa-phone"></i> 0692 22 82 61

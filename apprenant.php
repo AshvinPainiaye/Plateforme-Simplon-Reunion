@@ -89,7 +89,15 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:marimoutou.anais@gmail.com">marimoutou.anais@gmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'marimoutou.anais';
+                                b = 'gmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
+
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -124,19 +132,25 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:contact@ashvinpainiaye.com">contact@ashvinpainiaye.com</a></p>
-                        <div class="tag">
-                            <span class="label label-default">CSS</span>
-                            <span class="label label-default">HTML</span>
-                            <span class="label label-default">Bootstrap</span>
-                            <span class="label label-default">JQuery</span>
-                            <span class="label label-default">PHP</span>
-                            <span class="label label-default">Javascript</span>
-                        </div>
-                        <ul class="list-inline portfolio">
-                            <li><a href="http://ashvinpainiaye.com" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
-                            <li><a href="http://www.ashvinpainiaye.com/CV.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
-                        </ul>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'contact';
+                                b = 'ashvinpainiaye.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                            <div class="tag">
+                                <span class="label label-default">CSS</span>
+                                <span class="label label-default">HTML</span>
+                                <span class="label label-default">Bootstrap</span>
+                                <span class="label label-default">JQuery</span>
+                                <span class="label label-default">PHP</span>
+                                <span class="label label-default">Javascript</span>
+                            </div>
+                            <ul class="list-inline portfolio">
+                                <li><a href="http://ashvinpainiaye.com" target="_blank" class="btn btn-default btn-md">Portfolio</a></li>
+                                <li><a href="http://www.ashvinpainiaye.com/CV.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
+                            </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
                 </article>
@@ -156,7 +170,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:b.boyer974@orange.fr">b.boyer974@orange.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'b.boyer974';
+                                b = 'orange.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -188,7 +209,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:atc.david@outlook.fr">atc.david@outlook.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'atc.david';
+                                b = 'outlook.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -199,7 +227,7 @@
                         </div>
                         <ul class="list-inline portfolio">
                             <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="cv/atchiaman-david.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -223,7 +251,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:elliotbouvier@yahoo.fr">elliotbouvier@yahoo.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'elliotbouvier';
+                                b = 'yahoo.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -252,7 +287,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:mounir.faiza@gmail.com">mounir.faiza@gmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'mounir.faiza';
+                                b = 'gmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -284,7 +326,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:frederic-boyer@live.fr">frederic-boyer@live.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'frederic-boyer';
+                                b = 'live.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -316,7 +365,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:frederic-jouan97440@outlook.fr">frederic-jouan97440@outlook.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'frederic-jouan97440';
+                                b = 'outlook.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -352,7 +408,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:vggui974@gmail.com">vggui974@gmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'vggui974';
+                                b = 'gmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -363,7 +426,7 @@
                         </div>
                         <ul class="list-inline portfolio">
                             <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">Portfolio</a></li>
-                            <li><a href="#" target="_blank" class="btn btn-default btn-md disabled">CV</a></li>
+                            <li><a href="cv/vacarme-guillaume.pdf" target="_blank" class="btn btn-default btn-md">CV</a></li>
                         </ul>
                     </div>
                     <a href="contact-apprenant.php" target="_blank" class="btn btn-default contacter" role="button">RECRUTER</a>
@@ -387,7 +450,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:keran29@hotmail.fr">keran29@hotmail.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'keran29';
+                                b = 'hotmail.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -422,7 +492,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:cadena.lola@gmail.com">cadena.lola@gmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'cadena.lola';
+                                b = 'gmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -454,7 +531,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:lorenzadamour@gmail.com">lorenzadamour@gmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'lorenzadamour';
+                                b = 'gmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <p></p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
@@ -487,7 +571,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:ludovic.dieudonne@hotmail.com">ludovic.dieudonne@hotmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'ludovic.dieudonne';
+                                b = 'hotmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -519,7 +610,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:mathieujulie974@hotmail.com">mathieujulie974@hotmail.com</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'mathieujulie974';
+                                b = 'hotmail.com'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -548,7 +646,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:marie.petula@orange.fr">marie.petula@orange.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'marie.petula';
+                                b = 'orange.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>
@@ -583,7 +688,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <p style="text-align:center;"><a href="mailto:pdevezeaud@yahoo.fr">pdevezeaud@yahoo.fr</a></p>
+                        <p style="text-align:center;">
+                            <script type='text/javascript'>
+                                a = 'pdevezeaud';
+                                b = 'yahoo.fr'
+                                document.write('<A hre' + 'f="mai' + 'lto:' + a + '@' + b + '">');
+                                document.write(a + '@' + b + '</a>');
+                            </script>
+                        </p>
                         <div class="tag">
                             <span class="label label-default">CSS</span>
                             <span class="label label-default">HTML</span>

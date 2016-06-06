@@ -304,7 +304,7 @@ strong {
             border-right: 20px solid $couleur5;
         }
         .intro {
-            text-align: center;
+            text-align: justify;
         }
         a {
             &:hover {
@@ -359,12 +359,6 @@ strong {
             margin: 8px auto;
         }
     }
-    /*  .referentiel {
-        p {
-            line-height: 30px;
-            margin-bottom: 20px;
-        } */
-    /* } */
 }
 
 
@@ -418,7 +412,7 @@ strong {
             line-height: 2.2;
         }
         .contacter {
-            background-color: #777777;
+            background-color: $couleur2;
             color: $couleur4;
             width: 100%;
             border-radius: 0;
@@ -428,7 +422,7 @@ strong {
             @include transition(all 0.4s ease-in-out);
             &:hover {
                 background-color: $couleur4;
-                color: #777777;
+                color: $couleur2;
             }
         }
     }
@@ -463,6 +457,10 @@ strong {
     }
     li {
         margin-bottom: 20px;
+        a {
+            text-decoration: none;
+            color: $couleur3;
+        }
     }
     .fa {
         color: $couleur2;
