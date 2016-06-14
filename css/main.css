@@ -321,6 +321,36 @@ strong {
         color: #2a4789; }
 
 /*fin apprenant*/
+/*debut contrat pro */
+#contrat-pro h3 {
+  color: #2a4789;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center; }
+#contrat-pro hr {
+  margin: 80px auto 60px auto; }
+#contrat-pro a {
+  text-decoration: none;
+  color: #ed1450; }
+#contrat-pro table {
+  margin-top: 50px; }
+#contrat-pro .contacter {
+  background-color: #2a4789;
+  color: #f7f7f7;
+  border-radius: 5px;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  #contrat-pro .contacter:hover {
+    background-color: #f7f7f7;
+    color: #2a4789; }
+
+/*fin contrat pro */
 /*debut contact*/
 .descriptionFormulaire p {
   color: #ffffff; }

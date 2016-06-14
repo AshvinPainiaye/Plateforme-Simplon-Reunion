@@ -432,6 +432,45 @@ strong {
 /*fin apprenant*/
 
 
+/*debut contrat pro */
+
+#contrat-pro {
+    h3 {
+        color: $couleur2;
+        font-size: 35px;
+        margin-bottom: 40px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    hr {
+        margin: 80px auto 60px auto;
+    }
+    a {
+        text-decoration: none;
+        color: $couleur6;
+    }
+    table {
+        margin-top: 50px;
+    }
+    .contacter {
+        background-color: $couleur2;
+        color: $couleur5;
+        border-radius: 5px;
+        border: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        @include transition(all 0.4s ease-in-out);
+        &:hover {
+            background-color: $couleur5;
+            color: $couleur2;
+        }
+    }
+}
+
+
+/*fin contrat pro */
+
+
 /*debut contact*/
 
 .descriptionFormulaire {

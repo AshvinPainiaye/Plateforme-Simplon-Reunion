@@ -46,6 +46,7 @@
                     <li><a href="apropos.php"><i class="fa fa-book"></i> A PROPOS</a></li>
                     <li class="active"><a href="formation.php" style="color: #222222;"><i class="fa fa-graduation-cap"></i> FORMATION</a></li>
                     <li><a href="apprenant.php"><i class="fa fa-users"></i> LES APPRENANTS</a></li>
+                    <li><a href="contrat-pro.php"><i class="fa fa-file"></i> CONTRAT PRO</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-envelope"></i> CONTACT <span class="caret"></span></a>
                         <ul class="dropdown-menu">
