@@ -85,7 +85,7 @@
 
                     <p><strong>C’est un bon moyen d’investir sur une ressource humaine pérenne</strong>. En effet, la durée du contrat de professionnalisation est de dix mois (donc plus longue que les stages), avec un·e salarié·e formé·e spécifiquement formé·e aux techniques de l'entreprise.</p>
 
-                    <p><strong>De plus, son l’employabilité est facilitée en termes de coûts</strong>. En fonction de l’âge, du diplôme et de la situation, voici à titre indicatif les salaires minima pour les entreprises adhérentes au Fafiec (à partir de 1166,02 € bruts). Par ailleurs, les coûts de formation sont couverts à 100% par l’OPCA.</p>
+                    <p><strong>De plus, son l’employabilité est facilitée en termes de coûts</strong>. En fonction de l’âge, du diplôme et de la situation, voici à titre indicatif les salaires minima (à partir de 1166,02 € bruts). Par ailleurs, les coûts de formation sont couverts à 100% par l’OPCA.</p>
 
                     <p>C’est aussi, <strong>un·e salarié·e suivi·e et encadré·e avec une formation personnalisée</strong>. L’effort de soutien par l’employeur est donc allégé et donne lieu à une aide financière au tutorat.</p>
                     <hr>

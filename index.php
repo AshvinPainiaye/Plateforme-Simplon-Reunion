@@ -237,41 +237,46 @@
     <section class="logo fond">
         <div class="container">
             <div class="row">
-                <div class="col-md-offset-1 col-md-3 col-xs-6">
+                <div class="col-md-offset-1 col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/GEN.png" alt="logo GEN" />
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/france-sengage.png" alt="france sengage" />
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/ue.png" alt="logo eu" />
                 </div>
 
-                <div class="col-md-offset-1 col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/Logo-opcalia.png" alt="logo eu" />
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/logo-region-reunion.png" alt="logo engage" />
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-offset-1 col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/logo-saint-andre.png" alt="logo saint andre" />
                 </div>
 
-                <div class="col-md-offset-1 col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/engage.png" alt="logo engage" />
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/eu sengage.png" alt="logo eu sengage" />
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-2 col-xs-6">
                     <img class="img-responsive center-block" src="images/partenaire/marianne.png" alt="marianne" />
                 </div>
+
+                <div class="col-md-2 col-xs-6">
+                    <img class="img-responsive center-block" src="images/partenaire/logofpspp.gif" alt="fond paritaire" />
+                </div>
+
             </div>
         </div>
     </section>
