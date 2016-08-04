@@ -134,11 +134,54 @@
 
 
                 <div class="row">
-                    <h3 class="col-md-12 text-center subtitle">
-                      La prochaine session de Simplon Réunion débutera en octobre à Saint-Pierre.
-                    </h3>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnZk34Hys6nsq-2Ueweq9v5NEGPUEWlMzBkdGOpzKcYEAvZg/viewform?embedded=true"
-                    width="100%" height="4350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+                    <form method="post" action="" role="form" name="formulaire" data-toggle="validator" id="myform">
+
+                        <div class="col-md-6">
+
+                            <div class="form-group has-feedback">
+                                <label for="nom" class="control-label">Nom</label> *
+                                <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer votre nom" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="prenom" class="control-label">Prénom</label> *
+                                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer votre prénom" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="email" name="email" class="control-label">Adresse Email</label> *
+                                <input type="email" class="form-control" id="email" name="email" pattern="^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@example.com" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <label for="telephone" class="control-label">Numéro de téléphone</label> *
+                                <input type="tel" class="form-control bfh-tel" id="telephone" name="telephone" pattern="^0(262|692|693|976)([-. ]?[0-9]{2}){3}$" placeholder="XXXX XX XX XX" required>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="form-group has-feedback">
+                                <label for="message" class="control-label">Message</label> *
+                                <textarea class="form-control" name="message" rows="10" placeholder="Entrer votre message" style="height:256px;" required></textarea>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-offset-8 col-xs-4 text-right">
+                            <div class="form-group">
+                                <button type="submit" name="submit" class="btn btn-default" style="width:100%; height:60px;">ENVOYER</button>
+                                <p style="opacity:0.4; margin-top:10px;">* Champs obligatoires</p>
+                            </div>
+                        </div>
+
+
+                    </form>
                 </div>
 
 
