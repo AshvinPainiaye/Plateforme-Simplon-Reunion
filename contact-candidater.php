@@ -81,7 +81,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p style="color:black;" class="text-center">Vous voulez tenter l'aventure Simplon? Alors n'hesitez pas! Envoyer nous un email.</p>
+                  <h3 class="col-md-12 text-center subtitle">
+                    La prochaine session de Simplon Réunion débutera en octobre à Saint-Pierre.
+                  </h3>
                 </div>
             </div>
         </div>
@@ -134,11 +136,9 @@
 
 
                 <div class="row">
-                    <h3 class="col-md-12 text-center subtitle">
-                      La prochaine session de Simplon Réunion débutera en octobre à Saint-Pierre.
-                    </h3>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnZk34Hys6nsq-2Ueweq9v5NEGPUEWlMzBkdGOpzKcYEAvZg/viewform?embedded=true"
-                    width="100%" height="4350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+                    <p class="lead text-center">
+                      Pour candidater, veuillez vous inscrire <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnZk34Hys6nsq-2Ueweq9v5NEGPUEWlMzBkdGOpzKcYEAvZg/viewform" target="_blank">>>>ici<<<</a>
+                    </p>
                 </div>
 
 
