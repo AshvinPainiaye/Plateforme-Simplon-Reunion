@@ -60,6 +60,7 @@
                             <li class="active"><a href="contact-candidater.php" style="color: #222222;"><i class="fa fa-file"></i> CANDIDATER</a></li>
                         </ul>
                     </li>
+                    <li><a href="recrutement.php"><i class="fa fa-users"></i> ON RECRUTE !</a></li>
                 </ul>
             </div>
         </div>
